@@ -1,0 +1,103 @@
+GetSibu DAM — Modern Digital Asset Management
+.
+Errors are swallowed — broken/empty storage falls through to the
+CSS defaults.
+-->
+==== ====
+[LINK href=/] [IMG src=/GET%20SIBU%20LOGO.png alt=GetSibu] [IMG src=/White%20Logo.png alt=GetSibu]
+[/LINK]
+==== ====
+[LINK href=/features] Features [/LINK] [LINK href=/pricing] Pricing [/LINK] [LINK href=/about] About [/LINK] [LINK href=/contact] Contact [/LINK]
+[BUTTON] [svg] [/BUTTON] [LINK href=/login] Sign In [/LINK] [LINK href=/signup] Start free [/LINK]
+[BUTTON] [svg] [/BUTTON] [BUTTON] [svg] [/BUTTON]
+==== ====
+==== ====
+Features
+A complete toolkit for creative ops
+.
+Every feature exists to remove friction between your team and the asset they need — right now.
+==== ====
+Features
+Everything your team needs, none of the bloat.
+A focused toolkit for ingesting, organising and shipping creative work — designed to disappear into your workflow.
+[svg]
+Auto-ingest from anywhere
+Connect Google Drive, local NAS, or drag & drop. Watch folders are scanned continuously.
+[svg]
+AI-assisted tagging
+Suggested tags and scene detection on import. Approve in bulk, override anytime.
+[svg]
+Search by anything
+Full-text, EXIF, OCR, duration, format, uploader, tags. Saved searches share by URL.
+[svg]
+Comments in context
+Threaded discussions on every asset — even at specific timecodes in video.
+[svg]
+Taxonomies that scale
+Hierarchical tags with synonyms, colour, and inheritance. Bulk re-tag in a click.
+[svg]
+Multi-tenant by design
+Each organisation isolated end-to-end. Per-tenant keys, scoped queries, audit logs.
+[svg]
+Insightful analytics
+Storage trends, hot tags, top contributors, video minutes — at the click of a tab.
+[svg]
+Granular permissions
+Owner, admin, manager, editor, individual — with folder-level overrides where you need them.
+[svg]
+Built for speed
+Sub-second search across millions of assets. Streaming previews. Resumable uploads.
+==== ====
+How it works
+From scattered to searchable in minutes.
+Plug in your sources. GetSibu does the rest — and keeps doing it.
+[IMG src=https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=900&q=70 alt=Connect]
+01
+[svg]
+Connect
+OAuth into Google Drive, point at a NAS, or just drag & drop.
+[IMG src=https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=900&q=70 alt=Ingest]
+02
+[svg]
+Ingest
+GetSibu scans, extracts metadata, generates thumbnails and OCRs documents.
+[IMG src=https://images.unsplash.com/photo-1545239351-cefa43af60f3?auto=format&fit=crop&w=900&q=70 alt=Organise]
+03
+[svg]
+Organise
+Tag manually or accept AI suggestions. Set folder-level permissions.
+[IMG src=https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=70 alt=Collaborate]
+04
+[svg]
+Collaborate
+Search, comment, mention. Share saved views with one URL.
+==== ====
+Bring order to your creative chaos
+.
+Connect a drive. Watch your library organise itself. Invite your team. Done.
+[LINK href=/signup] Start free [svg] [/LINK] [LINK href=/contact] Book a demo [/LINK]
+==== ====
+[IMG src=/GET%20SIBU%20LOGO.png alt=GetSibu] [IMG src=/White%20Logo.png alt=GetSibu]
+The operating system for your creative library. Built for teams that move fast and never lose a file.
+Product
+[LINK href=/features] Features [/LINK]
+[LINK href=/pricing] Pricing [/LINK]
+[LINK href=/login] Sign In [/LINK]
+[LINK href=/signup] Start free [/LINK]
+Company
+[LINK href=/about] About [/LINK]
+[LINK href=/contact] Contact [/LINK]
+[LINK href=#] Careers [/LINK]
+[LINK href=#] Press [/LINK]
+Resources
+[LINK href=#] Documentation [/LINK]
+[LINK href=#] API reference [/LINK]
+[LINK href=#] Status [/LINK]
+[LINK href=#] Changelog [/LINK]
+Legal
+[LINK href=#] Privacy [/LINK]
+[LINK href=#] Terms [/LINK]
+[LINK href=#] Security [/LINK]
+[LINK href=#] DPA [/LINK]
+© 2026 GetSibu DAM. All rights reserved.
+Made for creative teams · v1.0

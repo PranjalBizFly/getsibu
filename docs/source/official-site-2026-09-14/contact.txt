@@ -1,0 +1,71 @@
+GetSibu DAM — Modern Digital Asset Management
+.
+Errors are swallowed — broken/empty storage falls through to the
+CSS defaults.
+-->
+==== ====
+[LINK href=/] [IMG src=/GET%20SIBU%20LOGO.png alt=GetSibu] [IMG src=/White%20Logo.png alt=GetSibu]
+[/LINK]
+==== ====
+[LINK href=/features] Features [/LINK] [LINK href=/pricing] Pricing [/LINK] [LINK href=/about] About [/LINK] [LINK href=/contact] Contact [/LINK]
+[BUTTON] [svg] [/BUTTON] [LINK href=/login] Sign In [/LINK] [LINK href=/signup] Start free [/LINK]
+[BUTTON] [svg] [/BUTTON] [BUTTON] [svg] [/BUTTON]
+==== ====
+==== ====
+Contact
+Let's talk about your creative library
+.
+Whether you're evaluating GetSibu, migrating from another DAM, or need a custom contract — we're ready to help.
+[svg]
+Email
+[LINK href=mailto:hello@lumen.app] hello@lumen.app [/LINK]
+[svg]
+Phone
+[LINK href=tel:+16285550144] +1 (628) 555-0144 [/LINK]
+[svg]
+Sales
+[LINK href=#] Book a 20-min demo [/LINK]
+[svg]
+HQ
+[LINK href=#] San Francisco, CA [/LINK]
+First name *
+[INPUT name=undefined placeholder=undefined]
+Last name *
+[INPUT name=undefined placeholder=undefined]
+Work email *
+[INPUT name=undefined placeholder=undefined]
+Company
+[INPUT name=undefined placeholder=undefined]
+Phone (optional)
+[INPUT name=undefined placeholder=+1 555 123 4567]
+Subject *
+[INPUT name=undefined placeholder=How can we help?]
+Tell us what you need *
+[TEXTAREA name=undefined placeholder=undefined] Min 5 characters. We never share your message.
+0 / 5000
+[BUTTON] Send message [/BUTTON] You'll receive a confirmation email immediately after sending.
+==== ====
+[IMG src=/GET%20SIBU%20LOGO.png alt=GetSibu] [IMG src=/White%20Logo.png alt=GetSibu]
+The operating system for your creative library. Built for teams that move fast and never lose a file.
+Product
+[LINK href=/features] Features [/LINK]
+[LINK href=/pricing] Pricing [/LINK]
+[LINK href=/login] Sign In [/LINK]
+[LINK href=/signup] Start free [/LINK]
+Company
+[LINK href=/about] About [/LINK]
+[LINK href=/contact] Contact [/LINK]
+[LINK href=#] Careers [/LINK]
+[LINK href=#] Press [/LINK]
+Resources
+[LINK href=#] Documentation [/LINK]
+[LINK href=#] API reference [/LINK]
+[LINK href=#] Status [/LINK]
+[LINK href=#] Changelog [/LINK]
+Legal
+[LINK href=#] Privacy [/LINK]
+[LINK href=#] Terms [/LINK]
+[LINK href=#] Security [/LINK]
+[LINK href=#] DPA [/LINK]
+© 2026 GetSibu DAM. All rights reserved.
+Made for creative teams · v1.0

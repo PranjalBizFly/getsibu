@@ -1,0 +1,54 @@
+# IN-APP (authenticated, not publicly visible) bundle string excerpts from https://getsibu.com/assets/*.js — fetched 2026-09-14
+
+## Settings > Integrations (assets/page-B3dd8eRx.js) provider arrays: De=oauth, Re=key-based, Ue=unsupported
+De=[{key:"onedrive",label:"Microsoft OneDrive",group:"Cloud Storage"},{key:"box",label:"Box",group:"Cloud Storage"},{key:"slack",label:"Slack",group:"Communication"},{key:"teams",label:"Microsoft Teams",group:"Communication"},{key:"discord",label:"Discord",group:"Communication"},{key:"frame_io",label:"Frame.io",group:"Creative"}],Re=[{key:"azure_blob",label:"Azure Blob Storage",group:"Cloud Storage",fields:[{key:"account",label:"Storage account"},{key:"container",label:"Container"},{key:"sasToken",label:"SAS token",secret:!0}]},{key:"backblaze",label:"Backblaze B2",group:"Cloud Storage",fields:[{key:"keyId",label:"Application key ID"},{key:"appKey",label:"Application key",secret:!0},{key:"bucket",label:"Bucket"}]},{key:"do_spaces",label:"DigitalOcean Spaces",group:"Cloud Storage",fields:[{key:"endpoint",label:"Endpoint (region.digitaloceanspaces.com)"},{key:"accessKey",label:"Access key"},{key:"secretKey",label:"Secret key",secret:!0},{key:"bucket",label:"Bucket"}]},{key:"cloudflare_r2",label:"Cloudflare R2",group:"Cloud Storage",fields:[{key:"accountId",label:"Account ID"},{key:"accessKey",label:"Access key"},{key:"secretKey",label:"Secret key",secret:!0},{key:"bucket",label:"Bucket"}]},{key:"zapier",label:"Zapier",group:"Automation",fields:[{key:"webhookUrl",label:"Catch Hook URL"}]},{key:"make",label:"Make.com",group:"Automation",fields:[{key:"webhookUrl",label:"Custom Webhook URL"}]},{key:"n8n",label:"n8n",group:"Automation",fields:[{key:"webhookUrl",label:"Trigger URL"},{key:"apiKey",label:"API key (optional)",secret:!0}]}],Ue=[{key:"icloud",label:"Apple iCloud Drive",group:"Cl
+
+## Status badge logic
+Name:"flex items-center gap-1",children:n==="unsupported"?e.jsx(A,{variant:"destructive",children:"Not supported"}):h?e.jsx(A,{variant:"warning",children:"Needs setup"}):j?e.jsxs(A,{variant:"success",children:[e.jsx(je,{className:"h-3 
+
+## docs URL referenced
+bhooks",label:"Webhook Docs",kind:"docs"},smb:{url:"https://docs.getsibu.com/integrations/nas",label:"SMB/NAS Setup Guide",kind:"docs
+
+## Settings > API (assets/page-BnDAh7Nm.js)
+"asset.created,asset.deleted,ticket.created"
+"API & Webhooks"
+"Generate keys for programmatic access. Rotate anytime."
+"HMAC-signed HTTP POSTs on tenant events. Retry queue with exponential backoff."
+"Events (comma-separated)"
+
+## Settings > AI (assets/page-D3YsAs8S.js)
+[["Auto tags","Suggest tags from filename + content."],["Description generation","Draft a summary for each asset."],["Scene detection","Key moments in video (coming soon)."]].map(([n,T])=>e.jsxs("div",{className:"
+"OpenAI" "Claude (Anthropic)" "Gemini" "Moonshot AI (Kimi)" "Alibaba DashScope (Qwen)" "Zhipu AI (GLM)" "Grok (xAI)" "DeepSeek" "OpenRouter" "Mistral" "Together AI" "Ollama (self-hosted)" "LM Studio (self-hosted)" "OpenAI" 
+
+## Admin feature flags (assets/page-C9WpOXeO.js)
+const W={ai_autotag:"AI auto-tagging",drive_v2:"Drive sync v2",video_scene:"Video scene detection",sso_scim:"SSO + SCIM (Business)",public_share:"Public asset share links",audit_export:"Audit log CSV export"}
+
+## AES-256 in account settings (assets/page-DMYT2rDR.js)
+"Stored AES-256-GCM encrypted. Test before saving with the button below."
+
+## Signup (assets/page-D39hL4bv.js)
+"Free Trial"
+"Free for 3 days"
+"Full access to every feature — uploads, AI tools, integrations. No card required."
+"Or choose a plan"
+"Demo only — no real charge is made."
+
+## Plan picker (assets/plan-picker-Co1iR9XQ.js) reads live /api/v1/billing/plans; recommendedId default "pro"; null price => "Contact sales"
+
+## Sales assistant widget strings (assets/page-CqVG2dsX.js)
+"Open chat with sales assistant"
+"GetSibu Sales Assistant"
+"Usually replies instantly"
+"Ask about features, pricing, demos…"
+
+## Unsupported providers array (Ue)
+Ue=[{key:"icloud",label:"Apple iCloud Drive",group:"Cloud Storage",reason:"Apple does not expose a third-party API for iCloud Drive. Only local sync on Apple devices is supported."},{key:"samsung_cloud",label:"Samsung Cloud",group:"Cloud Storage",reason:"Samsung does not offer a public API for third-party access to Samsung Cloud."},{key:"figma",label:"Figma",group:"Creative",reason:"Figma's public REST API is read-only for files. Enable via personal access token when a specific use-case is defined."},{key:"adobe_premiere",label:"Adobe Premiere Pro",group:"Creative",reason:"Desktop application. Integration requires an Adobe UXP plugin distributed through the Adobe Add-ons marketplace, not a web API."},{key:"adobe_after_effects",label:"Adobe After Effects",group:"Creative",reason:"Desktop application. Integration requires an Adobe UXP plugin distributed through the Adobe Add-ons marketplace, not a web API."}]
+
+## Ingest sources section strings
+"Bring assets in from a shared Drive folder, a local server, or an inbound webhook."
+"Google Drive folder"
+"Connect a Dropbox app via OAuth to import assets. Create an app at dropbox.com/developers."
+"Any S3-compatible bucket. Leave endpoint blank for AWS; set it for Cloudflare R2 or MinIO."
+"Local server / NAS"
+"Watch a path via the GetSibu agent on your network."
+"Inbound webhook"

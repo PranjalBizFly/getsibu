@@ -1,0 +1,742 @@
+=== FAQ buttons: 8
+Q: Can I self-host GetSibu?
+A: Business and Enterprise plans include a self-host option. We ship a Docker Compose bundle (API + MongoDB + Redis + worker) and an OpenAPI spec — the same code we run in the cloud.
+Q: How does billing work?
+A: Monthly or annual on Stripe. Cancel anytime; data stays read-only for 30 days after cancellation in case you change your mind. Invoices and DPAs available on every plan.
+Q: Is AI an extra add-on?
+A: No. AI tagging, transcription and semantic search are included in Pro and above. You bring your own OpenAI key on the Pro plan; Business+ comes with an included managed pool.
+Q: What are the upload limits?
+A: Up to 10 GB per file out of the box; configurable in Settings → Storage. Chunked uploads with resume. No monthly upload cap.
+Q: Do you support SSO / SCIM?
+A: SAML 2.0 and OIDC SSO on Business+. SCIM 2.0 user provisioning on Enterprise. Force-MFA enforcement is per-org and server-side.
+Q: Where is my data stored?
+A: Choose US, EU, India or AP-Southeast at workspace creation. Storage is encrypted at rest and in transit. GetSibu never trains on your data.
+Q: Can I integrate with Slack / Premiere / Frame.io?
+A: Yes. Out-of-the-box for Slack and Webhooks; Premiere/AE/Frame.io via our extensions and Zapier. Custom integrations via webhooks + REST API.
+Q: What’s the difference between Individual and Organisation?
+A: Individual is one private workspace, no roles. Organisation gives you Owner / Admin / Manager / User roles, team management, folder permissions and approval workflows.
+
+=== FULL innerText after scroll ===
+Features
+Pricing
+About
+Contact
+Sign In
+Start free
+Now with AI-assisted auto-tagging
+The operating system for your creative library
+
+GetSibu scans, indexes and organises every video, image and document — across Drive, local servers and uploads. Search by anything, comment anywhere, collaborate in real time.
+
+Start free
+See how it works
+No credit card
+5 GB free
+Cancel anytime
+lumen.app/library
+Dashboard
+Library
+Search
+Tags
+Team
+Library
+12,438 assets · 1.8 TB
+AI tagging on
+All
+Video
+Image
+Documents
+Audio
+Hero
+Approved
+1:42
+4K
+PDF
+1:42
+4K
+PDF
+TRUSTED BY MEDIA TEAMS WHO CARE ABOUT THEIR ASSETS
+PixelForge
+PRODUCTION STUDIO
+Studio Nova
+CREATIVE AGENCY
+MotionLab
+POST-PRODUCTION
+North Pier
+BRAND CONSULTANCY
+GetSibu Labs
+VISUAL RESEARCH
+Atlas Films
+DOCUMENTARY HOUSE
+LIVE ACTIVITY
+Studio Nova joined this week
+FEATURES
+Everything your team needs, none of the bloat.
+
+A focused toolkit for ingesting, organising and shipping creative work — designed to disappear into your workflow.
+
+Auto-ingest from anywhere
+Connect Google Drive, local NAS, or drag & drop. Watch folders are scanned continuously.
+AI-assisted tagging
+Suggested tags and scene detection on import. Approve in bulk, override anytime.
+Search by anything
+Full-text, EXIF, OCR, duration, format, uploader, tags. Saved searches share by URL.
+Comments in context
+Threaded discussions on every asset — even at specific timecodes in video.
+Taxonomies that scale
+Hierarchical tags with synonyms, colour, and inheritance. Bulk re-tag in a click.
+Multi-tenant by design
+Each organisation isolated end-to-end. Per-tenant keys, scoped queries, audit logs.
+Insightful analytics
+Storage trends, hot tags, top contributors, video minutes — at the click of a tab.
+Granular permissions
+Owner, admin, manager, editor, individual — with folder-level overrides where you need them.
+Built for speed
+Sub-second search across millions of assets. Streaming previews. Resumable uploads.
+PRODUCT WALKTHROUGH
+See it in action
+
+No demo call required. The whole product, page by page.
+
+drone footage 4K sunset
+142 results · 38ms
+drone
+sunset
+4K
+aerial
+landscape
+STEP 1
+Find anything in seconds
+
+Full-text + OCR + AI semantic search across every file, comment and tag. Filters for category, format, source, resolution and date — chainable.
+
+Advanced AI vision
+gpt-4o-mini
+OBJECTS
+person
+91%
+camera
+84%
+skyline
+76%
+SCENE
+rooftop
+87%
+evening
+79%
+MOOD
+energetic
+82%
+COLOURS
+amber
+90%
+indigo
+78%
+STEP 2
+AI tagging that actually sees your media
+
+Vision-grounded auto-tagging. Detects objects, scenes, mood, colours, faces — with confidence scores. Tags become real, searchable, RBAC-respecting library data.
+
+00:38
+M
+The cut here feels rushed — try a 200ms hold.
+01:12
+T
+@maya great catch. Will fix in v3.
+STEP 3
+Comments pinned to the timeline
+
+Frame-accurate review on video. Mention teammates, react with emoji, resolve threads. Comments respect folder permissions out of the box.
+
+Uploads
+Comments
+Monthly
+1,284
+Uploads
+187 GB
+Storage
+42
+Active
+STEP 4
+Analytics that tell you what to look at
+
+Daily, weekly and monthly views of uploads, comments, storage. See top contributors, most-searched tags, and folder access maps.
+
+Folder permissions
+Org Admin
+📁 /clients/north-pier
+M
+T
+📁 /campaigns/q3
+M
+📁 /raw/footage
+R
+Default-deny · audit log on every grant.
+STEP 5
+Folder permissions you can actually trust
+
+Org Admin grants folders to managers; managers assign work to their team. Strict tenant isolation, defence-in-depth on every query, audit log on every change.
+
+SEARCH SUPERPOWERS
+Ask in plain English. Get the right file.
+
+GetSibu's search blends full-text, OCR, AI tags and embeddings. It works whether you remember a filename, a colour or just a vibe.
+
+invoices · Q3 · over $5000 
+⌘K
+Interpreted by AI · 38 ms
+4K drone footage at sunset
+red product shot for landing pag…
+PDF containing the NDA we signed…
+assets uploaded by Maya in the l…
+shots with people smiling, verti…
+invoices · Q3 · over $5000
+
+Currently showing: "invoices · Q3 · over $5000"
+
+AI DEEP DIVE
+Real AI features. Not buzzword bingo.
+
+Each capability is wired to a real model behind a real RBAC gate. Off-by-default, audited on every use.
+
+Scene detection
+
+Break video into structured scenes — automatically. Jump between scenes from the asset page or via API.
+
+Face grouping
+
+Cluster people across your library. Find every shot of the founder, the talent, the client — instantly.
+
+OCR extraction
+
+Pulls text out of images, PDFs, presentations and screenshots. Searchable as ordinary text the moment upload finishes.
+
+Semantic search
+
+Embeddings-aware retrieval. Ask for "warm tones, urban evening, candid" and GetSibu ranks accordingly.
+
+Duplicate detection
+
+Perceptual + exact hash. Catches re-encoded copies even when filenames lie. Recover the original storage.
+
+Auto collections
+
+GetSibu proposes folders ("Q3 product shots", "Team headshots") based on what it sees. You approve, it organises.
+
+USE CASES
+Made for teams who move fast
+
+Built with input from production studios, agency owners and in-house brand leads.
+
+PRODUCTION
+Video teams
+Find any clip, anytime.
+
+Frame-perfect comments, shot list extraction, AI tagging of objects and scenes, version stacks. Stop scrubbing through 40 hours of dailies.
+
+Timeline comments
+Auto-tagged shots
+Versions
+EDL export
+Talk to our team
+BRAND
+Marketing teams
+One source of truth for every campaign.
+
+Folder permissions per market, approval workflows, on-brand colour/font extraction, analytics on what assets actually get used downstream.
+
+Approvals
+Brand kit
+Usage analytics
+Multi-market
+Talk to our team
+CLIENT WORK
+Agencies
+Tenanted by client. Isolated by design.
+
+Run dozens of clients in one platform with strict tenant isolation. Per-client SSO, per-client storage quotas, per-client AI keys.
+
+Tenant per client
+Per-client SSO
+White-label
+Billing splits
+Talk to our team
+IN-HOUSE
+Brand teams
+Stop guessing which logo is the latest.
+
+Approved-only library views, expiry dates on assets, brand-guardrail tags, audit who exported what. Compliance teams love it.
+
+Approval gates
+Expiry
+Audit log
+Export tracking
+Talk to our team
+ANALYTICS PREVIEW
+Analytics that tell you what to look at
+
+Daily, weekly and monthly views of uploads, comments and storage. See top contributors, most-searched tags, and folder access maps.
+
+Uploads vs storage growth
++47% MoM
+Daily
+Weekly
+Monthly
+Uploads
+Comments
+Storage
+Mon
+Tue
+Wed
+Thu
+Fri
+Sat
+Sun
+0
+15
+30
+45
+60
+0 B
+4.2 GB
+8.4 GB
+12.6 GB
+16.8 GB
+Storage by category
+Video
+62% · 116 GB
+Image
+22% · 41 GB
+Document
+11% · 20 GB
+Audio
+5% · 10 GB
+Top tag this week
+hero shot
+product
+4K
+b-roll
+pitch deck
+EMPTY STATES
+Even our 'nothing yet' screens earn their keep
+
+Empty states should answer 'what do I do next?' — not just say 'nothing here'.
+
+Empty library
+
+A clear first step instead of a blank screen — connect a drive or drop a file.
+
+Connect Drive
+Uploading
+
+Real-time per-file progress, parallel uploads, chunked resume on flaky networks.
+
+4 / 12 files
+AI processing
+
+Status badges per asset — Queued · Transcribing · Ready. Auto-poll, no manual refresh.
+
+Transcribing…
+No results
+
+Suggests adjacent searches and lets the user broaden filters — never a dead end.
+
+Try without filters
+TEAM COLLABORATION
+Built for the way creative teams actually work
+
+Comments where they belong, approvals that gate the right things, history that doesn't lie.
+
+@-mentions
+
+Folder-aware autocomplete. You can only mention people who can actually see the asset.
+
+Approvals
+
+Request approval, leave changes, accept. Per-asset gates with full status history.
+
+Versioning
+
+Replace a file in-place; old versions stack and are restoreable. Comments stay attached to the line.
+
+Activity history
+
+Every view, download, edit and approval lives in the asset’s activity tab. Filter by person.
+
+WHY GETSIBU
+Built for media teams — not generic file storage
+
+A side-by-side honest comparison.
+
+FEATURE	GOOGLE DRIVE	DROPBOX	GETSIBU
+Search filenames + folders	
+	
+	
+
+Full-text search inside docs (OCR)	
+	
+	
+
+AI vision tags (objects, scene, mood)	
+	
+	
+
+Semantic search ("show me drone shots at sunset")	
+	
+	
+
+Frame-accurate timeline comments	
+	
+	
+
+Multi-tenant isolation + RBAC	
+	
+	
+
+Folder-scoped permissions (manager → team)	
+	
+	
+
+Approval / review workflows	
+	
+	
+
+Per-asset audit log	
+	
+	
+
+AI subtitle generation (9+ languages)	
+	
+	
+
+Open API + webhooks	
+	
+	
+
+Designed for media teams	
+	
+	
+Yes
+Partial
+No
+INTEGRATIONS
+Plug into the tools you already use
+
+Pull from drives, push to editors, notify on Slack, automate with Zapier.
+
+G
+Google Drive
+D
+Dropbox
+O
+OneDrive
+S3
+AWS S3
+Sl
+Slack
+F
+Figma
+Pr
+Premiere Pro
+Ae
+After Effects
+Zp
+Zapier
+Fi
+Frame.io
+🪝
+Webhooks
+API
+REST API
+Don't see your tool? Request an integration — most ship in under 2 weeks.
+API & DEVELOPERS
+A developer-shaped product
+
+GetSibu is an API-first DAM. The UI is just one of many possible clients.
+
+curl -X POST https://api.lumendam.io/v1/assets/upload \
+  -H "Authorization: Bearer ${TOKEN}" \
+  -H "X-Tenant: acme" \
+  -F "file=@hero.mp4" \
+  -F "folderId=64a..."
+
+# →  201 Created
+# {
+#   "id": "65b...",
+#   "category": "video",
+#   "tags": [],
+#   "processingStatus": "pending"
+# }
+REST API
+
+Documented OpenAPI 3.1 spec. Every page in the app uses the same endpoints.
+
+SDKs
+
+TypeScript, Python and Go SDKs. Generated from the OpenAPI spec — never out of date.
+
+Webhooks
+
+Subscribe to asset.created, comment.added, approval.requested, billing.expired and more.
+
+CLI + API playground
+
+Built-in playground in Settings → Developer. Sign requests, replay, copy as curl.
+
+MIGRATION
+Bring your existing library — without losing context
+
+The hardest part of a new DAM is the move. We've made it boring.
+
+STEP 1
+Bulk import
+
+Connect Drive / Dropbox / S3 once. GetSibu indexes terabytes in the background — no downtime on your old tools.
+
+STEP 2
+Metadata preserved
+
+EXIF, XMP, custom keywords, file paths, creators — all retained. Original ownership stays intact.
+
+STEP 3
+Folder mapping
+
+Mirror your existing folder structure or remap on the way in. Permissions translate from G Suite groups.
+
+STEP 4
+Onboarding included
+
+White-glove rollout on Business+. Your team gets trained, your data is verified, your old system is sunset.
+
+ARCHITECTURE
+A foundation you can audit
+
+From the client to the storage layer — predictable, isolated, observable.
+
+Users
+Web · Mobile · API clients
+CDN + WAF
+Cloudflare edge · TLS 1.3
+API tier
+Express · stateless · autoscaled
+Search
+Mongo $text · embeddings
+Storage
+S3 · per-tenant prefix · AES-256
+⏱ Sub-second P95
+📦 Per-tenant data partitions
+📊 OpenTelemetry observability
+PERFORMANCE
+Built for terabytes, tuned for milliseconds
+
+What it takes for a DAM to feel snappy at scale: chunked I/O, edge caching, and a search layer that's actually fast.
+
+CHUNKED UPLOADS
+10 GB
+per file, resumable
+CDN STREAMING
+< 50 ms
+first byte, globally
+EDGE PREVIEWS
+< 1 s
+preview-on-demand
+SUB-SECOND INDEX
+< 200 ms
+search latency p95
+SECURITY & COMPLIANCE
+Enterprise-grade by default
+
+Security isn't a feature gate — every plan inherits the same isolation, encryption and audit guarantees.
+
+AES-256 at rest
+
+Encrypted secrets (OAuth keys, SMTP passwords, API tokens) using AES-256-GCM with rotating IVs.
+
+SOC 2 Type II ready
+
+Audit-trail every privileged action, immutable retention, tenant-isolation controls under SOC 2 CC6 / CC7.
+
+GDPR + DPA
+
+EU-region storage, right-to-erasure cascade, signed data-processing addendum on every paid plan.
+
+Audit logs everywhere
+
+Every login, permission change, AI generation, comment edit and asset delete writes to an immutable audit log.
+
+RBAC + tenant isolation
+
+Five built-in roles. Every Mongo query composes tenant scope server-side — never trust the client.
+
+Backup redundancy
+
+Daily snapshots, point-in-time restore to 7 days, cross-region replication on Business+ plans.
+
+SSO + SCIM
+
+SAML 2.0 and OIDC SSO; SCIM 2.0 user provisioning. Force-MFA per-org enforced server-side.
+
+Default-deny access
+
+New folders are private until granted. Managers can only see folders an Org Admin handed them.
+
+THE ROI
+Real teams, real numbers
+
+Aggregated from the first 6 months of GetSibu pilots — mix of agencies, in-house brand teams, and post houses.
+
+78%
+faster discovery
+vs. shared drives
+12 hrs/wk
+saved per editor
+on average
+4×
+fewer duplicates
+in 30 days
+1.8 TB
+indexed in beta
+across 12 studios
+HOW IT WORKS
+From scattered to searchable in minutes.
+
+Plug in your sources. GetSibu does the rest — and keeps doing it.
+
+01
+Connect
+
+OAuth into Google Drive, point at a NAS, or just drag & drop.
+
+02
+Ingest
+
+GetSibu scans, extracts metadata, generates thumbnails and OCRs documents.
+
+03
+Organise
+
+Tag manually or accept AI suggestions. Set folder-level permissions.
+
+04
+Collaborate
+
+Search, comment, mention. Share saved views with one URL.
+
+LOVED BY CREATIVE TEAMS
+Teams ship faster with GetSibu.
+“We replaced five different folders, two naming conventions and a Notion table with GetSibu. Editors find what they need in seconds.”
+Maya Park
+Creative Director, Lattice Studio
+“The auto-ingest from Drive was the killer feature. Our vendor deliverables show up tagged before anyone opens them.”
+Jordan Reyes
+Head of Production, North Pier
+“Multi-tenant isolation was a hard requirement for us — GetSibu ships it out of the box with audit logs and per-tenant keys.”
+Priya Shah
+CTO, Brand Republic
+PRICING
+Simple, predictable plans.
+
+Start free, upgrade when you outgrow it.
+
+Free
+$0
+forever
+
+For makers exploring GetSibu.
+
+Start free
+5 GB storage
+3 seats
+10k API calls / mo
+Drag & drop upload
+Search & tags
+MOST POPULAR
+Pro
+$99
+/ month
+
+For growing creative teams.
+
+Start 3-day trial
+500 GB storage
+20 seats
+1M API calls / mo
+Google Drive sync
+Threaded comments + mentions
+Saved searches
+Business
+$299
+/ month
+
+For studios shipping at scale.
+
+Talk to sales
+2 TB storage
+100 seats
+5M API calls / mo
+SSO & SCIM
+Audit log export
+Priority support
+FAQ
+Questions, answered
+
+Couldn't find what you're looking for? Email hello@lumendam.io and we'll respond same-day.
+
+Can I self-host GetSibu?
+How does billing work?
+Is AI an extra add-on?
+What are the upload limits?
+Do you support SSO / SCIM?
+Where is my data stored?
+Can I integrate with Slack / Premiere / Frame.io?
+What’s the difference between Individual and Organisation?
+Individual is one private workspace, no roles. Organisation gives you Owner / Admin / Manager / User roles, team management, folder permissions and approval workflows.
+Bring order to your creative chaos.
+
+Connect a drive. Watch your library organise itself. Invite your team. Done.
+
+Start free
+Book a demo
+READY WHEN YOU ARE
+Your creative library shouldn't feel like archaeology.
+
+Stop searching shared drives. Stop versioning by filename. Bring the entire team into one fast, secure, AI-aware library that respects who can see what.
+
+Start free trial
+Talk to sales
+No credit card · 3 days · cancel anytime
+SOC 2
+Type II ready
+99.99%
+API uptime
+24/7
+Business-tier support
+Free for 3 days. No card required.
+Start Free
+Book Demo
+
+The operating system for your creative library. Built for teams that move fast and never lose a file.
+
+PRODUCT
+Features
+Pricing
+Sign In
+Start free
+COMPANY
+About
+Contact
+Careers
+Press
+RESOURCES
+Documentation
+API reference
+Status
+Changelog
+LEGAL
+Privacy
+Terms
+Security
+DPA
+© 2026 GetSibu DAM. All rights reserved.
+Made for creative teams · v1.0
+0 B

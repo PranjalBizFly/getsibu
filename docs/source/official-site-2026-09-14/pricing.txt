@@ -1,0 +1,93 @@
+GetSibu DAM — Modern Digital Asset Management
+.
+Errors are swallowed — broken/empty storage falls through to the
+CSS defaults.
+-->
+==== ====
+[LINK href=/] [IMG src=/GET%20SIBU%20LOGO.png alt=GetSibu] [IMG src=/White%20Logo.png alt=GetSibu]
+[/LINK]
+==== ====
+[LINK href=/features] Features [/LINK] [LINK href=/pricing] Pricing [/LINK] [LINK href=/about] About [/LINK] [LINK href=/contact] Contact [/LINK]
+[BUTTON] [svg] [/BUTTON] [LINK href=/login] Sign In [/LINK] [LINK href=/signup] Start free [/LINK]
+[BUTTON] [svg] [/BUTTON] [BUTTON] [svg] [/BUTTON]
+==== ====
+==== ====
+Pricing
+Pricing that grows with you.
+Start free. Add seats and storage when you need them. No hidden fees.
+==== ====
+Pricing
+Simple, predictable plans.
+Start free, upgrade when you outgrow it.
+Free
+$0
+forever
+For makers exploring GetSibu.
+[LINK href=/signup] Start free [/LINK] [svg] 5 GB storage
+[svg] 3 seats
+[svg] 10k API calls / mo
+[svg] Drag & drop upload
+[svg] Search & tags
+Most popular
+Pro
+$99
+/ month
+For growing creative teams.
+[LINK href=/signup] Start 3-day trial [/LINK] [svg] 500 GB storage
+[svg] 20 seats
+[svg] 1M API calls / mo
+[svg] Google Drive sync
+[svg] Threaded comments + mentions
+[svg] Saved searches
+Business
+$299
+/ month
+For studios shipping at scale.
+[LINK href=/contact] Talk to sales [/LINK] [svg] 2 TB storage
+[svg] 100 seats
+[svg] 5M API calls / mo
+[svg] SSO & SCIM
+[svg] Audit log export
+[svg] Priority support
+==== ====
+Frequently asked
+Can I switch plans later? +
+Yes — upgrade or downgrade anytime. Proration is handled automatically.
+Do you offer a free trial on paid plans? +
+Pro includes a 3-day trial, no credit card required.
+What happens if I exceed my storage quota? +
+Uploads pause until you delete content or upgrade. Existing assets remain accessible.
+Is my data isolated from other tenants? +
+Yes. Every organisation has scoped queries and per-tenant encryption keys. Audit logs record every cross-tenant access attempt.
+Do you support custom contracts and SSO? +
+Business and Enterprise plans include SSO, SCIM, custom DPAs, and annual contracts.
+==== ====
+Bring order to your creative chaos
+.
+Connect a drive. Watch your library organise itself. Invite your team. Done.
+[LINK href=/signup] Start free [svg] [/LINK] [LINK href=/contact] Book a demo [/LINK]
+==== ====
+[IMG src=/GET%20SIBU%20LOGO.png alt=GetSibu] [IMG src=/White%20Logo.png alt=GetSibu]
+The operating system for your creative library. Built for teams that move fast and never lose a file.
+Product
+[LINK href=/features] Features [/LINK]
+[LINK href=/pricing] Pricing [/LINK]
+[LINK href=/login] Sign In [/LINK]
+[LINK href=/signup] Start free [/LINK]
+Company
+[LINK href=/about] About [/LINK]
+[LINK href=/contact] Contact [/LINK]
+[LINK href=#] Careers [/LINK]
+[LINK href=#] Press [/LINK]
+Resources
+[LINK href=#] Documentation [/LINK]
+[LINK href=#] API reference [/LINK]
+[LINK href=#] Status [/LINK]
+[LINK href=#] Changelog [/LINK]
+Legal
+[LINK href=#] Privacy [/LINK]
+[LINK href=#] Terms [/LINK]
+[LINK href=#] Security [/LINK]
+[LINK href=#] DPA [/LINK]
+© 2026 GetSibu DAM. All rights reserved.
+Made for creative teams · v1.0

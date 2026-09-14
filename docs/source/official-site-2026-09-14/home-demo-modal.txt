@@ -1,0 +1,139 @@
+--- slide 0 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 1 OF 9
+hero_v4_FINAL.mp4
+logo_FINAL_v2.psd
+shot_v6_use-this.mov
+brief.docx
+IMG_7732.jpg
+The creative chaos
+
+Scattered drives. Versioned filenames. Nobody can find anything.
+
+Use ← / → to navigate · Space to pause
+--- slide 1 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 2 OF 9
+Library
+Search
+Tags
+Team
+1.2k
+tracked
+480 GB
+tracked
+12 teams
+tracked
+Meet GetSibu
+
+One workspace for every asset, every team, every tenant.
+
+Use ← / → to navigate · Space to pause
+--- slide 2 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 3 OF 9
+MOV / 4K / 02:14
+ingested
+JPG / 6000×4000
+ingested
+PDF / 3 pages
+ingested
+WAV / 0:48
+ingested
+AI auto-ingest
+
+Connect a Drive folder. We scan, classify and bind to your hierarchy.
+
+Use ← / → to navigate · Space to pause
+--- slide 3 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 4 OF 9
+#hero
+#tokyo
+#4k
+#product
+#brand
+#B-roll
+#people
+#studio
+AI tagging
+
+Vision + language models propose tags. You approve in one tap.
+
+Use ← / → to navigate · Space to pause
+--- slide 4 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 5 OF 9
+hero shot 4K from Tokyo shoot
+Semantic search
+
+Type what you mean — "hero shot 4K from Tokyo shoot". We get it.
+
+Use ← / → to navigate · Space to pause
+--- slide 5 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 6 OF 9
+M
+Maya
+Approved — ship to client folder.
+J
+Jordan
+Can we re-time the cut at 0:18?
+L
+Leo
+@Maya needs your sign-off ✅
+Team collaboration
+
+Threaded comments, @mentions, approvals — scoped to the right people.
+
+Use ← / → to navigate · Space to pause
+--- slide 6 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 7 OF 9
+Owner
+org.*
+Admin
+team.* asset.*
+Manager
+team.manage.scoped
+User
+asset.read asset.write
+Permissions & security
+
+Multi-tenant by design. Folder-level RBAC. Audit log on every action.
+
+Use ← / → to navigate · Space to pause
+--- slide 7 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 8 OF 9
+Activity analytics
+
+GitHub-style heatmap. Live workspace counters. Daily / weekly / monthly.
+
+Use ← / → to navigate · Space to pause
+--- slide 8 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 9 OF 9
+Try GetSibu in 60 seconds
+
+Connect a Drive folder, drop in an upload, watch your team find anything by name, tag or meaning.
+
+Start free — no credit card
+Start free in 60 seconds
+
+No credit card. 5 GB free. Bring your Drive folder and we take it from there.
+
+Use ← / → to navigate · Space to pause
+--- slide 9 ---
+How GetSibu Organises Creative Chaos with AI
+SCENE 1 OF 9
+hero_v4_FINAL.mp4
+logo_FINAL_v2.psd
+shot_v6_use-this.mov
+brief.docx
+IMG_7732.jpg
+The creative chaos
+
+Scattered drives. Versioned filenames. Nobody can find anything.
+
+Use ← / → to navigate · Space to pause

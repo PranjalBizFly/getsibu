@@ -1,0 +1,39 @@
+{
+  "name": "getsibu-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "source:extract": "node scripts/extract-pdf-source.ts",
+    "inventory:build": "node scripts/build-inventory.ts",
+    "inventory:validate": "node scripts/validate-inventory.ts",
+    "inventory:export": "node scripts/export-inventory.ts",
+    "inventory": "npm run inventory:build && npm run pages:compose && npm run inventory:validate && npm run inventory:export",
+    "prebuild": "npm run inventory:build && npm run pages:compose && npm run inventory:validate",
+    "pages:compose": "node scripts/compose-pages.ts",
+    "verify:build": "node scripts/verify-build.ts",
+    "postbuild": "npm run verify:build",
+    "test:publication": "node scripts/test-publication.ts"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "24.13.4",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "postcss": "8.5.28",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,220 @@
+/**
+ * Homepage — PDF page 1.
+ *
+ * Copy is taken from, or closely condensed from, the cited PDF pages and the official site. It
+ * states only publishable claims (see content/architecture/claims.ts); the validator enforces this.
+ */
+import type { PageContent } from "../../types/content.ts";
+
+const SITE_HOME = { kind: "site", url: "https://getsibu.com/", retrieved: "2026-09-14" } as const;
+
+const home = {
+  page: 1,
+  lastReviewed: "2026-09-14",
+  recipeOverride: {
+    recipe: "home",
+    reason: "Bespoke homepage composition: the capability explorer replaces the capabilities grid, and teams, governance and developers each get one section.",
+  },
+  sections: [
+    {
+      kind: "hero",
+      id: "hero",
+      layout: "split",
+      eyebrow: "Creative asset management platform",
+      lede: "GetSibu helps teams store, organise, search, review and collaborate on videos, images, documents and audio from one central workspace.",
+      diagram: "library-search",
+      actions: [
+        { kind: "global", cta: "primary" },
+        { kind: "page", page: 2, label: "Explore the platform" },
+      ],
+      sources: [{ kind: "pdf", page: 1 }, SITE_HOME],
+    },
+    {
+      kind: "statement",
+      id: "one-library",
+      eyebrow: "One searchable library",
+      text: "Instead of scattered folders, disconnected drives and complicated naming systems, teams work from one searchable creative library — and quickly find the right asset with its context.",
+      link: { page: 2, label: "How the platform fits together" },
+      sources: [{ kind: "pdf", page: 1 }, { kind: "pdf", page: 2 }],
+    },
+    {
+      kind: "workflow",
+      id: "how-it-works",
+      eyebrow: "How it works",
+      heading: "From scattered storage to a searchable library",
+      intro: "Connect what you already have, let GetSibu process it, then organise and collaborate in one place.",
+      density: "dense",
+      surface: "muted",
+      stages: [
+        { label: "Connect", body: "Bring existing assets in from connected storage sources, or upload files directly with drag and drop.", page: 121 },
+        { label: "Ingest", body: "Assets move through metadata extraction, thumbnail generation and AI processing until they are indexed and searchable.", page: 143 },
+        { label: "Organise", body: "Structure the library with folders, tags, collections, metadata and permissions that stay useful as it grows.", page: 8 },
+        { label: "Collaborate", body: "Comment, review and approve directly on the asset instead of moving conversations into disconnected tools.", page: 61 },
+      ],
+      sources: [SITE_HOME, { kind: "pdf", page: 121 }, { kind: "pdf", page: 127 }, { kind: "pdf", page: 143 }, { kind: "pdf", page: 4 }, { kind: "pdf", page: 8 }, { kind: "pdf", page: 61 }],
+    },
+    {
+      kind: "category-explorer",
+      id: "capabilities",
+      eyebrow: "Capabilities",
+      heading: "What GetSibu adds to your library",
+      intro: "Traditional file storage keeps files available. GetSibu adds AI-assisted organisation, contextual search, collaboration, approvals, version history, analytics and permission controls designed for creative workflows.",
+      categories: [
+        {
+          category: "search-discovery",
+          summary: "Search by filename, metadata, extracted text, AI-generated tags and comments — or describe the asset you remember in natural language.",
+          pages: [11, 18, 15, 17],
+          diagram: "search-signals",
+        },
+        {
+          category: "ai",
+          summary: "AI suggests tags and classifications while assets are processed. Your team approves suggestions in bulk or overrides them, so the library stays organised on your terms.",
+          pages: [31, 47, 38, 40],
+          diagram: "ai-review",
+        },
+        {
+          category: "collaboration",
+          summary: "Keep feedback attached to the work: threaded comments on assets, comments at points on a video timeline, and approvals with a clear status history.",
+          pages: [63, 64, 67, 68],
+          diagram: "timeline-review",
+        },
+        {
+          category: "asset-management",
+          summary: "Replace an asset in place while previous versions stay in its history, then manage status, lifecycle and the audit trail in the same record.",
+          pages: [91, 94, 103, 119],
+          diagram: "version-record",
+        },
+        {
+          category: "permissions-multi-tenancy",
+          summary: "Control access folder by folder. New folders stay private until access is granted, and each client environment stays isolated from the others.",
+          pages: [152, 154, 160, 161],
+          diagram: "folder-access",
+        },
+        {
+          category: "analytics",
+          summary: "See uploads, storage by category, contributors and tag activity across the library, with daily, weekly and monthly views.",
+          pages: [181, 183, 186, 189],
+          diagram: "library-activity",
+        },
+      ],
+      sources: [
+        { kind: "pdf", page: 7 },
+        { kind: "pdf", page: 11 },
+        { kind: "pdf", page: 18 },
+        { kind: "pdf", page: 9 },
+        { kind: "pdf", page: 31 },
+        { kind: "pdf", page: 47 },
+        { kind: "pdf", page: 48 },
+        { kind: "pdf", page: 62 },
+        { kind: "pdf", page: 63 },
+        { kind: "pdf", page: 64 },
+        { kind: "pdf", page: 68 },
+        { kind: "pdf", page: 91 },
+        { kind: "pdf", page: 101 },
+        { kind: "pdf", page: 119 },
+        { kind: "pdf", page: 152 },
+        { kind: "pdf", page: 154 },
+        { kind: "pdf", page: 161 },
+        { kind: "pdf", page: 181 },
+        { kind: "pdf", page: 188 },
+        { kind: "pdf", page: 189 },
+        { kind: "pdf", page: 190 },
+      ],
+    },
+    {
+      kind: "before-after",
+      id: "creative-chaos",
+      eyebrow: "Why it matters",
+      heading: "Bring order to creative chaos",
+      intro: "Creative chaos often begins with scattered storage, inconsistent filenames, duplicate files and unclear versions.",
+      beforeLabel: "Without a central library",
+      afterLabel: "With GetSibu",
+      before: [
+        "Assets spread across drives, folders and uploads",
+        "Filenames like final, final-v2 and final-final",
+        "Copies of the same file nobody can reconcile",
+        "Feedback lost across email, chat and project tools",
+      ],
+      after: [
+        "One library across connected sources and direct uploads",
+        "Previous versions kept inside a single asset record",
+        "Duplicates identified, including renamed and re-encoded copies",
+        "Comments and approvals attached to the asset itself",
+      ],
+      link: { page: 399, label: "Bring order to creative chaos" },
+      sources: [{ kind: "pdf", page: 399 }, { kind: "pdf", page: 6 }, { kind: "pdf", page: 91 }, { kind: "pdf", page: 40 }, { kind: "pdf", page: 73 }, { kind: "pdf", page: 74 }],
+    },
+    {
+      kind: "related",
+      id: "teams",
+      eyebrow: "Who it's for",
+      heading: "Built for the teams behind the work",
+      intro: "GetSibu is designed for production teams, marketing teams, agencies, brand teams, creative studios and other organisations managing large creative libraries.",
+      variant: "index",
+      pages: [211, 213, 214, 215, 220, 240],
+      sources: [{ kind: "pdf", page: 382 }],
+    },
+    {
+      kind: "split",
+      id: "control",
+      eyebrow: "Permissions & security",
+      heading: "Collaboration without losing control",
+      body: ["GetSibu combines collaboration with permissions, so teams can work together without exposing sensitive assets to everyone."],
+      points: [
+        "Folder-level permissions for teams, departments and individuals",
+        "New folders stay private until access is explicitly granted",
+        "Isolated environments for every client an agency manages",
+        "Permission changes recorded in the audit history",
+      ],
+      diagram: "tenant-boundaries",
+      mediaSide: "end",
+      links: [
+        { page: 151, label: "Explore permissions" },
+        { page: 321, label: "GetSibu security" },
+      ],
+      sources: [{ kind: "pdf", page: 180 }, { kind: "pdf", page: 152 }, { kind: "pdf", page: 175 }, { kind: "pdf", page: 176 }, { kind: "pdf", page: 154 }, { kind: "pdf", page: 161 }, { kind: "pdf", page: 170 }],
+    },
+    {
+      kind: "split",
+      id: "developers",
+      eyebrow: "API & developers",
+      heading: "An API-first platform you can build on",
+      body: [
+        "GetSibu is designed as an API-first digital asset management platform. Developers can bring asset upload, search, metadata, tagging, comments and approvals into their own applications.",
+        "Webhooks notify external systems when supported asset or collaboration events occur.",
+      ],
+      diagram: "api-flow",
+      mediaSide: "start",
+      surface: "inverse",
+      links: [
+        { page: 280, label: "GetSibu for developers" },
+        { page: 261, label: "Explore the API" },
+      ],
+      sources: [{ kind: "pdf", page: 254 }, { kind: "pdf", page: 255 }, { kind: "pdf", page: 262 }, { kind: "pdf", page: 263 }, { kind: "pdf", page: 264 }, { kind: "pdf", page: 265 }, { kind: "pdf", page: 266 }, { kind: "pdf", page: 267 }, { kind: "pdf", page: 252 }, SITE_HOME],
+    },
+    {
+      kind: "related",
+      id: "resources",
+      eyebrow: "Resources",
+      heading: "Understand modern asset management",
+      variant: "cards",
+      pages: [361, 362, 363, 374],
+      sources: [{ kind: "editorial", note: "Section heading; linked pages carry their own sources." }],
+    },
+    {
+      kind: "cta",
+      id: "get-started",
+      heading: "Bring Your Creative Assets Together",
+      body: "Instead of keeping videos in one drive, images in another folder and documents somewhere else, GetSibu creates a central environment where teams can search and manage different asset types together.",
+      conversionPage: 392,
+      surface: "inverse",
+      actions: [
+        { kind: "global", cta: "primary" },
+        { kind: "page", page: 121, label: "See how ingestion works" },
+      ],
+      sources: [{ kind: "pdf", page: 392 }, { kind: "pdf", page: 121 }, SITE_HOME],
+    },
+  ],
+} satisfies PageContent;
+
+export default home;

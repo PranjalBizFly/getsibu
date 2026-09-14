@@ -1,0 +1,1953 @@
+1. GetSibu -- Creative Asset Management Platform
+
+GetSibu is an intelligent creative asset management platform designed to help teams store,
+organise, search, review and collaborate on videos, images, documents and audio from one
+central workspace. Instead of depending on scattered folders, disconnected drives and
+complicated naming systems, GetSibu creates a searchable creative library where teams can
+quickly locate the right asset and understand its context.
+
+2. The Operating System for Creative Libraries
+
+GetSibu acts as an operating system for modern creative libraries by bringing storage,
+organisation, AI tagging, search, collaboration, permissions and analytics into one platform.
+Creative teams can connect existing storage sources, import assets, automatically process
+media and make the resulting library available to authorised team members.
+
+3. AI-Powered Digital Asset Management
+
+GetSibu combines digital asset management with artificial intelligence to make large creative
+libraries easier to understand. AI-assisted tagging, scene detection, OCR, semantic search,
+face grouping and duplicate detection help teams organise information that would otherwise
+require extensive manual work.
+
+4. Creative Library Management
+
+A growing creative team can quickly accumulate thousands of videos, images, documents and
+audio files. GetSibu provides a structured environment where those assets can be organised
+through folders, tags, collections, metadata and permissions, creating a reliable source of truth
+for the entire organisation.
+
+5. Intelligent Media Library
+
+GetSibu transforms a conventional media library into an intelligent information system. Instead
+of searching only by filenames, users can search using descriptions, visual characteristics,
+extracted text, tags, people, colours, scenes, formats and other available metadata.
+
+6. Centralised Creative Asset Library
+
+GetSibu provides one central location for creative assets from connected drives, local
+infrastructure and direct uploads. By bringing assets together, teams can reduce the confusion
+caused by multiple storage locations and disconnected versions of the same file.
+
+7. Modern Digital Asset Management
+Traditional file storage focuses primarily on keeping files available. GetSibu extends that
+concept by adding AI-assisted organisation, contextual search, collaboration, approvals, version
+history, analytics and permission controls specifically designed for creative workflows.
+
+8. Creative Asset Organisation
+
+GetSibu helps teams organise creative assets using structured folders and scalable
+taxonomies. Hierarchical tags, synonyms, colours and inheritance make it possible to create an
+organisation system that remains useful even when the library grows to thousands or millions of
+assets.
+
+9. AI-Aware Asset Management
+
+AI-aware asset management allows GetSibu to analyse media and recommend meaningful tags
+and classifications. Teams can approve AI suggestions in bulk, override them when necessary
+and maintain control over how their library is organised.
+
+10. One Source of Truth for Creative Teams
+
+GetSibu gives creative, marketing, production and brand teams a shared source of truth for their
+digital assets. Everyone works from the same organised library, while permissions and approval
+workflows help ensure that users access and distribute the right content.
+
+11-30. Core Product Pages
+
+11. Creative Asset Search
+
+GetSibu makes creative assets searchable through filenames, metadata, OCR, AI-generated
+tags, comments and semantic information. Users can search for a specific asset or describe
+what they need in natural language and let the platform interpret the request.
+
+12. AI Asset Discovery
+
+AI asset discovery helps users find files based on what appears inside the asset rather than
+depending entirely on manually entered metadata. This is particularly useful when teams have
+large libraries containing thousands of visually similar files.
+
+13. Media Search Platform
+GetSibu provides a dedicated search experience for creative media. Users can combine
+keywords and filters related to file category, format, uploader, resolution, date and other
+available information to narrow large result sets quickly.
+
+14. Semantic Creative Search
+
+Semantic search allows users to describe the type of asset they want using natural language. A
+request such as "warm urban evening footage" can be interpreted according to available
+embeddings and AI-generated media information rather than relying only on exact keyword
+matching.
+
+15. OCR-Powered Asset Search
+
+GetSibu extracts text from images, PDFs, presentations and screenshots so that the content
+becomes searchable. This allows users to locate documents and visual assets even when the
+required information exists inside the file rather than its filename.
+
+16. Search Across Creative Libraries
+
+Teams can search across their entire creative library rather than manually opening folders one
+at a time. Search results can combine different information sources to make asset discovery
+faster and more flexible.
+
+17. Saved Asset Searches
+
+Frequently used searches can be saved and shared through a URL. This makes it easier for
+teams to create reusable views for campaigns, clients, products, content categories and other
+recurring workflows.
+
+18. Natural Language Asset Search
+
+Natural language search lets users describe assets in the way they naturally remember them.
+Users do not have to know the exact filename if they remember characteristics such as colour,
+scene, subject, location or campaign context.
+
+19. Advanced Media Filters
+
+GetSibu provides filters that can narrow results according to categories, formats, sources,
+resolutions and dates. Filters can be combined to progressively reduce a large library into a
+relevant collection of assets.
+
+20. Fast Asset Discovery
+GetSibu is designed around fast asset discovery, including sub-second search performance
+across large libraries. The platform combines search indexing, metadata and AI-assisted
+retrieval to reduce the time spent looking for files.
+
+21. Creative Asset Indexing
+
+When assets enter GetSibu, the platform processes available metadata and prepares them for
+search and organisation. This creates an indexed representation of the library that can support
+faster discovery.
+
+22. Media Metadata Management
+
+Metadata such as EXIF, XMP, file paths, creators and custom keywords can become part of the
+asset record. This helps preserve context and improves the usefulness of a migrated or newly
+created library.
+
+23. Asset Metadata Search
+
+Users can search available metadata alongside tags and extracted content. This gives creative
+teams multiple ways to find an asset when the original filename or folder structure is unknown.
+
+24. Creative File Discovery
+
+GetSibu helps teams discover images, video, audio and documents through a unified search
+experience. The platform is designed to reduce the dependency on folder knowledge and
+individual team members remembering where files were stored.
+
+25. Searchable Video Library
+
+Videos can be indexed and enriched with AI-generated information so that users can discover
+relevant footage without manually reviewing every file.
+
+26. Searchable Image Library
+
+Images become searchable through metadata, tags, visual characteristics and extracted
+information. This makes large collections easier to reuse across campaigns and projects.
+
+27. Searchable Document Library
+
+Documents can be indexed using extracted text, metadata and organisational tags. Users can
+locate important documents without manually opening every PDF or presentation.
+
+28. Searchable Audio Library
+Audio assets can be managed alongside other creative formats, allowing teams to maintain a
+central media environment instead of separating audio from the rest of their creative library.
+
+29. Creative Library Navigation
+
+GetSibu provides structured navigation through library views, folders, tags, collections and
+search. Users can move between broad library exploration and highly specific asset discovery.
+
+30. Asset Discovery Workflow
+
+The asset discovery workflow begins with a search, continues through filtering and previewing,
+and ends with the user locating the correct asset. Saved searches and AI-assisted discovery
+make recurring searches easier to repeat.
+
+31-60. AI Features
+
+31. AI-Assisted Tagging
+
+GetSibu can suggest tags during asset processing so that teams do not have to manually
+classify every file. Suggested tags can be reviewed, approved or overridden by authorised
+users.
+
+32. AI Vision Analysis
+
+AI vision capabilities analyse visual media and identify objects, scenes, moods and colours.
+These observations can become searchable library data.
+
+33. AI Scene Detection
+
+Scene detection automatically breaks video into structured scenes. Users can navigate between
+important sections of a video instead of repeatedly scrubbing through the entire file.
+
+34. AI Object Detection
+
+GetSibu can identify objects appearing in supported media and associate them with confidence
+information. These tags can later contribute to asset search and discovery.
+
+35. AI Mood Detection
+
+AI analysis can identify visual mood characteristics and make them available as searchable
+information. This helps teams find creative material according to an intended visual feeling.
+36. AI Colour Detection
+
+Colour information can be extracted from visual assets and used as part of asset discovery.
+Users can search for visual content based on colour characteristics when appropriate.
+
+37. AI Face Grouping
+
+Face grouping clusters people across a creative library. Teams can use this capability to locate
+multiple assets featuring the same founder, talent, client or other recognised person.
+
+38. AI OCR
+
+OCR extracts text from images, documents, presentations and screenshots. Once processed,
+the extracted text becomes part of the searchable asset information.
+
+39. AI Semantic Search
+
+Semantic search interprets meaning rather than relying exclusively on exact words. This allows
+users to search for creative concepts and visual descriptions.
+
+40. AI Duplicate Detection
+
+Duplicate detection combines exact and perceptual hashing to identify identical files and visually
+equivalent copies, including cases where a file has been re-encoded or renamed.
+
+41. AI Auto Collections
+
+GetSibu can propose collections based on patterns it identifies across the library. Users can
+approve these suggestions and use them to create more organised asset groupings.
+
+42. AI Asset Classification
+
+AI classification helps categorise assets according to their content and available metadata. This
+reduces repetitive manual organisation work.
+
+43. AI Media Understanding
+
+AI media understanding allows GetSibu to interpret the content of visual assets and make that
+information available through search and organisation workflows.
+
+44. AI Creative Intelligence
+Creative intelligence transforms stored files into a more understandable information layer.
+Instead of treating every asset as an anonymous file, GetSibu can attach searchable meaning
+to the content.
+
+45. AI-Powered Asset Management
+
+AI-powered asset management combines automated analysis with human approval. Teams
+retain control while using AI to reduce the amount of repetitive library administration.
+
+46. AI Tag Confidence
+
+AI-generated tags can include confidence information that helps users understand how strongly
+the system associates a tag with an asset.
+
+47. AI Tag Approval
+
+Teams can approve suggested tags in bulk, making large-scale asset organisation significantly
+faster than reviewing every file individually.
+
+48. AI Tag Override
+
+AI recommendations are not permanent. Authorised users can override tags whenever the
+automatically generated classification does not match the team's intended taxonomy.
+
+49. AI Creative Search
+
+AI creative search allows users to describe the asset they want and receive relevant results
+based on available semantic and visual information.
+
+50. AI Media Indexing
+
+AI media indexing prepares creative content for intelligent discovery by processing supported
+visual, textual and metadata signals.
+
+51. AI-Powered Video Discovery
+
+AI video discovery allows users to search video collections using scenes, objects, visual
+characteristics and other indexed information.
+
+52. AI-Powered Image Discovery
+
+AI image discovery helps teams locate photographs, product shots, campaign images and other
+visual content through AI-generated metadata.
+53. AI Document Discovery
+
+AI document discovery combines OCR and metadata to help users locate documents based on
+information contained inside them.
+
+54. AI Creative Workflow
+
+AI features become part of the asset workflow from ingestion through organisation and
+discovery. This means AI is not presented as an isolated feature but as an operational layer
+across the library.
+
+55. AI Media Automation
+
+AI automation reduces repetitive tasks such as tagging, scene identification, OCR extraction
+and collection creation.
+
+56. AI Asset Recommendations
+
+GetSibu can use information discovered across the library to recommend relevant collections
+and organisational structures.
+
+57. AI Library Organisation
+
+AI-assisted organisation helps teams maintain order as the library grows rather than requiring a
+major manual cleanup after every campaign.
+
+58. AI Asset Intelligence
+
+Asset intelligence combines AI analysis with metadata and search capabilities to make media
+libraries more informative.
+
+59. AI Creative Operations
+
+AI creative operations help production and marketing teams spend less time managing files and
+more time using those files in actual creative work.
+
+60. Practical AI for Creative Teams
+
+GetSibu focuses AI capabilities on practical library problems such as discovery, organisation,
+tagging, OCR, duplicate detection and media analysis rather than adding AI features without a
+workflow purpose.
+61-90. Collaboration
+
+61. Creative Team Collaboration
+
+GetSibu provides collaboration features directly inside the asset library so teams can discuss
+files without moving conversations into disconnected tools.
+
+62. Asset Comments
+
+Users can leave comments directly on assets, keeping feedback attached to the creative work
+being discussed.
+
+63. Threaded Comments
+
+Threaded discussions allow teams to keep conversations organised around specific issues
+instead of creating one long stream of unrelated feedback.
+
+64. Video Timeline Comments
+
+Video comments can be attached to specific points on the timeline. This gives editors and
+reviewers a precise location for feedback.
+
+65. Frame-Accurate Review
+
+Frame-accurate review allows creative teams to discuss specific moments in video rather than
+describing approximate locations through messages.
+
+66. Team Mentions
+
+Users can mention teammates inside asset discussions. Folder-aware autocomplete helps
+ensure that users can mention people who have appropriate visibility.
+
+67. Creative Approval Workflow
+
+GetSibu provides approval workflows that allow teams to request review, make changes and
+mark assets as approved.
+
+68. Asset Approval
+
+Assets can move through an approval process with status history, creating a clear record of
+whether content is awaiting review, approved or requires changes.
+
+69. Creative Review
+Creative review provides a central location for teams to inspect work, discuss changes and
+confirm final assets.
+
+70. Campaign Review
+
+Marketing teams can use asset-level discussions and approvals to review campaign materials
+before distribution.
+
+71. Brand Asset Approval
+
+Brand teams can use approval gates to ensure that approved creative assets are separated
+from drafts and work-in-progress materials.
+
+72. Client Review
+
+Agencies can use GetSibu to maintain client-specific libraries and review workflows while
+keeping different clients isolated.
+
+73. Team Feedback
+
+Feedback stays connected to the asset rather than being scattered across email, chat and
+project-management systems.
+
+74. Creative Feedback Management
+
+GetSibu turns creative feedback into an organised workflow by attaching discussions directly to
+the relevant asset.
+
+75. Asset Discussion History
+
+Asset discussion history allows teams to understand how feedback evolved over time.
+
+76. Review Status
+
+Review status gives users a clear indication of whether an asset needs attention or has already
+completed the approval process.
+
+77. Approval History
+
+Approval history provides a record of review activity, supporting accountability and reducing
+confusion around which version was accepted.
+
+78. Team Asset Sharing
+Teams can share saved searches and relevant library views without creating duplicate copies of
+the same files.
+
+79. Shared Creative Views
+
+Saved views allow recurring collections of assets to be shared through a URL, making
+collaboration easier.
+
+80. Creative Workflow Management
+
+GetSibu supports the movement of assets from upload through organisation, review, approval
+and final use.
+
+81. Production Collaboration
+
+Production teams can use asset comments, versioning and timeline review to coordinate
+creative work.
+
+82. Marketing Collaboration
+
+Marketing teams can use centralised campaign libraries, approvals and usage analytics to
+manage creative materials.
+
+83. Brand Collaboration
+
+Brand teams can maintain approved assets and organise them by campaign, region or market.
+
+84. Agency Collaboration
+
+Agencies can operate multiple client libraries through a multi-tenant environment.
+
+85. Creative Team Communication
+
+GetSibu keeps communication close to the asset so users can understand exactly what the
+discussion relates to.
+
+86. Asset Mentions
+
+Mentions make it easier to bring the right collaborator into an asset-specific discussion.
+
+87. Collaborative Asset Review
+
+Collaborative review helps distributed teams review creative material without requiring everyone
+to be in the same physical location.
+88. Remote Creative Collaboration
+
+Remote teams can collaborate around the same assets through comments, mentions,
+approvals and shared searches.
+
+89. Creative Approval Management
+
+Approval management creates a structured process for moving assets from draft to approved
+status.
+
+90. Creative Team Workspace
+
+GetSibu provides a shared workspace where teams can search, review, organise and
+collaborate around digital assets.
+
+91-120. Versioning and Asset
+Management
+
+91. Creative Asset Versioning
+
+GetSibu allows teams to replace assets in place while retaining previous versions. This helps
+prevent confusion caused by filenames such as "final", "final-v2" and "final-final".
+
+92. File Version History
+
+Version history gives teams a record of previous versions and allows older versions to be
+restored when required.
+
+93. Asset Replacement
+
+Replacing an asset does not necessarily mean losing the history of previous work. GetSibu
+maintains versions within the asset record.
+
+94. Version Restore
+
+Older versions can be restored when a team needs to return to a previous creative state.
+
+95. Creative File History
+
+File history provides context around how an asset has changed over time.
+96. Campaign Asset Versioning
+
+Campaign teams can maintain versions of creative files without creating separate disconnected
+copies.
+
+97. Video Version Management
+
+Video teams can manage different cuts and revisions while keeping the version history
+associated with the asset.
+
+98. Image Version Management
+
+Marketing and design teams can maintain different versions of visual assets in one structured
+record.
+
+99. Document Version Management
+
+Documents and presentations can be replaced while retaining historical versions.
+
+100. Creative Revision Tracking
+
+Revision tracking helps teams understand what changed between versions and which version is
+currently active.
+
+101. Asset Lifecycle Management
+
+GetSibu can support the lifecycle of creative assets from initial upload to review, approval, reuse
+and eventual deletion.
+
+102. Asset Status Management
+
+Asset statuses help teams distinguish drafts, approved content and other workflow states.
+
+103. Approved Asset Library
+
+Teams can create approved-only views so users can access content that has completed the
+required review process.
+
+104. Expiring Creative Assets
+
+Asset expiry information can help teams identify content that should no longer be used after a
+specified period.
+
+105. Brand Guardrail Tags
+Brand teams can use structured tags to identify assets that comply with specific organisational
+requirements.
+
+106. Asset Usage Tracking
+
+Usage analytics help teams understand which assets are being used and which remain inactive.
+
+107. Creative Asset Lifecycle
+
+The lifecycle of an asset can include ingestion, metadata processing, AI tagging, review,
+approval, distribution and archival.
+
+108. Asset Archiving
+
+Archiving provides a way to retain historical content without allowing old material to interfere
+with everyday asset discovery.
+
+109. Asset Deletion
+
+Authorised users can remove assets according to organisational policies and permissions.
+
+110. Asset Recovery
+
+Versioning and backups can support recovery when content is accidentally replaced or
+removed.
+
+111. Creative Library Maintenance
+
+Ongoing maintenance helps prevent libraries from becoming cluttered with duplicate, obsolete
+or poorly classified content.
+
+112. Duplicate Asset Management
+
+Duplicate detection helps identify unnecessary copies and can support storage optimisation.
+
+113. Asset Quality Management
+
+Teams can use approval and metadata workflows to maintain higher-quality libraries.
+
+114. Creative Asset Governance
+
+Governance defines who can upload, edit, approve, download and manage assets.
+
+115. Asset Ownership
+Asset ownership provides context about who created or uploaded content.
+
+116. Asset Attribution
+
+Creators and contributors can remain associated with assets, preserving context during
+collaboration and migration.
+
+117. Asset History
+
+Asset history gives users a record of relevant changes and interactions.
+
+118. Asset Activity
+
+Views, downloads, edits and approvals can become part of the asset's activity history.
+
+119. Asset Audit Trail
+
+The asset audit trail provides visibility into important actions performed on creative files.
+
+120. Complete Asset Management
+
+GetSibu combines organisation, metadata, AI analysis, collaboration, versioning, approvals and
+auditability into one asset management workflow.
+
+121-150. Storage and Ingestion
+
+121. Automated Asset Ingestion
+
+GetSibu supports asset ingestion from connected storage sources and direct uploads. This
+allows teams to bring existing libraries into the platform without rebuilding their entire storage
+workflow manually.
+
+122. Google Drive Integration
+
+Teams can connect Google Drive to bring existing creative assets into GetSibu. Connected
+sources can be indexed so that teams can discover content through the GetSibu experience.
+
+123. Dropbox Integration
+
+Dropbox libraries can be connected to GetSibu to centralise creative assets and improve
+searchability.
+124. OneDrive Integration
+
+OneDrive provides another source for creative content that can be connected to the central
+GetSibu library.
+
+125. AWS S3 Integration
+
+AWS S3 can be used as a storage source for organisations managing large amounts of media
+and creative content.
+
+126. Local NAS Integration
+
+Teams with local network storage can connect NAS environments and bring their existing
+content into a searchable workflow.
+
+127. Drag and Drop Upload
+
+Users can upload files directly through drag and drop, making it easy to add individual assets or
+small batches without configuring an integration.
+
+128. Watch Folder Ingestion
+
+Watch folders can be scanned continuously so that newly added content can enter the GetSibu
+workflow automatically.
+
+129. Automated Media Import
+
+Automated media import reduces manual movement of files between storage locations.
+
+130. Bulk Asset Import
+
+Bulk import helps organisations move large existing libraries into GetSibu without manually
+uploading each file.
+
+131. Large Library Migration
+
+Large creative libraries can be migrated while preserving important metadata and existing folder
+relationships.
+
+132. Metadata Preservation
+
+Metadata such as EXIF, XMP, creators, file paths and custom keywords can be preserved
+during migration.
+133. Folder Mapping
+
+Existing folder structures can be mirrored or remapped during import, allowing organisations to
+adapt their previous organisation system.
+
+134. Creative Migration
+
+GetSibu provides a migration path for teams moving away from fragmented storage systems.
+
+135. Digital Asset Import
+
+Digital assets can enter GetSibu through multiple sources, giving teams flexibility in how they
+build their library.
+
+136. Media Upload Management
+
+Upload workflows provide progress information and support resumable transfers for unreliable
+networks.
+
+137. Resumable Uploads
+
+Resumable uploads help prevent large transfers from needing to restart from the beginning after
+a network interruption.
+
+138. Chunked Uploads
+
+Large files can be transferred through chunked upload workflows designed for reliability.
+
+139. High-Volume Media Uploads
+
+Creative teams working with large amounts of video and imagery can use ingestion workflows
+designed around high-volume asset environments.
+
+140. 10 GB File Uploads
+
+GetSibu's stated performance positioning includes resumable uploads for files up to 10 GB,
+helping support large creative media files.
+
+141. Upload Progress
+
+Upload progress indicators allow users to understand how many files are currently being
+processed.
+
+142. Parallel Uploads
+Parallel upload workflows can improve the efficiency of batch asset ingestion.
+
+143. Asset Processing
+
+After upload, assets move through processing stages such as metadata extraction, thumbnail
+generation and AI-related processing.
+
+144. AI Processing Queue
+
+AI processing provides status information so users can understand whether an asset is queued,
+processing or ready.
+
+145. Media Processing Status
+
+Processing status helps teams distinguish between an asset that has uploaded successfully and
+one that is fully indexed and searchable.
+
+146. Asset Thumbnail Generation
+
+Thumbnails provide fast visual previews without requiring users to download the original file.
+
+147. Streaming Media Preview
+
+Streaming previews help users inspect large media files quickly without waiting for complete
+downloads.
+
+148. Creative Storage Management
+
+Storage analytics help organisations understand how their library is distributed across videos,
+images, documents and audio.
+
+149. Storage Growth Analytics
+
+Storage growth analytics provides historical context around how quickly a creative library is
+expanding.
+
+150. Centralised Media Storage
+
+GetSibu creates a unified environment for managing creative content from multiple storage
+sources while retaining organisational structure and access controls.
+151-180. Permissions and Multi-Tenancy
+
+151. Creative Asset Permissions
+
+GetSibu provides granular permissions so organisations can control who can access different
+areas of their creative library.
+
+152. Folder-Level Permissions
+
+Folder-level permissions allow access to be controlled at a more detailed level than
+organisation-wide access.
+
+153. Role-Based Access Control
+
+Role-based access control allows organisations to define capabilities for owners, administrators,
+managers, editors and individual users.
+
+154. Default-Deny Access
+
+New folders can remain private until access is explicitly granted. This creates a default-deny
+model rather than automatically exposing new content.
+
+155. Manager Permissions
+
+Managers can receive access to specific folders or teams while remaining restricted from areas
+outside their responsibilities.
+
+156. Editor Permissions
+
+Editors can be given the access required to work with creative assets without receiving
+unnecessary administrative privileges.
+
+157. Individual Permissions
+
+Individual users can receive targeted access when organisational roles alone do not provide
+enough granularity.
+
+158. Organisation Admin Controls
+
+Organisation administrators can manage access policies, users, folders and organisational
+settings.
+
+159. Creative Access Governance
+Access governance helps organisations maintain control over sensitive creative content.
+
+160. Multi-Tenant Digital Asset Management
+
+GetSibu is designed for organisations that need multiple isolated environments, such as
+agencies managing multiple clients.
+
+161. Client Tenant Isolation
+
+Each client environment can remain logically isolated so that assets from one client are not
+mixed with another client's library.
+
+162. Agency Multi-Tenancy
+
+Agencies can manage multiple client libraries from one platform while maintaining separation
+between tenants.
+
+163. Per-Client Storage
+
+Client environments can have their own storage allocation and asset boundaries.
+
+164. Per-Client AI Keys
+
+Multi-tenant configurations can support client-specific AI key management where required.
+
+165. Per-Client Authentication
+
+Client-specific authentication options can support organisations that require separate access
+controls for different customers.
+
+166. White-Label Asset Management
+
+Agencies can use a white-label approach for client-facing asset management experiences.
+
+167. Client Asset Isolation
+
+Client asset isolation prevents unrelated customer libraries from being mixed within the same
+workflow.
+
+168. Agency Asset Management
+
+Agencies can manage creative assets for multiple customers while maintaining structured
+separation.
+169. Enterprise Permissions
+
+Enterprise teams can apply structured access controls across departments, projects and
+folders.
+
+170. Permission Auditing
+
+Changes to permissions can be recorded in the audit history, creating accountability around
+access management.
+
+171. Access History
+
+Access history provides information about important user interactions with the library.
+
+172. Secure Asset Sharing
+
+Asset sharing can be controlled through permissions rather than relying only on unrestricted
+links.
+
+173. Folder Access Maps
+
+Analytics can help organisations understand how folders are accessed across their teams.
+
+174. Creative Security Controls
+
+Security controls help protect creative assets from unnecessary or unauthorised access.
+
+175. Team Access Management
+
+Team-based access allows organisations to establish consistent permissions across groups of
+users.
+
+176. Department Access
+
+Departments can receive access to only the creative libraries relevant to their work.
+
+177. Client Workspace Access
+
+Client-specific workspaces help agencies organise and isolate customer content.
+
+178. Permission Hierarchies
+
+Hierarchical permissions allow organisations to combine broad organisational roles with more
+detailed folder-level controls.
+179. Enterprise Asset Governance
+
+Enterprise governance combines roles, permissions, audit logs, authentication and
+organisational policies.
+
+180. Secure Creative Collaboration
+
+GetSibu combines collaboration with permissions so teams can work together without sacrificing
+control over sensitive assets.
+
+181-210. Analytics
+
+181. Creative Asset Analytics
+
+GetSibu analytics provide visibility into uploads, comments, storage, contributors, tags and other
+library activity.
+
+182. Asset Usage Analytics
+
+Usage analytics help teams understand which assets receive attention and which remain
+underused.
+
+183. Storage Analytics
+
+Storage analytics provide a view of how much space different asset categories consume.
+
+184. Upload Analytics
+
+Upload analytics show how much new content is entering the library over time.
+
+185. Contributor Analytics
+
+Contributor analytics help organisations understand who is adding content and participating in
+library activity.
+
+186. Tag Analytics
+
+Tag analytics identify frequently used or searched tags, helping teams understand how their
+library is being discovered.
+
+187. Creative Library Trends
+Trend analysis helps organisations understand how their digital asset library changes over time.
+
+188. Daily Library Analytics
+
+Daily analytics provide a short-term view of uploads, comments and storage activity.
+
+189. Weekly Library Analytics
+
+Weekly analytics provide a broader perspective on library growth and usage.
+
+190. Monthly Library Analytics
+
+Monthly analytics help organisations identify longer-term asset management trends.
+
+191. Asset Activity Dashboard
+
+The asset activity dashboard provides a visual overview of important library interactions.
+
+192. Storage by Category
+
+Storage can be analysed according to categories such as video, image, document and audio.
+
+193. Most Searched Tags
+
+Most-searched tags provide insight into what users are frequently looking for.
+
+194. Top Contributors
+
+Top contributor analytics show which users contribute the most content or activity.
+
+195. Creative Operations Analytics
+
+Creative operations analytics helps leaders understand how efficiently the organisation's asset
+library is being used.
+
+196. Library Health Analytics
+
+Library health analytics can reveal growth, duplicates, inactive content and other organisational
+patterns.
+
+197. Asset Access Analytics
+
+Asset access analytics provide information about how content is being viewed or used.
+198. Folder Access Analytics
+
+Folder access maps help organisations understand which areas of the library receive attention.
+
+199. Creative Team Analytics
+
+Team analytics provide visibility into how different groups interact with the library.
+
+200. Marketing Asset Analytics
+
+Marketing teams can use asset analytics to understand campaign content usage and library
+activity.
+
+201. Production Analytics
+
+Production teams can analyse media activity, uploads and video-related workflows.
+
+202. Agency Analytics
+
+Agencies can use analytics to understand asset activity across client environments.
+
+203. Brand Asset Analytics
+
+Brand teams can use analytics to understand which approved assets are being accessed and
+reused.
+
+204. Asset Performance Insights
+
+Asset performance insights help teams identify patterns in asset usage.
+
+205. Creative Library Reporting
+
+Creative library reporting turns analytics into information that can support operational decisions.
+
+206. Asset Management Metrics
+
+Metrics provide a quantitative view of library activity, storage and collaboration.
+
+207. Digital Asset KPIs
+
+Digital asset KPIs can include uploads, storage, searches, contributors, comments and asset
+activity.
+
+208. Creative Workflow Metrics
+Workflow metrics help teams understand how assets move through upload, review and approval
+processes.
+
+209. Library Growth Reporting
+
+Library growth reporting helps organisations anticipate storage and operational requirements.
+
+210. Executive Asset Analytics
+
+Executive analytics provide a higher-level view of the organisation's creative library and its
+usage.
+
+211-240. Use Cases
+
+211. GetSibu for Production Studios
+
+Production studios can use GetSibu to organise large collections of footage, review video
+assets, add frame-specific feedback and manage versions without relying on scattered storage
+folders.
+
+212. GetSibu for Video Teams
+
+Video teams can search footage, identify scenes, apply AI-generated tags and collaborate
+directly on the timeline. This reduces the need to manually scrub through large amounts of raw
+footage.
+
+213. GetSibu for Marketing Teams
+
+Marketing teams can maintain a central library for campaign assets, product imagery, videos,
+presentations and other marketing materials.
+
+214. GetSibu for Brand Teams
+
+Brand teams can organise approved assets, apply brand-specific tags, manage expiry
+information and maintain a controlled source of truth.
+
+215. GetSibu for Creative Agencies
+
+Creative agencies can use multi-tenant capabilities to manage multiple clients while keeping
+their libraries separated.
+216. GetSibu for Post-Production Teams
+
+Post-production teams can use video search, scene detection, versioning and timeline
+comments to streamline review workflows.
+
+217. GetSibu for Documentary Teams
+
+Documentary teams can manage extensive collections of footage and search for scenes,
+people and visual characteristics.
+
+218. GetSibu for Film Production
+
+Film production teams can centralise production media and maintain organised access to large
+video libraries.
+
+219. GetSibu for Advertising Agencies
+
+Advertising agencies can organise campaign assets, collaborate on revisions and maintain
+client-specific libraries.
+
+220. GetSibu for Creative Studios
+
+Creative studios can manage images, videos, audio and documents in one searchable
+environment.
+
+221. GetSibu for Brand Consultancies
+
+Brand consultancies can centralise brand assets, presentations, references and campaign
+materials.
+
+222. GetSibu for In-House Creative Teams
+
+Internal creative departments can create one source of truth for company-owned creative
+assets.
+
+223. GetSibu for Enterprise Marketing
+
+Enterprise marketing teams can combine asset governance, permissions, search, approvals
+and analytics.
+
+224. GetSibu for Global Brands
+
+Global brands can organise assets across markets while maintaining appropriate folder
+permissions and approval workflows.
+225. GetSibu for Multi-Market Teams
+
+Multi-market teams can separate content by region while maintaining centralised governance.
+
+226. GetSibu for Freelancers
+
+Freelancers can use GetSibu to organise personal creative libraries and quickly locate reusable
+assets.
+
+227. GetSibu for Content Creators
+
+Content creators can organise videos, thumbnails, images and documents and find content
+based on visual characteristics.
+
+228. GetSibu for Photography Teams
+
+Photography teams can search large image collections using tags, colours, people and
+metadata.
+
+229. GetSibu for Video Agencies
+
+Video agencies can manage client footage, versions, reviews and approved deliverables from
+one platform.
+
+230. GetSibu for E-Commerce Brands
+
+E-commerce brands can centralise product images, videos, campaign assets and marketing
+documents.
+
+231. GetSibu for Retail Brands
+
+Retail organisations can maintain centralised libraries of product and promotional creative
+content.
+
+232. GetSibu for Media Companies
+
+Media companies can manage large collections of video, image, audio and document assets.
+
+233. GetSibu for Newsrooms
+
+Newsrooms can search visual archives and organise media by topic, person, event and other
+available metadata.
+
+234. GetSibu for Social Media Teams
+Social teams can maintain a searchable library of social content and campaign assets.
+
+235. GetSibu for PR Teams
+
+PR teams can quickly locate approved images, executive photos, brand resources and
+campaign materials.
+
+236. GetSibu for Event Companies
+
+Event teams can organise photography, promotional material, presentations and event
+recordings.
+
+237. GetSibu for Education Teams
+
+Education organisations can manage course media, presentations, recordings and visual
+resources.
+
+238. GetSibu for Nonprofits
+
+Nonprofits can centralise campaign imagery, event content, documents and communications
+assets.
+
+239. GetSibu for Internal Communications
+
+Internal communication teams can manage employee communications assets and approved
+organisational media.
+
+240. GetSibu for Corporate Communications
+
+Corporate communications teams can maintain a central source of truth for presentations,
+photography, videos and public-facing assets.
+
+241-260. Integrations
+
+241. GetSibu Integrations
+
+GetSibu connects with the tools teams already use so organisations do not need to completely
+rebuild their existing creative workflow.
+
+242. Google Drive Integration
+Google Drive integration allows organisations to connect existing cloud storage and make
+creative assets available through GetSibu.
+
+243. Dropbox Integration
+
+Dropbox integration helps teams centralise content stored in Dropbox.
+
+244. OneDrive Integration
+
+OneDrive integration allows organisations to incorporate Microsoft cloud storage into their
+creative library workflow.
+
+245. AWS S3 Integration
+
+AWS S3 provides scalable storage connectivity for organisations managing large asset
+collections.
+
+246. Slack Integration
+
+Slack integration can connect asset activity and notifications with team communication
+workflows.
+
+247. Figma Integration
+
+Figma integration supports workflows where design teams create and manage visual content in
+collaborative design environments.
+
+248. Adobe Premiere Pro Integration
+
+Premiere Pro integration supports professional video workflows and helps teams connect media
+management with editing environments.
+
+249. Adobe After Effects Integration
+
+After Effects integration supports motion design and visual-effects workflows.
+
+250. Frame.io Integration
+
+Frame.io integration can help connect professional video review workflows with central asset
+management.
+
+251. Zapier Integration
+
+Zapier can connect GetSibu events with other business applications and automation workflows.
+252. Webhooks
+
+Webhooks allow external systems to receive event notifications when supported asset or
+collaboration events occur.
+
+253. REST API
+
+GetSibu provides an API-first architecture so developers can interact with the same platform
+capabilities used by the interface.
+
+254. API-First DAM
+
+GetSibu is designed as an API-first digital asset management platform, allowing organisations
+to build custom experiences around the underlying asset system.
+
+255. Developer API
+
+Developers can use the API to integrate asset upload, search, collaboration and other
+supported workflows into custom applications.
+
+256. API Authentication
+
+API requests use authenticated access so external applications can interact with the platform
+within appropriate security boundaries.
+
+257. Webhook Automation
+
+Webhook events can be used to trigger downstream workflows when assets, comments,
+approvals or other supported events occur.
+
+258. Developer Playground
+
+The developer playground provides an environment for testing API requests and understanding
+how integrations interact with GetSibu.
+
+259. SDK Support
+
+GetSibu's stated developer direction includes TypeScript, Python and Go SDKs generated from
+the OpenAPI specification.
+
+260. Custom Integrations
+
+Organisations can request integrations for tools that are not already part of the supported
+integration ecosystem.
+261-280. API and Developer Pages
+
+261. GetSibu API
+
+The GetSibu API provides programmatic access to the digital asset platform for developers and
+technology teams.
+
+262. Asset Upload API
+
+The asset upload API allows external applications to send files into the GetSibu environment.
+
+263. Asset Search API
+
+Applications can integrate asset search into custom interfaces and workflows.
+
+264. Asset Metadata API
+
+The API can expose asset information so external systems can work with metadata
+programmatically.
+
+265. Asset Tags API
+
+Developers can integrate asset tagging workflows into custom applications.
+
+266. Asset Comments API
+
+Comment-related events can support custom collaboration workflows.
+
+267. Approval API
+
+Approval events can be incorporated into external production and workflow systems.
+
+268. Webhook Events
+
+Webhook events allow connected systems to react to activities occurring inside the platform.
+
+269. Asset Created Webhook
+
+An asset-created event can notify external systems when new content enters the library.
+
+270. Comment Added Webhook
+A comment-added event can be used to trigger external communication or workflow automation.
+
+271. Approval Requested Webhook
+
+Approval-requested events can connect GetSibu with external review systems.
+
+272. Billing Events
+
+Billing-related events can support automated administrative workflows.
+
+273. API Documentation
+
+API documentation provides developers with the information required to build integrations
+against the platform.
+
+274. OpenAPI Specification
+
+GetSibu's API is positioned around an OpenAPI specification so developers can understand
+endpoints and generate compatible tooling.
+
+275. Developer Authentication
+
+Developers can authenticate API requests using supported authentication credentials.
+
+276. API Tenant Isolation
+
+API access can include tenant context so that multi-tenant environments remain properly
+separated.
+
+277. API Security
+
+API security is an important component of protecting automated access to creative assets.
+
+278. Developer Automation
+
+Developers can use APIs and webhooks to automate repetitive asset management workflows.
+
+279. Custom Asset Applications
+
+The API allows organisations to build custom applications around the GetSibu asset
+infrastructure.
+
+280. GetSibu for Developers
+GetSibu provides a developer-oriented foundation for organisations that want to integrate digital
+asset management into existing software environments.
+
+281-300. Migration
+
+281. Migrate to GetSibu
+
+GetSibu provides migration capabilities for teams moving existing creative libraries from shared
+drives, cloud storage or other asset management systems.
+
+282. Creative Library Migration
+
+Creative library migration transfers existing assets into a more searchable and structured
+environment.
+
+283. Google Drive Migration
+
+Existing Google Drive content can be connected and indexed without requiring a complete
+manual reorganisation.
+
+284. Dropbox Migration
+
+Dropbox content can be brought into the GetSibu workflow while maintaining relevant metadata
+and structure.
+
+285. S3 Migration
+
+Large libraries stored in S3 can become part of the GetSibu environment.
+
+286. Metadata Migration
+
+Metadata such as EXIF, XMP, creators and custom keywords can be retained during migration.
+
+287. Folder Structure Migration
+
+Existing folder structures can be mirrored or remapped during migration.
+
+288. Creative Data Migration
+
+Creative data migration helps organisations move large libraries while preserving valuable
+context.
+289. DAM Migration Strategy
+
+A successful DAM migration begins with understanding existing storage, metadata, permissions
+and organisational requirements.
+
+290. Digital Asset Migration Planning
+
+Migration planning ensures that assets, metadata and permissions are considered before the
+transfer begins.
+
+291. Bulk Import
+
+Bulk import allows organisations to move large quantities of media without manually uploading
+individual files.
+
+292. Migration Without Downtime
+
+GetSibu's migration workflow is designed to allow organisations to continue using existing
+storage while content is indexed in the background.
+
+293. Migration Metadata Preservation
+
+Preserving metadata ensures that valuable information associated with original files does not
+disappear during the move.
+
+294. Migration Folder Mapping
+
+Folder mapping gives teams the flexibility to maintain existing organisation or create a new
+structure.
+
+295. Migration Permission Mapping
+
+Existing access structures can be considered when translating content into the new
+environment.
+
+296. Migration Verification
+
+Migration verification helps organisations confirm that important content and metadata have
+transferred correctly.
+
+297. DAM Onboarding
+
+Business-level onboarding can include assistance with rollout, team training and data
+verification.
+298. Creative Team Migration
+
+Teams can transition from fragmented folders into a structured creative library.
+
+299. DAM Implementation
+
+Implementation involves configuring users, folders, permissions, integrations, metadata and
+workflows.
+
+300. GetSibu Migration Support
+
+Migration support helps organisations move from existing storage environments while reducing
+operational disruption.
+
+301-320. Architecture and Performance
+
+301. GetSibu Architecture
+
+GetSibu is built around a layered architecture consisting of clients, edge services, APIs, search
+infrastructure and storage.
+
+302. Creative Asset Infrastructure
+
+The infrastructure is designed to support large collections of creative content while maintaining
+search and preview performance.
+
+303. Cloud-Based Asset Management
+
+Cloud-based architecture allows organisations to access their creative libraries through
+supported clients and integrations.
+
+304. CDN Asset Delivery
+
+CDN delivery helps provide fast access to previews and media around the world.
+
+305. Edge Caching
+
+Edge caching reduces the distance between users and frequently accessed content.
+
+306. Streaming Previews
+Streaming previews allow teams to inspect media without waiting for full downloads.
+
+307. Fast Creative Search
+
+GetSibu is designed around low-latency search so users can quickly retrieve assets from large
+libraries.
+
+308. Scalable Asset Storage
+
+The architecture supports large amounts of digital content and storage growth.
+
+309. Large Library Performance
+
+Performance considerations such as chunked I/O, edge caching and indexing help support
+larger creative environments.
+
+310. Search Performance
+
+The platform positions sub-second search as an important part of its user experience.
+
+311. Asset Processing Performance
+
+Background processing allows assets to be indexed without requiring users to manually perform
+metadata or AI processing.
+
+312. Large File Performance
+
+Resumable and chunked uploads help improve reliability when working with large creative files.
+
+313. Media Preview Performance
+
+Preview generation and streaming reduce the friction of reviewing large assets.
+
+314. Global Asset Access
+
+CDN-based delivery can support teams working across different geographical regions.
+
+315. API Scalability
+
+The API layer is designed to scale independently to support application and integration
+workloads.
+
+316. Stateless API Architecture
+A stateless API architecture can support horizontal scaling and predictable application
+behaviour.
+
+317. Search Infrastructure
+
+GetSibu combines text search and embedding-based retrieval to support multiple discovery
+methods.
+
+318. Storage Architecture
+
+Creative content can be stored using object-storage infrastructure with organisational
+partitioning.
+
+319. Observability
+
+Observability allows platform operators to monitor application and infrastructure behaviour.
+
+320. High-Performance DAM
+
+GetSibu combines fast search, media previews, scalable storage and efficient uploads to create
+a responsive DAM experience.
+
+321-340. Security and Compliance
+
+321. GetSibu Security
+
+Security is built into the GetSibu architecture through encryption, authentication, access control,
+tenant isolation and audit logging.
+
+322. AES-256 Encryption
+
+GetSibu's security positioning includes AES-256 encryption for data at rest and encrypted
+secrets.
+
+323. Secret Encryption
+
+OAuth credentials, SMTP passwords and API tokens can be protected using encrypted secret
+storage.
+
+324. Tenant Isolation
+Multi-tenant organisations require strict separation between customer environments. GetSibu's
+architecture is designed around tenant-scoped data access.
+
+325. RBAC Security
+
+Role-based access control limits what users can perform according to their organisational
+responsibilities.
+
+326. Audit Logs
+
+Audit logs provide a historical record of important actions including permissions, comments,
+asset changes and other platform events.
+
+327. Immutable Audit History
+
+Immutable audit records help organisations maintain reliable historical information about
+privileged actions.
+
+328. GDPR Support
+
+GetSibu's stated compliance positioning includes GDPR-related controls such as EU-region
+storage and right-to-erasure workflows.
+
+329. Data Processing Agreement
+
+The platform provides DPA support for organisations requiring formal data-processing
+arrangements.
+
+330. SOC 2 Readiness
+
+GetSibu positions its security architecture as SOC 2 Type II ready, including controls related to
+access, auditability and tenant isolation.
+
+331. Backup Redundancy
+
+Backup redundancy helps protect against data loss and provides recovery options.
+
+332. Point-in-Time Restore
+
+Point-in-time restoration can help organisations recover from accidental changes or data
+problems.
+
+333. Cross-Region Replication
+Business-level infrastructure can include cross-region replication for additional resilience.
+
+334. SSO
+
+Single sign-on provides organisations with centralised identity management.
+
+335. SCIM
+
+SCIM support can simplify user provisioning and deprovisioning for enterprise organisations.
+
+336. MFA
+
+Multi-factor authentication adds another layer of account protection.
+
+337. Default-Deny Security
+
+Default-deny folder access ensures that new content is not automatically exposed to every user.
+
+338. Enterprise Asset Security
+
+Enterprise security combines identity management, encryption, permissions, auditability and
+data isolation.
+
+339. Creative Data Governance
+
+Data governance establishes rules around access, retention, usage and asset management.
+
+340. Secure Digital Asset Management
+
+GetSibu provides a security-oriented environment for organisations that need to manage
+valuable creative assets responsibly.
+
+341-360. Pricing, Plans and Business
+Value
+
+341. GetSibu Pricing
+
+GetSibu uses a tiered pricing model designed to let teams begin with a free plan and move into
+paid plans as their storage, user and API requirements grow.
+342. Free Plan
+
+The free plan is positioned for individuals and makers exploring GetSibu. It provides 5 GB of
+storage, three seats, API access, drag-and-drop uploads and search capabilities.
+
+343. Pro Plan
+
+The Pro plan is designed for growing creative teams that need larger storage, more users,
+Google Drive synchronisation, comments and saved searches.
+
+344. Business Plan
+
+The Business plan is intended for studios and larger teams requiring additional storage, more
+seats, SSO, SCIM, audit exports and priority support.
+
+345. Creative Team Pricing
+
+Creative teams can choose a plan according to the size of their library and collaboration
+requirements.
+
+346. DAM Pricing for Agencies
+
+Agencies can evaluate GetSibu based on the number of clients, users, storage requirements
+and multi-tenant needs.
+
+347. Enterprise Asset Management Cost
+
+The cost of digital asset management should be considered alongside storage, productivity,
+collaboration and administrative savings.
+
+348. Creative Workflow ROI
+
+A centralised creative library can reduce time spent searching for assets, recreating files and
+resolving version confusion.
+
+349. Asset Discovery ROI
+
+Faster asset discovery can help creative professionals spend more time creating and less time
+searching through folders.
+
+350. Duplicate Reduction
+
+Duplicate detection can help reduce unnecessary storage consumption and eliminate confusion
+caused by multiple copies.
+351. Creative Productivity
+
+By reducing manual organisation and asset-search work, GetSibu can help teams focus on
+higher-value creative activities.
+
+352. Marketing Productivity
+
+Marketing teams can reduce the time required to locate approved campaign content and
+supporting creative materials.
+
+353. Production Productivity
+
+Production teams can reduce the time spent reviewing large amounts of footage and searching
+through disconnected storage.
+
+354. Agency Efficiency
+
+Agencies can manage multiple client libraries from a structured platform instead of maintaining
+separate disconnected systems.
+
+355. Creative Operations Efficiency
+
+Centralised search, metadata, approvals and analytics can make creative operations more
+predictable.
+
+356. Asset Management Efficiency
+
+Automation helps reduce repetitive work associated with tagging, organising and locating
+assets.
+
+357. Storage Efficiency
+
+Duplicate detection and storage analytics can help teams better understand how their storage is
+being consumed.
+
+358. Collaboration Efficiency
+
+Contextual comments and approvals reduce the need to communicate asset-specific feedback
+across multiple disconnected tools.
+
+359. DAM Business Case
+
+The business case for GetSibu can be built around faster discovery, improved organisation,
+stronger governance and more efficient collaboration.
+360. Why Invest in GetSibu
+
+GetSibu combines AI-powered discovery, centralised asset management, collaboration,
+analytics and security into one platform designed specifically for creative workflows.
+
+361-380. Resources and Education
+
+361. What Is Digital Asset Management?
+
+Digital asset management is the structured process of storing, organising, finding, managing
+and distributing digital content. GetSibu extends traditional DAM with AI-assisted tagging,
+semantic search and collaboration.
+
+362. What Is AI Asset Management?
+
+AI asset management uses machine intelligence to analyse and classify digital content, making
+large libraries easier to search and organise.
+
+363. What Is Semantic Search?
+
+Semantic search allows users to search by meaning and context rather than relying only on
+exact keyword matches.
+
+364. What Is AI Tagging?
+
+AI tagging automatically suggests labels based on what the system detects in an asset.
+
+365. What Is Scene Detection?
+
+Scene detection identifies distinct sections or scenes within video content so users can navigate
+large files more efficiently.
+
+366. What Is OCR in DAM?
+
+OCR converts text visible inside images and documents into searchable information.
+
+367. What Is Face Grouping?
+
+Face grouping identifies recurring people across media collections and groups related assets
+together.
+368. What Is Duplicate Detection?
+
+Duplicate detection identifies files that are identical or visually equivalent, including some
+renamed or re-encoded copies.
+
+369. What Is Asset Versioning?
+
+Asset versioning maintains previous versions of a file so teams can understand its history and
+restore earlier versions when necessary.
+
+370. What Is Creative Approval?
+
+Creative approval is a workflow where authorised users review assets and confirm that content
+is ready for use.
+
+371. What Is Creative Governance?
+
+Creative governance establishes rules around asset ownership, permissions, approvals,
+retention and usage.
+
+372. What Is Multi-Tenant DAM?
+
+Multi-tenant DAM allows one platform to support multiple isolated organisations or clients.
+
+373. What Is a Creative Library?
+
+A creative library is a central repository for images, videos, documents, audio and other digital
+content.
+
+374. What Is Asset Metadata?
+
+Asset metadata is information describing a file, including creator, format, dimensions, keywords
+and other contextual details.
+
+375. What Is Asset Taxonomy?
+
+An asset taxonomy is a structured classification system that defines how digital content is
+grouped and labelled.
+
+376. What Is a DAM Migration?
+
+DAM migration is the process of moving an existing digital asset collection into another asset
+management environment.
+377. How AI Changes DAM
+
+AI changes digital asset management by making visual and textual content more discoverable
+without requiring every piece of metadata to be entered manually.
+
+378. Future of Digital Asset Management
+
+The future of DAM is moving toward intelligent systems that understand content, automate
+organisation and provide more contextual search.
+
+379. Future of Creative Collaboration
+
+Creative collaboration is increasingly moving into platforms where feedback, approvals, versions
+and assets exist together.
+
+380. Future of AI-Powered Creative Libraries
+
+AI-powered creative libraries can become more than storage systems by acting as intelligent
+knowledge environments for an organisation's creative content.
+
+381-390. FAQ Pages
+
+381. What Is GetSibu?
+
+GetSibu is an AI-aware digital asset management platform for storing, organising, searching
+and collaborating around videos, images, documents and audio.
+
+382. Who Is GetSibu For?
+
+GetSibu is designed for production teams, marketing teams, agencies, brand teams, creative
+studios and other organisations managing large creative libraries.
+
+383. Does GetSibu Support AI Tagging?
+
+Yes. GetSibu provides AI-assisted tagging that can suggest tags based on the content of
+supported media.
+
+384. Can GetSibu Search Inside Documents?
+
+Yes. OCR allows supported documents and images to become searchable based on extracted
+text.
+385. Does GetSibu Support Video Comments?
+
+Yes. GetSibu supports comments attached to specific points in a video timeline.
+
+386. Does GetSibu Support Versioning?
+
+Yes. Files can be replaced while previous versions remain available within the asset history.
+
+387. Does GetSibu Support Multiple Clients?
+
+Yes. Its multi-tenant design is intended to support agencies and organisations that need isolated
+client environments.
+
+388. Does GetSibu Have an API?
+
+Yes. GetSibu is positioned as an API-first DAM and provides REST API capabilities, webhooks
+and developer tooling.
+
+389. Does GetSibu Support SSO?
+
+The Business plan includes SSO and SCIM capabilities according to the supplied website
+content.
+
+390. Can GetSibu Integrate With Existing Tools?
+
+Yes. The supplied platform content lists integrations and connectivity for Google Drive, Dropbox,
+OneDrive, AWS S3, Slack, Figma, Premiere Pro, After Effects, Zapier, Frame.io and webhooks.
+
+391-400. Final Conversion Pages
+
+391. Start Your Creative Library
+
+GetSibu gives teams a simple way to begin bringing their creative assets into one searchable
+environment. Connect an existing source or upload files directly and let the platform begin
+building an organised library.
+
+392. Bring Your Creative Assets Together
+
+Instead of keeping videos in one drive, images in another folder and documents somewhere
+else, GetSibu creates a central environment where teams can search and manage different
+asset types together.
+393. Stop Searching Through Folders
+
+Creative professionals should not have to remember complicated folder structures to find
+important files. GetSibu provides AI-assisted search, metadata discovery and semantic retrieval
+so teams can search based on what they actually remember.
+
+394. Make Every Asset Discoverable
+
+Every image, video, document and audio file contains information that can become useful for
+future work. GetSibu turns that information into searchable library data.
+
+395. Give Your Creative Team One Source of Truth
+
+A shared creative library creates consistency across production, marketing, brand and agency
+teams. Everyone can work from the same approved content while permissions control who can
+access different areas.
+
+396. Build a Smarter Creative Workflow
+
+GetSibu connects ingestion, AI processing, organisation, search, collaboration, approvals,
+analytics and governance into one workflow. This helps creative teams spend less time
+managing files and more time producing work.
+
+397. Scale Your Creative Library
+
+As organisations produce more campaigns, videos, images and documents, their asset libraries
+become increasingly difficult to manage. GetSibu provides the search, organisation, storage and
+governance capabilities needed to support growing libraries.
+
+398. Turn Your Asset Library Into Intelligence
+
+A digital asset library can contain years of organisational knowledge. With AI tagging, OCR,
+semantic search, face grouping, scene detection and analytics, GetSibu helps transform that
+content into a more intelligent and usable resource.
+
+399. Bring Order to Creative Chaos
+
+Creative chaos often begins with scattered storage, inconsistent filenames, duplicate files and
+unclear versions. GetSibu brings those assets into a structured environment where teams can
+search, organise, review and collaborate with greater confidence.
+
+400. The Future of Creative Asset Management
+GetSibu represents a modern approach to digital asset management where storage is only the
+beginning. By combining intelligent search, AI-assisted organisation, contextual collaboration,
+version control, analytics, permissions, integrations and enterprise security, GetSibu creates a
+creative library designed for teams that need to move quickly without losing control of their
+content.
+
+:::
+
+This gives you the 400-page foundation in paragraph format, rather than 400 pages
+consisting only of headings. For the actual website, each of these can then be expanded into a
+consistent page structure such as Hero  Introduction  Features  Benefits  Workflow
+ Use Case  FAQ  CTA, while avoiding repetitive copy across pages.
+

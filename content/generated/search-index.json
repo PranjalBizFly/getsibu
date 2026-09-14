@@ -1,0 +1,5237 @@
+{
+  "groups": [
+    "Features",
+    "AI",
+    "Integrations",
+    "Developers",
+    "Security",
+    "Platform",
+    "Use Cases",
+    "Pricing",
+    "Resources",
+    "FAQs"
+  ],
+  "documents": [
+    {
+      "id": "page-1",
+      "title": "GetSibu — Creative Asset Management Platform",
+      "path": "/",
+      "group": "Platform",
+      "type": "home",
+      "section": "Home",
+      "summary": "GetSibu is an intelligent creative asset management platform designed to help teams store, organise, search, review and collaborate on videos, images…",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "What GetSibu is",
+        "One central library"
+      ]
+    },
+    {
+      "id": "page-2",
+      "title": "The Operating System for Creative Libraries",
+      "path": "/platform",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "GetSibu acts as an operating system for modern creative libraries by bringing storage, organisation, AI tagging, search, collaboration, permissions and…",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "What GetSibu is"
+      ]
+    },
+    {
+      "id": "page-3",
+      "title": "AI-Powered Digital Asset Management",
+      "path": "/platform/ai-powered-digital-asset-management",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "AI-Powered Digital Asset Management: GetSibu is an intelligent creative asset management platform.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "What GetSibu is",
+        "Practical, human-controlled AI"
+      ]
+    },
+    {
+      "id": "page-4",
+      "title": "Creative Library Management",
+      "path": "/platform/creative-library-management",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "A growing creative team can quickly accumulate thousands of videos, images, documents and audio files.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Organising the library"
+      ]
+    },
+    {
+      "id": "page-5",
+      "title": "Intelligent Media Library",
+      "path": "/platform/intelligent-media-library",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "Intelligent Media Library: GetSibu is an intelligent creative asset management platform.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "What GetSibu is",
+        "Creative asset search"
+      ]
+    },
+    {
+      "id": "page-6",
+      "title": "Centralised Creative Asset Library",
+      "path": "/platform/centralised-creative-asset-library",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "GetSibu provides one central location for creative assets from connected drives, local infrastructure and direct uploads.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "One central library"
+      ]
+    },
+    {
+      "id": "page-7",
+      "title": "Modern Digital Asset Management",
+      "path": "/platform/modern-digital-asset-management",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "Traditional file storage focuses primarily on keeping files available.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "What GetSibu is",
+        "DAM fundamentals"
+      ]
+    },
+    {
+      "id": "page-8",
+      "title": "Creative Asset Organisation",
+      "path": "/platform/creative-asset-organisation",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "GetSibu helps teams organise creative assets using structured folders and scalable taxonomies.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Organising the library"
+      ]
+    },
+    {
+      "id": "page-9",
+      "title": "AI-Aware Asset Management",
+      "path": "/platform/ai-aware-asset-management",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "AI-aware asset management allows GetSibu to analyse media and recommend meaningful tags and classifications.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-assisted tagging",
+        "Practical, human-controlled AI"
+      ]
+    },
+    {
+      "id": "page-10",
+      "title": "One Source of Truth for Creative Teams",
+      "path": "/platform/one-source-of-truth-for-creative-teams",
+      "group": "Platform",
+      "type": "platform",
+      "section": "Platform",
+      "summary": "GetSibu gives creative, marketing, production and brand teams a shared source of truth for their digital assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "One central library"
+      ]
+    },
+    {
+      "id": "page-11",
+      "title": "Creative Asset Search",
+      "path": "/features/creative-asset-search",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu makes creative assets searchable through filenames, metadata, OCR, AI-generated tags, comments and semantic information.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Creative asset search"
+      ]
+    },
+    {
+      "id": "page-12",
+      "title": "AI Asset Discovery",
+      "path": "/features/ai-asset-discovery",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "AI asset discovery helps users find files based on what appears inside the asset rather than depending entirely on manually entered metadata.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "The discovery workflow",
+        "AI-powered discovery"
+      ]
+    },
+    {
+      "id": "page-13",
+      "title": "Media Search Platform",
+      "path": "/features/media-search-platform",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu provides a dedicated search experience for creative media.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Creative asset search",
+        "Filters and saved searches"
+      ]
+    },
+    {
+      "id": "page-14",
+      "title": "Semantic Creative Search",
+      "path": "/features/semantic-creative-search",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Semantic search allows users to describe the type of asset they want using natural language.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Semantic and natural language search"
+      ]
+    },
+    {
+      "id": "page-15",
+      "title": "OCR-Powered Asset Search",
+      "path": "/features/ocr-powered-asset-search",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu extracts text from images, PDFs, presentations and screenshots so that the content becomes searchable.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "OCR and text inside assets"
+      ]
+    },
+    {
+      "id": "page-16",
+      "title": "Search Across Creative Libraries",
+      "path": "/features/search-across-creative-libraries",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Teams can search across their entire creative library rather than manually opening folders one at a time.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Creative asset search"
+      ]
+    },
+    {
+      "id": "page-17",
+      "title": "Saved Asset Searches",
+      "path": "/features/saved-asset-searches",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Frequently used searches can be saved and shared through a URL.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Filters and saved searches",
+        "Saved and shared views"
+      ]
+    },
+    {
+      "id": "page-18",
+      "title": "Natural Language Asset Search",
+      "path": "/features/natural-language-asset-search",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Natural language search lets users describe assets in the way they naturally remember them.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Semantic and natural language search"
+      ]
+    },
+    {
+      "id": "page-19",
+      "title": "Advanced Media Filters",
+      "path": "/features/advanced-media-filters",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu provides filters that can narrow results according to categories, formats, sources, resolutions and dates.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Filters and saved searches"
+      ]
+    },
+    {
+      "id": "page-20",
+      "title": "Fast Asset Discovery",
+      "path": "/features/fast-asset-discovery",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Fast Asset Discovery: GetSibu is designed around low-latency search so users can quickly retrieve assets from large libraries.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Search speed"
+      ]
+    },
+    {
+      "id": "page-21",
+      "title": "Creative Asset Indexing",
+      "path": "/features/creative-asset-indexing",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "When assets enter GetSibu, the platform processes available metadata and prepares them for search and organisation.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Indexing and metadata",
+        "Processing"
+      ]
+    },
+    {
+      "id": "page-22",
+      "title": "Media Metadata Management",
+      "path": "/features/media-metadata-management",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Metadata such as EXIF, XMP, file paths, creators and custom keywords can become part of the asset record.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Indexing and metadata",
+        "Metadata preservation"
+      ]
+    },
+    {
+      "id": "page-23",
+      "title": "Asset Metadata Search",
+      "path": "/features/asset-metadata-search",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Users can search available metadata alongside tags and extracted content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Creative asset search",
+        "Indexing and metadata"
+      ]
+    },
+    {
+      "id": "page-24",
+      "title": "Creative File Discovery",
+      "path": "/features/creative-file-discovery",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu helps teams discover images, video, audio and documents through a unified search experience.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Creative asset search",
+        "Searchable libraries by media type"
+      ]
+    },
+    {
+      "id": "page-25",
+      "title": "Searchable Video Library",
+      "path": "/features/searchable-video-library",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Videos can be indexed and enriched with AI-generated information so that users can discover relevant footage without manually reviewing every file.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Searchable libraries by media type",
+        "AI-powered discovery"
+      ]
+    },
+    {
+      "id": "page-26",
+      "title": "Searchable Image Library",
+      "path": "/features/searchable-image-library",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Images become searchable through metadata, tags, visual characteristics and extracted information.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Searchable libraries by media type",
+        "AI-powered discovery"
+      ]
+    },
+    {
+      "id": "page-27",
+      "title": "Searchable Document Library",
+      "path": "/features/searchable-document-library",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Documents can be indexed using extracted text, metadata and organisational tags.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "OCR and text inside assets",
+        "Searchable libraries by media type"
+      ]
+    },
+    {
+      "id": "page-28",
+      "title": "Searchable Audio Library",
+      "path": "/features/searchable-audio-library",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Audio assets can be managed alongside other creative formats, allowing teams to maintain a central media environment instead of separating audio from the rest…",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Searchable libraries by media type"
+      ]
+    },
+    {
+      "id": "page-29",
+      "title": "Creative Library Navigation",
+      "path": "/features/creative-library-navigation",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu provides structured navigation through library views, folders, tags, collections and search.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Organising the library",
+        "The discovery workflow"
+      ]
+    },
+    {
+      "id": "page-30",
+      "title": "Asset Discovery Workflow",
+      "path": "/features/asset-discovery-workflow",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "The asset discovery workflow begins with a search, continues through filtering and previewing, and ends with the user locating the correct asset.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "The discovery workflow"
+      ]
+    },
+    {
+      "id": "page-31",
+      "title": "AI-Assisted Tagging",
+      "path": "/features/ai-assisted-tagging",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "GetSibu can suggest tags during asset processing so that teams do not have to manually classify every file.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "AI-assisted tagging"
+      ]
+    },
+    {
+      "id": "page-32",
+      "title": "AI Vision Analysis",
+      "path": "/features/ai-vision-analysis",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI Vision Analysis: GetSibu can identify objects appearing in supported media and associate them with confidence information.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "AI vision analysis"
+      ]
+    },
+    {
+      "id": "page-34",
+      "title": "AI Object Detection",
+      "path": "/features/ai-object-detection",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "GetSibu can identify objects appearing in supported media and associate them with confidence information.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI vision analysis"
+      ]
+    },
+    {
+      "id": "page-35",
+      "title": "AI Mood Detection",
+      "path": "/features/ai-mood-detection",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI analysis can identify visual mood characteristics and make them available as searchable information.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI vision analysis"
+      ]
+    },
+    {
+      "id": "page-36",
+      "title": "AI Colour Detection",
+      "path": "/features/ai-colour-detection",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "Colour information can be extracted from visual assets and used as part of asset discovery.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI vision analysis"
+      ]
+    },
+    {
+      "id": "page-38",
+      "title": "AI OCR",
+      "path": "/features/ai-ocr",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "OCR extracts text from images, documents, presentations and screenshots. Once processed, the extracted text becomes part of the searchable asset information.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "OCR and text inside assets"
+      ]
+    },
+    {
+      "id": "page-39",
+      "title": "AI Semantic Search",
+      "path": "/features/ai-semantic-search",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "Semantic search interprets meaning rather than relying exclusively on exact words. This allows users to search for creative concepts and visual descriptions.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Semantic and natural language search"
+      ]
+    },
+    {
+      "id": "page-40",
+      "title": "AI Duplicate Detection",
+      "path": "/features/ai-duplicate-detection",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "Duplicate detection combines exact and perceptual hashing to identify identical files and visually equivalent copies.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Duplicate detection"
+      ]
+    },
+    {
+      "id": "page-42",
+      "title": "AI Asset Classification",
+      "path": "/features/ai-asset-classification",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI classification helps categorise assets according to their content and available metadata.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-assisted tagging"
+      ]
+    },
+    {
+      "id": "page-43",
+      "title": "AI Media Understanding",
+      "path": "/features/ai-media-understanding",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI media understanding allows GetSibu to interpret the content of visual assets and make that information available through search and organisation workflows.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "AI vision analysis",
+        "AI media understanding"
+      ]
+    },
+    {
+      "id": "page-44",
+      "title": "AI Creative Intelligence",
+      "path": "/features/ai-creative-intelligence",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "Creative intelligence transforms stored files into a more understandable information layer.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI media understanding"
+      ]
+    },
+    {
+      "id": "page-45",
+      "title": "AI-Powered Asset Management",
+      "path": "/features/ai-powered-asset-management",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI-powered asset management combines automated analysis with human approval.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Practical, human-controlled AI"
+      ]
+    },
+    {
+      "id": "page-46",
+      "title": "AI Tag Confidence",
+      "path": "/features/ai-tag-confidence",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI-generated tags can include confidence information that helps users understand how strongly the system associates a tag with an asset.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-assisted tagging"
+      ]
+    },
+    {
+      "id": "page-47",
+      "title": "AI Tag Approval",
+      "path": "/features/ai-tag-approval",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "Teams can approve suggested tags in bulk, making large-scale asset organisation significantly faster than reviewing every file individually.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-assisted tagging"
+      ]
+    },
+    {
+      "id": "page-48",
+      "title": "AI Tag Override",
+      "path": "/features/ai-tag-override",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI recommendations are not permanent. Authorised users can override tags whenever the automatically generated classification does not match the team's…",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-assisted tagging"
+      ]
+    },
+    {
+      "id": "page-49",
+      "title": "AI Creative Search",
+      "path": "/features/ai-creative-search",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI creative search allows users to describe the asset they want and receive relevant results based on available semantic and visual information.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Semantic and natural language search",
+        "AI-powered discovery"
+      ]
+    },
+    {
+      "id": "page-50",
+      "title": "AI Media Indexing",
+      "path": "/features/ai-media-indexing",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI media indexing prepares creative content for intelligent discovery by processing supported visual, textual and metadata signals.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Indexing and metadata",
+        "AI media understanding"
+      ]
+    },
+    {
+      "id": "page-51",
+      "title": "AI-Powered Video Discovery",
+      "path": "/features/ai-powered-video-discovery",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI-Powered Video Discovery: AI asset discovery helps users find files based on what appears inside the asset.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-powered discovery"
+      ]
+    },
+    {
+      "id": "page-52",
+      "title": "AI-Powered Image Discovery",
+      "path": "/features/ai-powered-image-discovery",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI image discovery helps teams locate photographs, product shots, campaign images and other visual content through AI-generated metadata.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-powered discovery"
+      ]
+    },
+    {
+      "id": "page-53",
+      "title": "AI Document Discovery",
+      "path": "/features/ai-document-discovery",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI document discovery combines OCR and metadata to help users locate documents based on information contained inside them.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "OCR and text inside assets",
+        "AI-powered discovery"
+      ]
+    },
+    {
+      "id": "page-54",
+      "title": "AI Creative Workflow",
+      "path": "/features/ai-creative-workflow",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI features become part of the asset workflow from ingestion through organisation and discovery.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Practical, human-controlled AI",
+        "End-to-end creative workflow"
+      ]
+    },
+    {
+      "id": "page-55",
+      "title": "AI Media Automation",
+      "path": "/features/ai-media-automation",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI automation reduces repetitive tasks such as tagging, scene identification, OCR extraction and collection creation.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Practical, human-controlled AI"
+      ]
+    },
+    {
+      "id": "page-56",
+      "title": "AI Asset Recommendations",
+      "path": "/features/ai-asset-recommendations",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI Asset Recommendations: AI-assisted organisation helps teams maintain order as the library grows.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI collections and recommendations"
+      ]
+    },
+    {
+      "id": "page-57",
+      "title": "AI Library Organisation",
+      "path": "/features/ai-library-organisation",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI-assisted organisation helps teams maintain order as the library grows rather than requiring a major manual cleanup after every campaign.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Organising the library",
+        "AI collections and recommendations"
+      ]
+    },
+    {
+      "id": "page-58",
+      "title": "AI Asset Intelligence",
+      "path": "/features/ai-asset-intelligence",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "Asset intelligence combines AI analysis with metadata and search capabilities to make media libraries more informative.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI media understanding"
+      ]
+    },
+    {
+      "id": "page-59",
+      "title": "AI Creative Operations",
+      "path": "/features/ai-creative-operations",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "AI creative operations help production and marketing teams spend less time managing files and more time using those files in actual creative work.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Practical, human-controlled AI"
+      ]
+    },
+    {
+      "id": "page-60",
+      "title": "Practical AI for Creative Teams",
+      "path": "/features/practical-ai-for-creative-teams",
+      "group": "AI",
+      "type": "ai-feature",
+      "section": "Features",
+      "summary": "GetSibu focuses AI capabilities on practical library problems such as discovery, organisation, tagging, OCR, duplicate detection and media analysis.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Practical, human-controlled AI"
+      ]
+    },
+    {
+      "id": "page-61",
+      "title": "Creative Team Collaboration",
+      "path": "/features/creative-team-collaboration",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu provides collaboration features directly inside the asset library so teams can discuss files without moving conversations into disconnected tools.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Comments and feedback",
+        "Collaboration by team"
+      ]
+    },
+    {
+      "id": "page-62",
+      "title": "Asset Comments",
+      "path": "/features/asset-comments",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Users can leave comments directly on assets, keeping feedback attached to the creative work being discussed.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Comments and feedback"
+      ]
+    },
+    {
+      "id": "page-63",
+      "title": "Threaded Comments",
+      "path": "/features/threaded-comments",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Threaded discussions allow teams to keep conversations organised around specific issues instead of creating one long stream of unrelated feedback.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Comments and feedback"
+      ]
+    },
+    {
+      "id": "page-64",
+      "title": "Video Timeline Comments",
+      "path": "/features/video-timeline-comments",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Video comments can be attached to specific points on the timeline. This gives editors and reviewers a precise location for feedback.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Video and creative review"
+      ]
+    },
+    {
+      "id": "page-65",
+      "title": "Frame-Accurate Review",
+      "path": "/features/frame-accurate-review",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Frame-accurate review allows creative teams to discuss specific moments in video rather than describing approximate locations through messages.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and creative review"
+      ]
+    },
+    {
+      "id": "page-66",
+      "title": "Team Mentions",
+      "path": "/features/team-mentions",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Users can mention teammates inside asset discussions. Folder-aware autocomplete helps ensure that users can mention people who have appropriate visibility.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Comments and feedback",
+        "Mentions"
+      ]
+    },
+    {
+      "id": "page-67",
+      "title": "Creative Approval Workflow",
+      "path": "/features/creative-approval-workflow",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "GetSibu provides approval workflows that allow teams to request review, make changes and mark assets as approved.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Approvals",
+        "End-to-end creative workflow"
+      ]
+    },
+    {
+      "id": "page-68",
+      "title": "Asset Approval",
+      "path": "/features/asset-approval",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Assets can move through an approval process with status history, creating a clear record of whether content is awaiting review, approved or requires changes.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals"
+      ]
+    },
+    {
+      "id": "page-69",
+      "title": "Creative Review",
+      "path": "/features/creative-review",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Creative review provides a central location for teams to inspect work, discuss changes and confirm final assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and creative review",
+        "Approvals"
+      ]
+    },
+    {
+      "id": "page-70",
+      "title": "Campaign Review",
+      "path": "/features/campaign-review",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Marketing teams can use asset-level discussions and approvals to review campaign materials before distribution.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals"
+      ]
+    },
+    {
+      "id": "page-71",
+      "title": "Brand Asset Approval",
+      "path": "/features/brand-asset-approval",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Brand teams can use approval gates to ensure that approved creative assets are separated from drafts and work-in-progress materials.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals",
+        "Brand control"
+      ]
+    },
+    {
+      "id": "page-72",
+      "title": "Client Review",
+      "path": "/features/client-review",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Agencies can use GetSibu to maintain client-specific libraries and review workflows while keeping different clients isolated.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals",
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-73",
+      "title": "Team Feedback",
+      "path": "/features/team-feedback",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Feedback stays connected to the asset rather than being scattered across email, chat and project-management systems.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Comments and feedback"
+      ]
+    },
+    {
+      "id": "page-74",
+      "title": "Creative Feedback Management",
+      "path": "/features/creative-feedback-management",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu turns creative feedback into an organised workflow by attaching discussions directly to the relevant asset.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Comments and feedback"
+      ]
+    },
+    {
+      "id": "page-75",
+      "title": "Asset Discussion History",
+      "path": "/features/asset-discussion-history",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Asset discussion history allows teams to understand how feedback evolved over time.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Comments and feedback"
+      ]
+    },
+    {
+      "id": "page-76",
+      "title": "Review Status",
+      "path": "/features/review-status",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Review status gives users a clear indication of whether an asset needs attention or has already completed the approval process.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals"
+      ]
+    },
+    {
+      "id": "page-77",
+      "title": "Approval History",
+      "path": "/features/approval-history",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Approval history provides a record of review activity, supporting accountability and reducing confusion around which version was accepted.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals",
+        "Audit trail and history"
+      ]
+    },
+    {
+      "id": "page-78",
+      "title": "Team Asset Sharing",
+      "path": "/features/team-asset-sharing",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Teams can share saved searches and relevant library views without creating duplicate copies of the same files.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Saved and shared views"
+      ]
+    },
+    {
+      "id": "page-79",
+      "title": "Shared Creative Views",
+      "path": "/features/shared-creative-views",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Saved views allow recurring collections of assets to be shared through a URL, making collaboration easier.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Saved and shared views"
+      ]
+    },
+    {
+      "id": "page-80",
+      "title": "Creative Workflow Management",
+      "path": "/features/creative-workflow-management",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu supports the movement of assets from upload through organisation, review, approval and final use.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "End-to-end creative workflow"
+      ]
+    },
+    {
+      "id": "page-81",
+      "title": "Production Collaboration",
+      "path": "/features/production-collaboration",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Production teams can use asset comments, versioning and timeline review to coordinate creative work.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and creative review",
+        "Collaboration by team"
+      ]
+    },
+    {
+      "id": "page-82",
+      "title": "Marketing Collaboration",
+      "path": "/features/marketing-collaboration",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Marketing teams can use centralised campaign libraries, approvals and usage analytics to manage creative materials.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Collaboration by team"
+      ]
+    },
+    {
+      "id": "page-83",
+      "title": "Brand Collaboration",
+      "path": "/features/brand-collaboration",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Brand teams can maintain approved assets and organise them by campaign, region or market.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Collaboration by team",
+        "Brand control"
+      ]
+    },
+    {
+      "id": "page-84",
+      "title": "Agency Collaboration",
+      "path": "/features/agency-collaboration",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Agencies can operate multiple client libraries through a multi-tenant environment.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Collaboration by team",
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-85",
+      "title": "Creative Team Communication",
+      "path": "/features/creative-team-communication",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu keeps communication close to the asset so users can understand exactly what the discussion relates to.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Comments and feedback"
+      ]
+    },
+    {
+      "id": "page-86",
+      "title": "Asset Mentions",
+      "path": "/features/asset-mentions",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Mentions make it easier to bring the right collaborator into an asset-specific discussion.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Comments and feedback",
+        "Mentions"
+      ]
+    },
+    {
+      "id": "page-87",
+      "title": "Collaborative Asset Review",
+      "path": "/features/collaborative-asset-review",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Collaborative review helps distributed teams review creative material without requiring everyone to be in the same physical location.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Collaboration by team"
+      ]
+    },
+    {
+      "id": "page-88",
+      "title": "Remote Creative Collaboration",
+      "path": "/features/remote-creative-collaboration",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "Remote teams can collaborate around the same assets through comments, mentions, approvals and shared searches.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Collaboration by team"
+      ]
+    },
+    {
+      "id": "page-89",
+      "title": "Creative Approval Management",
+      "path": "/features/creative-approval-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Approval management creates a structured process for moving assets from draft to approved status.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals"
+      ]
+    },
+    {
+      "id": "page-90",
+      "title": "Creative Team Workspace",
+      "path": "/features/creative-team-workspace",
+      "group": "Features",
+      "type": "feature",
+      "section": "Features",
+      "summary": "GetSibu provides a shared workspace where teams can search, review, organise and collaborate around digital assets.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Collaboration by team",
+        "End-to-end creative workflow"
+      ]
+    },
+    {
+      "id": "page-91",
+      "title": "Creative Asset Versioning",
+      "path": "/features/creative-asset-versioning",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "GetSibu allows teams to replace assets in place while retaining previous versions.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-92",
+      "title": "File Version History",
+      "path": "/features/file-version-history",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Version history gives teams a record of previous versions and allows older versions to be restored when required.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-93",
+      "title": "Asset Replacement",
+      "path": "/features/asset-replacement",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Replacing an asset does not necessarily mean losing the history of previous work. GetSibu maintains versions within the asset record.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-94",
+      "title": "Version Restore",
+      "path": "/features/version-restore",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Older versions can be restored when a team needs to return to a previous creative state.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning",
+        "Backups and recovery"
+      ]
+    },
+    {
+      "id": "page-95",
+      "title": "Creative File History",
+      "path": "/features/creative-file-history",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "File history provides context around how an asset has changed over time.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-96",
+      "title": "Campaign Asset Versioning",
+      "path": "/features/campaign-asset-versioning",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Campaign teams can maintain versions of creative files without creating separate disconnected copies.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-97",
+      "title": "Video Version Management",
+      "path": "/features/video-version-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Video teams can manage different cuts and revisions while keeping the version history associated with the asset.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-98",
+      "title": "Image Version Management",
+      "path": "/features/image-version-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Marketing and design teams can maintain different versions of visual assets in one structured record.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-99",
+      "title": "Document Version Management",
+      "path": "/features/document-version-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Documents and presentations can be replaced while retaining historical versions.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-100",
+      "title": "Creative Revision Tracking",
+      "path": "/features/creative-revision-tracking",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Revision tracking helps teams understand what changed between versions and which version is currently active.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-101",
+      "title": "Asset Lifecycle Management",
+      "path": "/features/asset-lifecycle-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "GetSibu can support the lifecycle of creative assets from initial upload to review, approval, reuse and eventual deletion.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Asset lifecycle"
+      ]
+    },
+    {
+      "id": "page-102",
+      "title": "Asset Status Management",
+      "path": "/features/asset-status-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Asset statuses help teams distinguish drafts, approved content and other workflow states.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Asset lifecycle"
+      ]
+    },
+    {
+      "id": "page-103",
+      "title": "Approved Asset Library",
+      "path": "/features/approved-asset-library",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Teams can create approved-only views so users can access content that has completed the required review process.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Approvals",
+        "Brand control"
+      ]
+    },
+    {
+      "id": "page-104",
+      "title": "Expiring Creative Assets",
+      "path": "/features/expiring-creative-assets",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Asset expiry information can help teams identify content that should no longer be used after a specified period.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Asset lifecycle",
+        "Brand control"
+      ]
+    },
+    {
+      "id": "page-105",
+      "title": "Brand Guardrail Tags",
+      "path": "/features/brand-guardrail-tags",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Brand teams can use structured tags to identify assets that comply with specific organisational requirements.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Brand control"
+      ]
+    },
+    {
+      "id": "page-106",
+      "title": "Asset Usage Tracking",
+      "path": "/features/asset-usage-tracking",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Usage analytics help teams understand which assets are being used and which remain inactive.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Usage tracking"
+      ]
+    },
+    {
+      "id": "page-107",
+      "title": "Creative Asset Lifecycle",
+      "path": "/features/creative-asset-lifecycle",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "The lifecycle of an asset can include ingestion, metadata processing, AI tagging, review, approval, distribution and archival.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "End-to-end creative workflow",
+        "Asset lifecycle"
+      ]
+    },
+    {
+      "id": "page-108",
+      "title": "Asset Archiving",
+      "path": "/features/asset-archiving",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Archiving provides a way to retain historical content without allowing old material to interfere with everyday asset discovery.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Asset lifecycle"
+      ]
+    },
+    {
+      "id": "page-109",
+      "title": "Asset Deletion",
+      "path": "/features/asset-deletion",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Authorised users can remove assets according to organisational policies and permissions.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Asset lifecycle"
+      ]
+    },
+    {
+      "id": "page-110",
+      "title": "Asset Recovery",
+      "path": "/features/asset-recovery",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Versioning and backups can support recovery when content is accidentally replaced or removed.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Asset lifecycle",
+        "Backups and recovery"
+      ]
+    },
+    {
+      "id": "page-111",
+      "title": "Creative Library Maintenance",
+      "path": "/features/creative-library-maintenance",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Ongoing maintenance helps prevent libraries from becoming cluttered with duplicate, obsolete or poorly classified content.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Library maintenance and quality"
+      ]
+    },
+    {
+      "id": "page-112",
+      "title": "Duplicate Asset Management",
+      "path": "/features/duplicate-asset-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Duplicate detection helps identify unnecessary copies and can support storage optimisation.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Duplicate detection",
+        "Library maintenance and quality"
+      ]
+    },
+    {
+      "id": "page-113",
+      "title": "Asset Quality Management",
+      "path": "/features/asset-quality-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Teams can use approval and metadata workflows to maintain higher-quality libraries.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Library maintenance and quality"
+      ]
+    },
+    {
+      "id": "page-114",
+      "title": "Creative Asset Governance",
+      "path": "/features/creative-asset-governance",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Governance defines who can upload, edit, approve, download and manage assets.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Governance"
+      ]
+    },
+    {
+      "id": "page-115",
+      "title": "Asset Ownership",
+      "path": "/features/asset-ownership",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Asset ownership provides context about who created or uploaded content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Audit trail and history"
+      ]
+    },
+    {
+      "id": "page-116",
+      "title": "Asset Attribution",
+      "path": "/features/asset-attribution",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Creators and contributors can remain associated with assets, preserving context during collaboration and migration.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Audit trail and history"
+      ]
+    },
+    {
+      "id": "page-117",
+      "title": "Asset History",
+      "path": "/features/asset-history",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Asset history gives users a record of relevant changes and interactions.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Audit trail and history"
+      ]
+    },
+    {
+      "id": "page-118",
+      "title": "Asset Activity",
+      "path": "/features/asset-activity",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "Views, downloads, edits and approvals can become part of the asset's activity history.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Audit trail and history"
+      ]
+    },
+    {
+      "id": "page-119",
+      "title": "Asset Audit Trail",
+      "path": "/features/asset-audit-trail",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "The asset audit trail provides visibility into important actions performed on creative files.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Audit trail and history"
+      ]
+    },
+    {
+      "id": "page-120",
+      "title": "Complete Asset Management",
+      "path": "/features/complete-asset-management",
+      "group": "Features",
+      "type": "workflow",
+      "section": "Features",
+      "summary": "GetSibu combines organisation, metadata, AI analysis, collaboration, versioning, approvals and auditability into one asset management workflow.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "What GetSibu is"
+      ]
+    },
+    {
+      "id": "page-121",
+      "title": "Automated Asset Ingestion",
+      "path": "/storage/automated-asset-ingestion",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "GetSibu supports asset ingestion from connected storage sources and direct uploads.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Ingestion and import"
+      ]
+    },
+    {
+      "id": "page-127",
+      "title": "Drag and Drop Upload",
+      "path": "/storage/drag-and-drop-upload",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Users can upload files directly through drag and drop, making it easy to add individual assets or small batches without configuring an integration.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Ingestion and import",
+        "Uploads"
+      ]
+    },
+    {
+      "id": "page-128",
+      "title": "Watch Folder Ingestion",
+      "path": "/storage/watch-folder-ingestion",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Watch folders can be scanned continuously so that newly added content can enter the GetSibu workflow automatically.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Ingestion and import"
+      ]
+    },
+    {
+      "id": "page-129",
+      "title": "Automated Media Import",
+      "path": "/storage/automated-media-import",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Automated media import reduces manual movement of files between storage locations.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Ingestion and import"
+      ]
+    },
+    {
+      "id": "page-130",
+      "title": "Bulk Asset Import",
+      "path": "/storage/bulk-asset-import",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Bulk import helps organisations move large existing libraries into GetSibu without manually uploading each file.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Ingestion and import",
+        "Bulk import"
+      ]
+    },
+    {
+      "id": "page-131",
+      "title": "Large Library Migration",
+      "path": "/storage/large-library-migration",
+      "group": "Features",
+      "type": "migration",
+      "section": "Storage & Ingestion",
+      "summary": "Large creative libraries can be migrated while preserving important metadata and existing folder relationships.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Moving to GetSibu"
+      ]
+    },
+    {
+      "id": "page-132",
+      "title": "Metadata Preservation",
+      "path": "/storage/metadata-preservation",
+      "group": "Features",
+      "type": "migration",
+      "section": "Storage & Ingestion",
+      "summary": "Metadata such as EXIF, XMP, creators, file paths and custom keywords can be preserved during migration.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Metadata preservation"
+      ]
+    },
+    {
+      "id": "page-133",
+      "title": "Folder Mapping",
+      "path": "/storage/folder-mapping",
+      "group": "Features",
+      "type": "migration",
+      "section": "Storage & Ingestion",
+      "summary": "Existing folder structures can be mirrored or remapped during import, allowing organisations to adapt their previous organisation system.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Folder mapping"
+      ]
+    },
+    {
+      "id": "page-134",
+      "title": "Creative Migration",
+      "path": "/storage/creative-migration",
+      "group": "Features",
+      "type": "migration",
+      "section": "Storage & Ingestion",
+      "summary": "GetSibu provides a migration path for teams moving away from fragmented storage systems.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Moving to GetSibu"
+      ]
+    },
+    {
+      "id": "page-135",
+      "title": "Digital Asset Import",
+      "path": "/storage/digital-asset-import",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Digital assets can enter GetSibu through multiple sources, giving teams flexibility in how they build their library.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Ingestion and import"
+      ]
+    },
+    {
+      "id": "page-136",
+      "title": "Media Upload Management",
+      "path": "/storage/media-upload-management",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Upload workflows provide progress information and support resumable transfers for unreliable networks.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Uploads"
+      ]
+    },
+    {
+      "id": "page-137",
+      "title": "Resumable Uploads",
+      "path": "/storage/resumable-uploads",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Resumable uploads help prevent large transfers from needing to restart from the beginning after a network interruption.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Uploads"
+      ]
+    },
+    {
+      "id": "page-138",
+      "title": "Chunked Uploads",
+      "path": "/storage/chunked-uploads",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Large files can be transferred through chunked upload workflows designed for reliability.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Uploads"
+      ]
+    },
+    {
+      "id": "page-139",
+      "title": "High-Volume Media Uploads",
+      "path": "/storage/high-volume-media-uploads",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Creative teams working with large amounts of video and imagery can use ingestion workflows designed around high-volume asset environments.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Uploads"
+      ]
+    },
+    {
+      "id": "page-141",
+      "title": "Upload Progress",
+      "path": "/storage/upload-progress",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Upload progress indicators allow users to understand how many files are currently being processed.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Uploads"
+      ]
+    },
+    {
+      "id": "page-142",
+      "title": "Parallel Uploads",
+      "path": "/storage/parallel-uploads",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Parallel upload workflows can improve the efficiency of batch asset ingestion.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Uploads"
+      ]
+    },
+    {
+      "id": "page-143",
+      "title": "Asset Processing",
+      "path": "/storage/asset-processing",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "After upload, assets move through processing stages such as metadata extraction, thumbnail generation and AI-related processing.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Processing"
+      ]
+    },
+    {
+      "id": "page-144",
+      "title": "AI Processing Queue",
+      "path": "/storage/ai-processing-queue",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "AI processing provides status information so users can understand whether an asset is queued, processing or ready.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Processing"
+      ]
+    },
+    {
+      "id": "page-145",
+      "title": "Media Processing Status",
+      "path": "/storage/media-processing-status",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Processing status helps teams distinguish between an asset that has uploaded successfully and one that is fully indexed and searchable.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Processing"
+      ]
+    },
+    {
+      "id": "page-146",
+      "title": "Asset Thumbnail Generation",
+      "path": "/storage/asset-thumbnail-generation",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Thumbnails provide fast visual previews without requiring users to download the original file.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Processing",
+        "Previews and delivery"
+      ]
+    },
+    {
+      "id": "page-147",
+      "title": "Streaming Media Preview",
+      "path": "/storage/streaming-media-preview",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "Streaming previews help users inspect large media files quickly without waiting for complete downloads.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Previews and delivery"
+      ]
+    },
+    {
+      "id": "page-148",
+      "title": "Creative Storage Management",
+      "path": "/storage/creative-storage-management",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Storage & Ingestion",
+      "summary": "Storage analytics help organisations understand how their library is distributed across videos, images, documents and audio.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Storage analytics"
+      ]
+    },
+    {
+      "id": "page-149",
+      "title": "Storage Growth Analytics",
+      "path": "/storage/storage-growth-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Storage & Ingestion",
+      "summary": "Storage growth analytics provides historical context around how quickly a creative library is expanding.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Storage analytics"
+      ]
+    },
+    {
+      "id": "page-150",
+      "title": "Centralised Media Storage",
+      "path": "/storage/centralised-media-storage",
+      "group": "Features",
+      "type": "storage",
+      "section": "Storage & Ingestion",
+      "summary": "GetSibu creates a unified environment for managing creative content from multiple storage sources while retaining organisational structure and access controls.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "One central library",
+        "Storage sources"
+      ]
+    },
+    {
+      "id": "page-151",
+      "title": "Creative Asset Permissions",
+      "path": "/permissions/creative-asset-permissions",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "GetSibu provides granular permissions so organisations can control who can access different areas of their creative library.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-152",
+      "title": "Folder-Level Permissions",
+      "path": "/permissions/folder-level-permissions",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Folder-level permissions allow access to be controlled at a more detailed level than organisation-wide access.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-153",
+      "title": "Role-Based Access Control",
+      "path": "/permissions/role-based-access-control",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Role-Based Access Control: GetSibu provides granular permissions so organisations can control who can access different areas of their creative library.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-154",
+      "title": "Default-Deny Access",
+      "path": "/permissions/default-deny-access",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "New folders can remain private until access is explicitly granted. This creates a default-deny model rather than automatically exposing new content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-155",
+      "title": "Manager Permissions",
+      "path": "/permissions/manager-permissions",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Managers can receive access to specific folders or teams while remaining restricted from areas outside their responsibilities.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-156",
+      "title": "Editor Permissions",
+      "path": "/permissions/editor-permissions",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Editors can be given the access required to work with creative assets without receiving unnecessary administrative privileges.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-157",
+      "title": "Individual Permissions",
+      "path": "/permissions/individual-permissions",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Individual users can receive targeted access when organisational roles alone do not provide enough granularity.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-158",
+      "title": "Organisation Admin Controls",
+      "path": "/permissions/organisation-admin-controls",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Organisation administrators can manage access policies, users, folders and organisational settings.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-159",
+      "title": "Creative Access Governance",
+      "path": "/permissions/creative-access-governance",
+      "group": "Security",
+      "type": "workflow",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Access governance helps organisations maintain control over sensitive creative content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Governance"
+      ]
+    },
+    {
+      "id": "page-160",
+      "title": "Multi-Tenant Digital Asset Management",
+      "path": "/permissions/multi-tenant-digital-asset-management",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "GetSibu is designed for organisations that need multiple isolated environments, such as agencies managing multiple clients.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-161",
+      "title": "Client Tenant Isolation",
+      "path": "/permissions/client-tenant-isolation",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Each client environment can remain logically isolated so that assets from one client are not mixed with another client's library.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-162",
+      "title": "Agency Multi-Tenancy",
+      "path": "/permissions/agency-multi-tenancy",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Agencies can manage multiple client libraries from one platform while maintaining separation between tenants.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy",
+        "Agencies and consultancies"
+      ]
+    },
+    {
+      "id": "page-163",
+      "title": "Per-Client Storage",
+      "path": "/permissions/per-client-storage",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Client environments can have their own storage allocation and asset boundaries.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-164",
+      "title": "Per-Client AI Keys",
+      "path": "/permissions/per-client-ai-keys",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Multi-tenant configurations can support client-specific AI key management where required.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-165",
+      "title": "Per-Client Authentication",
+      "path": "/permissions/per-client-authentication",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Client-specific authentication options can support organisations that require separate access controls for different customers.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy",
+        "Identity and sign-in"
+      ]
+    },
+    {
+      "id": "page-166",
+      "title": "White-Label Asset Management",
+      "path": "/permissions/white-label-asset-management",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Agencies can use a white-label approach for client-facing asset management experiences.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-167",
+      "title": "Client Asset Isolation",
+      "path": "/permissions/client-asset-isolation",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Client asset isolation prevents unrelated customer libraries from being mixed within the same workflow.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-168",
+      "title": "Agency Asset Management",
+      "path": "/permissions/agency-asset-management",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Agencies can manage creative assets for multiple customers while maintaining structured separation.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy",
+        "Agencies and consultancies"
+      ]
+    },
+    {
+      "id": "page-169",
+      "title": "Enterprise Permissions",
+      "path": "/permissions/enterprise-permissions",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Enterprise teams can apply structured access controls across departments, projects and folders.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-170",
+      "title": "Permission Auditing",
+      "path": "/permissions/permission-auditing",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Changes to permissions can be recorded in the audit history, creating accountability around access management.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Audit trail and history",
+        "Access history and maps"
+      ]
+    },
+    {
+      "id": "page-171",
+      "title": "Access History",
+      "path": "/permissions/access-history",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Access history provides information about important user interactions with the library.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Access history and maps"
+      ]
+    },
+    {
+      "id": "page-172",
+      "title": "Secure Asset Sharing",
+      "path": "/permissions/secure-asset-sharing",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Asset sharing can be controlled through permissions rather than relying only on unrestricted links.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Secure sharing and collaboration"
+      ]
+    },
+    {
+      "id": "page-173",
+      "title": "Folder Access Maps",
+      "path": "/permissions/folder-access-maps",
+      "group": "Security",
+      "type": "analytics",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Analytics can help organisations understand how folders are accessed across their teams.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access history and maps"
+      ]
+    },
+    {
+      "id": "page-174",
+      "title": "Creative Security Controls",
+      "path": "/permissions/creative-security-controls",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Security controls help protect creative assets from unnecessary or unauthorised access.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Secure sharing and collaboration",
+        "Security foundations"
+      ]
+    },
+    {
+      "id": "page-175",
+      "title": "Team Access Management",
+      "path": "/permissions/team-access-management",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Team-based access allows organisations to establish consistent permissions across groups of users.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-176",
+      "title": "Department Access",
+      "path": "/permissions/department-access",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Departments can receive access to only the creative libraries relevant to their work.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-177",
+      "title": "Client Workspace Access",
+      "path": "/permissions/client-workspace-access",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Client-specific workspaces help agencies organise and isolate customer content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-178",
+      "title": "Permission Hierarchies",
+      "path": "/permissions/permission-hierarchies",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Hierarchical permissions allow organisations to combine broad organisational roles with more detailed folder-level controls.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control"
+      ]
+    },
+    {
+      "id": "page-179",
+      "title": "Enterprise Asset Governance",
+      "path": "/permissions/enterprise-asset-governance",
+      "group": "Security",
+      "type": "workflow",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Enterprise governance combines roles, permissions, audit logs, authentication and organisational policies.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Governance"
+      ]
+    },
+    {
+      "id": "page-180",
+      "title": "Secure Creative Collaboration",
+      "path": "/permissions/secure-creative-collaboration",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "GetSibu combines collaboration with permissions so teams can work together without sacrificing control over sensitive assets.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Secure sharing and collaboration"
+      ]
+    },
+    {
+      "id": "page-181",
+      "title": "Creative Asset Analytics",
+      "path": "/analytics/creative-asset-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "GetSibu analytics provide visibility into uploads, comments, storage, contributors, tags and other library activity.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Library analytics"
+      ]
+    },
+    {
+      "id": "page-182",
+      "title": "Asset Usage Analytics",
+      "path": "/analytics/asset-usage-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Usage analytics help teams understand which assets receive attention and which remain underused.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Usage tracking"
+      ]
+    },
+    {
+      "id": "page-183",
+      "title": "Storage Analytics",
+      "path": "/analytics/storage-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Storage analytics provide a view of how much space different asset categories consume.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Storage analytics"
+      ]
+    },
+    {
+      "id": "page-184",
+      "title": "Upload Analytics",
+      "path": "/analytics/upload-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Upload analytics show how much new content is entering the library over time.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Library analytics"
+      ]
+    },
+    {
+      "id": "page-185",
+      "title": "Contributor Analytics",
+      "path": "/analytics/contributor-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Contributor analytics help organisations understand who is adding content and participating in library activity.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Library analytics"
+      ]
+    },
+    {
+      "id": "page-186",
+      "title": "Tag Analytics",
+      "path": "/analytics/tag-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Tag analytics identify frequently used or searched tags, helping teams understand how their library is being discovered.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Library analytics"
+      ]
+    },
+    {
+      "id": "page-187",
+      "title": "Creative Library Trends",
+      "path": "/analytics/creative-library-trends",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Trend analysis helps organisations understand how their digital asset library changes over time.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Daily, weekly and monthly analytics"
+      ]
+    },
+    {
+      "id": "page-188",
+      "title": "Daily Library Analytics",
+      "path": "/analytics/daily-library-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Daily analytics provide a short-term view of uploads, comments and storage activity.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Daily, weekly and monthly analytics"
+      ]
+    },
+    {
+      "id": "page-189",
+      "title": "Weekly Library Analytics",
+      "path": "/analytics/weekly-library-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Weekly analytics provide a broader perspective on library growth and usage.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Daily, weekly and monthly analytics"
+      ]
+    },
+    {
+      "id": "page-190",
+      "title": "Monthly Library Analytics",
+      "path": "/analytics/monthly-library-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Monthly analytics help organisations identify longer-term asset management trends.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Daily, weekly and monthly analytics"
+      ]
+    },
+    {
+      "id": "page-191",
+      "title": "Asset Activity Dashboard",
+      "path": "/analytics/asset-activity-dashboard",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "The asset activity dashboard provides a visual overview of important library interactions.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Library analytics"
+      ]
+    },
+    {
+      "id": "page-192",
+      "title": "Storage by Category",
+      "path": "/analytics/storage-by-category",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Storage can be analysed according to categories such as video, image, document and audio.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Storage analytics"
+      ]
+    },
+    {
+      "id": "page-193",
+      "title": "Most Searched Tags",
+      "path": "/analytics/most-searched-tags",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Most-searched tags provide insight into what users are frequently looking for.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Library analytics"
+      ]
+    },
+    {
+      "id": "page-194",
+      "title": "Top Contributors",
+      "path": "/analytics/top-contributors",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Top contributor analytics show which users contribute the most content or activity.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Library analytics"
+      ]
+    },
+    {
+      "id": "page-195",
+      "title": "Creative Operations Analytics",
+      "path": "/analytics/creative-operations-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Creative operations analytics helps leaders understand how efficiently the organisation's asset library is being used.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Analytics by team"
+      ]
+    },
+    {
+      "id": "page-196",
+      "title": "Library Health Analytics",
+      "path": "/analytics/library-health-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Library health analytics can reveal growth, duplicates, inactive content and other organisational patterns.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Library maintenance and quality",
+        "Library analytics"
+      ]
+    },
+    {
+      "id": "page-197",
+      "title": "Asset Access Analytics",
+      "path": "/analytics/asset-access-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Asset access analytics provide information about how content is being viewed or used.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Usage tracking",
+        "Access history and maps"
+      ]
+    },
+    {
+      "id": "page-198",
+      "title": "Folder Access Analytics",
+      "path": "/analytics/folder-access-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Folder access maps help organisations understand which areas of the library receive attention.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access history and maps"
+      ]
+    },
+    {
+      "id": "page-199",
+      "title": "Creative Team Analytics",
+      "path": "/analytics/creative-team-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Team analytics provide visibility into how different groups interact with the library.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Analytics by team"
+      ]
+    },
+    {
+      "id": "page-200",
+      "title": "Marketing Asset Analytics",
+      "path": "/analytics/marketing-asset-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Marketing teams can use asset analytics to understand campaign content usage and library activity.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Analytics by team"
+      ]
+    },
+    {
+      "id": "page-201",
+      "title": "Production Analytics",
+      "path": "/analytics/production-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Production teams can analyse media activity, uploads and video-related workflows.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Analytics by team"
+      ]
+    },
+    {
+      "id": "page-202",
+      "title": "Agency Analytics",
+      "path": "/analytics/agency-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Agencies can use analytics to understand asset activity across client environments.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Analytics by team",
+        "Agencies and consultancies"
+      ]
+    },
+    {
+      "id": "page-203",
+      "title": "Brand Asset Analytics",
+      "path": "/analytics/brand-asset-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Brand teams can use analytics to understand which approved assets are being accessed and reused.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Brand control",
+        "Analytics by team"
+      ]
+    },
+    {
+      "id": "page-204",
+      "title": "Asset Performance Insights",
+      "path": "/analytics/asset-performance-insights",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Asset performance insights help teams identify patterns in asset usage.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Usage tracking"
+      ]
+    },
+    {
+      "id": "page-205",
+      "title": "Creative Library Reporting",
+      "path": "/analytics/creative-library-reporting",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Creative library reporting turns analytics into information that can support operational decisions.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Reporting and metrics"
+      ]
+    },
+    {
+      "id": "page-206",
+      "title": "Asset Management Metrics",
+      "path": "/analytics/asset-management-metrics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Metrics provide a quantitative view of library activity, storage and collaboration.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Reporting and metrics"
+      ]
+    },
+    {
+      "id": "page-207",
+      "title": "Digital Asset KPIs",
+      "path": "/analytics/digital-asset-kpis",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Digital asset KPIs can include uploads, storage, searches, contributors, comments and asset activity.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Reporting and metrics"
+      ]
+    },
+    {
+      "id": "page-208",
+      "title": "Creative Workflow Metrics",
+      "path": "/analytics/creative-workflow-metrics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Workflow metrics help teams understand how assets move through upload, review and approval processes.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "End-to-end creative workflow",
+        "Reporting and metrics"
+      ]
+    },
+    {
+      "id": "page-209",
+      "title": "Library Growth Reporting",
+      "path": "/analytics/library-growth-reporting",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Library growth reporting helps organisations anticipate storage and operational requirements.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Storage analytics",
+        "Reporting and metrics"
+      ]
+    },
+    {
+      "id": "page-210",
+      "title": "Executive Asset Analytics",
+      "path": "/analytics/executive-asset-analytics",
+      "group": "Features",
+      "type": "analytics",
+      "section": "Analytics",
+      "summary": "Executive analytics provide a higher-level view of the organisation's creative library and its usage.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Analytics by team",
+        "Reporting and metrics"
+      ]
+    },
+    {
+      "id": "page-211",
+      "title": "GetSibu for Production Studios",
+      "path": "/use-cases/production-studios",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Production studios can use GetSibu to organise large collections of footage, review video assets, add frame-specific feedback and manage versions.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Video and production"
+      ]
+    },
+    {
+      "id": "page-212",
+      "title": "GetSibu for Video Teams",
+      "path": "/use-cases/video-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "GetSibu for Video Teams: video teams can manage different cuts and revisions while keeping the version history associated with the asset.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and production"
+      ]
+    },
+    {
+      "id": "page-213",
+      "title": "GetSibu for Marketing Teams",
+      "path": "/use-cases/marketing-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Marketing teams can maintain a central library for campaign assets, product imagery, videos, presentations and other marketing materials.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Marketing, brand and commerce"
+      ]
+    },
+    {
+      "id": "page-214",
+      "title": "GetSibu for Brand Teams",
+      "path": "/use-cases/brand-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Brand teams can organise approved assets, apply brand-specific tags, manage expiry information and maintain a controlled source of truth.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Brand control",
+        "Marketing, brand and commerce"
+      ]
+    },
+    {
+      "id": "page-215",
+      "title": "GetSibu for Creative Agencies",
+      "path": "/use-cases/creative-agencies",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Creative agencies can use multi-tenant capabilities to manage multiple clients while keeping their libraries separated.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Multi-tenancy",
+        "Agencies and consultancies"
+      ]
+    },
+    {
+      "id": "page-216",
+      "title": "GetSibu for Post-Production Teams",
+      "path": "/use-cases/post-production-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "GetSibu for Post-Production Teams: video teams can manage different cuts and revisions while keeping the version history associated with the asset.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and production"
+      ]
+    },
+    {
+      "id": "page-217",
+      "title": "GetSibu for Documentary Teams",
+      "path": "/use-cases/documentary-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "GetSibu for Documentary Teams: videos can be indexed and enriched with AI-generated information.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and production"
+      ]
+    },
+    {
+      "id": "page-218",
+      "title": "GetSibu for Film Production",
+      "path": "/use-cases/film-production",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Film production teams can centralise production media and maintain organised access to large video libraries.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and production"
+      ]
+    },
+    {
+      "id": "page-219",
+      "title": "GetSibu for Advertising Agencies",
+      "path": "/use-cases/advertising-agencies",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Advertising agencies can organise campaign assets, collaborate on revisions and maintain client-specific libraries.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Agencies and consultancies"
+      ]
+    },
+    {
+      "id": "page-220",
+      "title": "GetSibu for Creative Studios",
+      "path": "/use-cases/creative-studios",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Creative studios can manage images, videos, audio and documents in one searchable environment.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Studios, in-house teams and creators"
+      ]
+    },
+    {
+      "id": "page-221",
+      "title": "GetSibu for Brand Consultancies",
+      "path": "/use-cases/brand-consultancies",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Brand consultancies can centralise brand assets, presentations, references and campaign materials.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Agencies and consultancies"
+      ]
+    },
+    {
+      "id": "page-222",
+      "title": "GetSibu for In-House Creative Teams",
+      "path": "/use-cases/in-house-creative-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Internal creative departments can create one source of truth for company-owned creative assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Studios, in-house teams and creators"
+      ]
+    },
+    {
+      "id": "page-223",
+      "title": "GetSibu for Enterprise Marketing",
+      "path": "/use-cases/enterprise-marketing",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Enterprise marketing teams can combine asset governance, permissions, search, approvals and analytics.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Marketing, brand and commerce"
+      ]
+    },
+    {
+      "id": "page-224",
+      "title": "GetSibu for Global Brands",
+      "path": "/use-cases/global-brands",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Global brands can organise assets across markets while maintaining appropriate folder permissions and approval workflows.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Marketing, brand and commerce"
+      ]
+    },
+    {
+      "id": "page-225",
+      "title": "GetSibu for Multi-Market Teams",
+      "path": "/use-cases/multi-market-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Multi-market teams can separate content by region while maintaining centralised governance.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Marketing, brand and commerce"
+      ]
+    },
+    {
+      "id": "page-226",
+      "title": "GetSibu for Freelancers",
+      "path": "/use-cases/freelancers",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Freelancers can use GetSibu to organise personal creative libraries and quickly locate reusable assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Studios, in-house teams and creators"
+      ]
+    },
+    {
+      "id": "page-227",
+      "title": "GetSibu for Content Creators",
+      "path": "/use-cases/content-creators",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Content creators can organise videos, thumbnails, images and documents and find content based on visual characteristics.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Studios, in-house teams and creators"
+      ]
+    },
+    {
+      "id": "page-228",
+      "title": "GetSibu for Photography Teams",
+      "path": "/use-cases/photography-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Photography teams can search large image collections using tags, colours, people and metadata.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Studios, in-house teams and creators"
+      ]
+    },
+    {
+      "id": "page-229",
+      "title": "GetSibu for Video Agencies",
+      "path": "/use-cases/video-agencies",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Video agencies can manage client footage, versions, reviews and approved deliverables from one platform.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and production",
+        "Agencies and consultancies"
+      ]
+    },
+    {
+      "id": "page-230",
+      "title": "GetSibu for E-Commerce Brands",
+      "path": "/use-cases/e-commerce-brands",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "E-commerce brands can centralise product images, videos, campaign assets and marketing documents.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Marketing, brand and commerce"
+      ]
+    },
+    {
+      "id": "page-231",
+      "title": "GetSibu for Retail Brands",
+      "path": "/use-cases/retail-brands",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Retail organisations can maintain centralised libraries of product and promotional creative content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Marketing, brand and commerce"
+      ]
+    },
+    {
+      "id": "page-232",
+      "title": "GetSibu for Media Companies",
+      "path": "/use-cases/media-companies",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Media companies can manage large collections of video, image, audio and document assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Media, communications and organisations"
+      ]
+    },
+    {
+      "id": "page-233",
+      "title": "GetSibu for Newsrooms",
+      "path": "/use-cases/newsrooms",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Newsrooms can search visual archives and organise media by topic, person, event and other available metadata.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Media, communications and organisations"
+      ]
+    },
+    {
+      "id": "page-234",
+      "title": "GetSibu for Social Media Teams",
+      "path": "/use-cases/social-media-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Social teams can maintain a searchable library of social content and campaign assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Marketing, brand and commerce"
+      ]
+    },
+    {
+      "id": "page-235",
+      "title": "GetSibu for PR Teams",
+      "path": "/use-cases/pr-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "PR teams can quickly locate approved images, executive photos, brand resources and campaign materials.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Media, communications and organisations"
+      ]
+    },
+    {
+      "id": "page-236",
+      "title": "GetSibu for Event Companies",
+      "path": "/use-cases/event-companies",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Event teams can organise photography, promotional material, presentations and event recordings.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Media, communications and organisations"
+      ]
+    },
+    {
+      "id": "page-237",
+      "title": "GetSibu for Education Teams",
+      "path": "/use-cases/education-teams",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Education organisations can manage course media, presentations, recordings and visual resources.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Media, communications and organisations"
+      ]
+    },
+    {
+      "id": "page-238",
+      "title": "GetSibu for Nonprofits",
+      "path": "/use-cases/nonprofits",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Nonprofits can centralise campaign imagery, event content, documents and communications assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Media, communications and organisations"
+      ]
+    },
+    {
+      "id": "page-239",
+      "title": "GetSibu for Internal Communications",
+      "path": "/use-cases/internal-communications",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Internal communication teams can manage employee communications assets and approved organisational media.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Media, communications and organisations"
+      ]
+    },
+    {
+      "id": "page-240",
+      "title": "GetSibu for Corporate Communications",
+      "path": "/use-cases/corporate-communications",
+      "group": "Use Cases",
+      "type": "use-case",
+      "section": "Use Cases",
+      "summary": "Corporate communications teams can maintain a central source of truth for presentations, photography, videos and public-facing assets.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Media, communications and organisations"
+      ]
+    },
+    {
+      "id": "page-241",
+      "title": "GetSibu Integrations",
+      "path": "/integrations",
+      "group": "Integrations",
+      "type": "integration",
+      "section": "Integrations",
+      "summary": "GetSibu connects with the tools teams already use so organisations do not need to completely rebuild their existing creative workflow.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Integrations"
+      ]
+    },
+    {
+      "id": "page-252",
+      "title": "Webhooks",
+      "path": "/developers/webhooks",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Webhooks: webhook events can be used to trigger downstream workflows when assets, comments, approvals or other supported events occur.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Webhooks and events"
+      ]
+    },
+    {
+      "id": "page-253",
+      "title": "REST API",
+      "path": "/developers/rest-api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "GetSibu provides an API-first architecture so developers can interact with the same platform capabilities used by the interface.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "The GetSibu API"
+      ]
+    },
+    {
+      "id": "page-254",
+      "title": "API-First DAM",
+      "path": "/developers/api-first-dam",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "GetSibu is designed as an API-first digital asset management platform, allowing organisations to build custom experiences around the underlying asset system.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "The GetSibu API"
+      ]
+    },
+    {
+      "id": "page-255",
+      "title": "Developer API",
+      "path": "/developers/developer-api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Developers can use the API to integrate asset upload, search, collaboration and other supported workflows into custom applications.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "The GetSibu API"
+      ]
+    },
+    {
+      "id": "page-256",
+      "title": "API Authentication",
+      "path": "/developers/api-authentication",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "API requests use authenticated access so external applications can interact with the platform within appropriate security boundaries.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "API authentication and security"
+      ]
+    },
+    {
+      "id": "page-257",
+      "title": "Webhook Automation",
+      "path": "/developers/webhook-automation",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Webhook events can be used to trigger downstream workflows when assets, comments, approvals or other supported events occur.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Automation",
+        "Webhooks and events"
+      ]
+    },
+    {
+      "id": "page-260",
+      "title": "Custom Integrations",
+      "path": "/integrations/custom-integrations",
+      "group": "Integrations",
+      "type": "integration",
+      "section": "Integrations",
+      "summary": "Organisations can request integrations for tools that are not already part of the supported integration ecosystem.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Integrations"
+      ]
+    },
+    {
+      "id": "page-261",
+      "title": "GetSibu API",
+      "path": "/developers/api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "The GetSibu API provides programmatic access to the digital asset platform for developers and technology teams.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "The GetSibu API"
+      ]
+    },
+    {
+      "id": "page-262",
+      "title": "Asset Upload API",
+      "path": "/developers/asset-upload-api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "The asset upload API allows external applications to send files into the GetSibu environment.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "API capabilities"
+      ]
+    },
+    {
+      "id": "page-263",
+      "title": "Asset Search API",
+      "path": "/developers/asset-search-api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Applications can integrate asset search into custom interfaces and workflows.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "API capabilities"
+      ]
+    },
+    {
+      "id": "page-264",
+      "title": "Asset Metadata API",
+      "path": "/developers/asset-metadata-api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "The API can expose asset information so external systems can work with metadata programmatically.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "API capabilities"
+      ]
+    },
+    {
+      "id": "page-265",
+      "title": "Asset Tags API",
+      "path": "/developers/asset-tags-api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Developers can integrate asset tagging workflows into custom applications.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "API capabilities"
+      ]
+    },
+    {
+      "id": "page-266",
+      "title": "Asset Comments API",
+      "path": "/developers/asset-comments-api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Comment-related events can support custom collaboration workflows.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "API capabilities"
+      ]
+    },
+    {
+      "id": "page-267",
+      "title": "Approval API",
+      "path": "/developers/approval-api",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Approval events can be incorporated into external production and workflow systems.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals",
+        "API capabilities"
+      ]
+    },
+    {
+      "id": "page-268",
+      "title": "Webhook Events",
+      "path": "/developers/webhook-events",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Webhook Events: webhook events can be used to trigger downstream workflows when assets, comments, approvals or other supported events occur.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Webhooks and events"
+      ]
+    },
+    {
+      "id": "page-273",
+      "title": "API Documentation",
+      "path": "/developers/api-documentation",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "API documentation provides developers with the information required to build integrations against the platform.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "The GetSibu API"
+      ]
+    },
+    {
+      "id": "page-275",
+      "title": "Developer Authentication",
+      "path": "/developers/developer-authentication",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Developers can authenticate API requests using supported authentication credentials.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "API authentication and security"
+      ]
+    },
+    {
+      "id": "page-276",
+      "title": "API Tenant Isolation",
+      "path": "/developers/api-tenant-isolation",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "API access can include tenant context so that multi-tenant environments remain properly separated.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy",
+        "API authentication and security"
+      ]
+    },
+    {
+      "id": "page-277",
+      "title": "API Security",
+      "path": "/developers/api-security",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "API security is an important component of protecting automated access to creative assets.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "API authentication and security"
+      ]
+    },
+    {
+      "id": "page-278",
+      "title": "Developer Automation",
+      "path": "/developers/developer-automation",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "Developers can use APIs and webhooks to automate repetitive asset management workflows.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Automation"
+      ]
+    },
+    {
+      "id": "page-279",
+      "title": "Custom Asset Applications",
+      "path": "/developers/custom-asset-applications",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "The API allows organisations to build custom applications around the GetSibu asset infrastructure.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "The GetSibu API"
+      ]
+    },
+    {
+      "id": "page-280",
+      "title": "GetSibu for Developers",
+      "path": "/developers",
+      "group": "Developers",
+      "type": "developer",
+      "section": "Developers",
+      "summary": "GetSibu provides a developer-oriented foundation for organisations that want to integrate digital asset management into existing software environments.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "The GetSibu API"
+      ]
+    },
+    {
+      "id": "page-281",
+      "title": "Migrate to GetSibu",
+      "path": "/migration",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "GetSibu provides migration capabilities for teams moving existing creative libraries from shared drives, cloud storage or other asset management systems.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Moving to GetSibu"
+      ]
+    },
+    {
+      "id": "page-282",
+      "title": "Creative Library Migration",
+      "path": "/migration/creative-library-migration",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Creative library migration transfers existing assets into a more searchable and structured environment.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Moving to GetSibu"
+      ]
+    },
+    {
+      "id": "page-286",
+      "title": "Metadata Migration",
+      "path": "/migration/metadata-migration",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Metadata such as EXIF, XMP, creators and custom keywords can be retained during migration.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Metadata preservation"
+      ]
+    },
+    {
+      "id": "page-287",
+      "title": "Folder Structure Migration",
+      "path": "/migration/folder-structure-migration",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Existing folder structures can be mirrored or remapped during migration.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Folder mapping"
+      ]
+    },
+    {
+      "id": "page-288",
+      "title": "Creative Data Migration",
+      "path": "/migration/creative-data-migration",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Creative data migration helps organisations move large libraries while preserving valuable context.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Moving to GetSibu"
+      ]
+    },
+    {
+      "id": "page-289",
+      "title": "DAM Migration Strategy",
+      "path": "/migration/dam-migration-strategy",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "A successful DAM migration begins with understanding existing storage, metadata, permissions and organisational requirements.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Planning and implementation"
+      ]
+    },
+    {
+      "id": "page-290",
+      "title": "Digital Asset Migration Planning",
+      "path": "/migration/digital-asset-migration-planning",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Migration planning ensures that assets, metadata and permissions are considered before the transfer begins.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Planning and implementation"
+      ]
+    },
+    {
+      "id": "page-291",
+      "title": "Bulk Import",
+      "path": "/migration/bulk-import",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Bulk import allows organisations to move large quantities of media without manually uploading individual files.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Bulk import"
+      ]
+    },
+    {
+      "id": "page-292",
+      "title": "Migration Without Downtime",
+      "path": "/migration/migration-without-downtime",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "GetSibu's migration workflow is designed to allow organisations to continue using existing storage while content is indexed in the background.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Planning and implementation"
+      ]
+    },
+    {
+      "id": "page-293",
+      "title": "Migration Metadata Preservation",
+      "path": "/migration/migration-metadata-preservation",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Preserving metadata ensures that valuable information associated with original files does not disappear during the move.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Metadata preservation"
+      ]
+    },
+    {
+      "id": "page-294",
+      "title": "Migration Folder Mapping",
+      "path": "/migration/migration-folder-mapping",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Folder mapping gives teams the flexibility to maintain existing organisation or create a new structure.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Folder mapping"
+      ]
+    },
+    {
+      "id": "page-295",
+      "title": "Migration Permission Mapping",
+      "path": "/migration/migration-permission-mapping",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Migration Permission Mapping: A successful DAM migration begins with understanding existing storage, metadata, permissions and organisational requirements.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control",
+        "Planning and implementation"
+      ]
+    },
+    {
+      "id": "page-296",
+      "title": "Migration Verification",
+      "path": "/migration/migration-verification",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Migration verification helps organisations confirm that important content and metadata have transferred correctly.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Planning and implementation"
+      ]
+    },
+    {
+      "id": "page-297",
+      "title": "DAM Onboarding",
+      "path": "/migration/dam-onboarding",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "DAM Onboarding: A successful DAM migration begins with understanding existing storage, metadata, permissions and organisational requirements.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Planning and implementation"
+      ]
+    },
+    {
+      "id": "page-298",
+      "title": "Creative Team Migration",
+      "path": "/migration/creative-team-migration",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Teams can transition from fragmented folders into a structured creative library.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Moving to GetSibu"
+      ]
+    },
+    {
+      "id": "page-299",
+      "title": "DAM Implementation",
+      "path": "/migration/dam-implementation",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Implementation involves configuring users, folders, permissions, integrations, metadata and workflows.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Planning and implementation"
+      ]
+    },
+    {
+      "id": "page-300",
+      "title": "GetSibu Migration Support",
+      "path": "/migration/migration-support",
+      "group": "Platform",
+      "type": "migration",
+      "section": "Migration",
+      "summary": "Migration support helps organisations move from existing storage environments while reducing operational disruption.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Moving to GetSibu"
+      ]
+    },
+    {
+      "id": "page-301",
+      "title": "GetSibu Architecture",
+      "path": "/architecture",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "GetSibu is built around a layered architecture consisting of clients, edge services, APIs, search infrastructure and storage.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-302",
+      "title": "Creative Asset Infrastructure",
+      "path": "/architecture/creative-asset-infrastructure",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "The infrastructure is designed to support large collections of creative content while maintaining search and preview performance.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-303",
+      "title": "Cloud-Based Asset Management",
+      "path": "/architecture/cloud-based-asset-management",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Cloud-based architecture allows organisations to access their creative libraries through supported clients and integrations.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-304",
+      "title": "CDN Asset Delivery",
+      "path": "/architecture/cdn-asset-delivery",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "CDN delivery helps provide fast access to previews and media around the world.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Previews and delivery",
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-305",
+      "title": "Edge Caching",
+      "path": "/architecture/edge-caching",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Edge caching reduces the distance between users and frequently accessed content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Previews and delivery",
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-306",
+      "title": "Streaming Previews",
+      "path": "/architecture/streaming-previews",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Streaming previews allow teams to inspect media without waiting for full downloads.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Previews and delivery"
+      ]
+    },
+    {
+      "id": "page-307",
+      "title": "Fast Creative Search",
+      "path": "/architecture/fast-creative-search",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "GetSibu is designed around low-latency search so users can quickly retrieve assets from large libraries.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Search speed",
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-308",
+      "title": "Scalable Asset Storage",
+      "path": "/architecture/scalable-asset-storage",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "The architecture supports large amounts of digital content and storage growth.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-309",
+      "title": "Large Library Performance",
+      "path": "/architecture/large-library-performance",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Performance considerations such as chunked I/O, edge caching and indexing help support larger creative environments.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-310",
+      "title": "Search Performance",
+      "path": "/architecture/search-performance",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Search Performance: GetSibu combines fast search, media previews, scalable storage and efficient uploads to create a responsive DAM experience.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Search speed",
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-311",
+      "title": "Asset Processing Performance",
+      "path": "/architecture/asset-processing-performance",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Background processing allows assets to be indexed without requiring users to manually perform metadata or AI processing.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Processing",
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-312",
+      "title": "Large File Performance",
+      "path": "/architecture/large-file-performance",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Resumable and chunked uploads help improve reliability when working with large creative files.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Uploads",
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-313",
+      "title": "Media Preview Performance",
+      "path": "/architecture/media-preview-performance",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Preview generation and streaming reduce the friction of reviewing large assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Previews and delivery",
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-314",
+      "title": "Global Asset Access",
+      "path": "/architecture/global-asset-access",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "CDN-based delivery can support teams working across different geographical regions.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Previews and delivery"
+      ]
+    },
+    {
+      "id": "page-315",
+      "title": "API Scalability",
+      "path": "/architecture/api-scalability",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "The API layer is designed to scale independently to support application and integration workloads.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-316",
+      "title": "Stateless API Architecture",
+      "path": "/architecture/stateless-api-architecture",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "A stateless API architecture can support horizontal scaling and predictable application behaviour.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-317",
+      "title": "Search Infrastructure",
+      "path": "/architecture/search-infrastructure",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "GetSibu combines text search and embedding-based retrieval to support multiple discovery methods.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Semantic and natural language search",
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-318",
+      "title": "Storage Architecture",
+      "path": "/architecture/storage-architecture",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Creative content can be stored using object-storage infrastructure with organisational partitioning.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-319",
+      "title": "Observability",
+      "path": "/architecture/observability",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "Observability allows platform operators to monitor application and infrastructure behaviour.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Architecture and infrastructure"
+      ]
+    },
+    {
+      "id": "page-320",
+      "title": "High-Performance DAM",
+      "path": "/architecture/high-performance-dam",
+      "group": "Developers",
+      "type": "architecture",
+      "section": "Architecture & Performance",
+      "summary": "GetSibu combines fast search, media previews, scalable storage and efficient uploads to create a responsive DAM experience.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Performance"
+      ]
+    },
+    {
+      "id": "page-321",
+      "title": "GetSibu Security",
+      "path": "/security",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "Security is built into the GetSibu architecture through encryption, authentication, access control, tenant isolation and audit logging.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Security foundations"
+      ]
+    },
+    {
+      "id": "page-323",
+      "title": "Secret Encryption",
+      "path": "/security/secret-encryption",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "OAuth credentials, SMTP passwords and API tokens can be protected using encrypted secret storage.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Security foundations"
+      ]
+    },
+    {
+      "id": "page-324",
+      "title": "Tenant Isolation",
+      "path": "/security/tenant-isolation",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "Multi-tenant organisations require strict separation between customer environments. GetSibu's architecture is designed around tenant-scoped data access.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy",
+        "Security foundations"
+      ]
+    },
+    {
+      "id": "page-325",
+      "title": "RBAC Security",
+      "path": "/security/rbac-security",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "Role-based access control limits what users can perform according to their organisational responsibilities.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control",
+        "Security foundations"
+      ]
+    },
+    {
+      "id": "page-326",
+      "title": "Audit Logs",
+      "path": "/security/audit-logs",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "Audit logs provide a historical record of important actions including permissions, comments, asset changes and other platform events.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Audit trail and history"
+      ]
+    },
+    {
+      "id": "page-336",
+      "title": "MFA",
+      "path": "/security/mfa",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "Multi-factor authentication adds another layer of account protection.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Identity and sign-in"
+      ]
+    },
+    {
+      "id": "page-337",
+      "title": "Default-Deny Security",
+      "path": "/security/default-deny-security",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "Default-deny folder access ensures that new content is not automatically exposed to every user.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Access control",
+        "Security foundations"
+      ]
+    },
+    {
+      "id": "page-338",
+      "title": "Enterprise Asset Security",
+      "path": "/security/enterprise-asset-security",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "Enterprise security combines identity management, encryption, permissions, auditability and data isolation.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Security foundations"
+      ]
+    },
+    {
+      "id": "page-339",
+      "title": "Creative Data Governance",
+      "path": "/security/creative-data-governance",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "Data governance establishes rules around access, retention, usage and asset management.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Governance"
+      ]
+    },
+    {
+      "id": "page-340",
+      "title": "Secure Digital Asset Management",
+      "path": "/security/secure-digital-asset-management",
+      "group": "Security",
+      "type": "access-security",
+      "section": "Security & Compliance",
+      "summary": "GetSibu provides a security-oriented environment for organisations that need to manage valuable creative assets responsibly.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Security foundations"
+      ]
+    },
+    {
+      "id": "page-341",
+      "title": "GetSibu Pricing",
+      "path": "/pricing",
+      "group": "Pricing",
+      "type": "pricing",
+      "section": "Pricing",
+      "summary": "GetSibu Pricing: creative teams can choose a plan according to the size of their library and collaboration requirements.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Plans and pricing"
+      ]
+    },
+    {
+      "id": "page-345",
+      "title": "Creative Team Pricing",
+      "path": "/pricing/creative-team-pricing",
+      "group": "Pricing",
+      "type": "pricing",
+      "section": "Pricing",
+      "summary": "Creative teams can choose a plan according to the size of their library and collaboration requirements.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Plans and pricing"
+      ]
+    },
+    {
+      "id": "page-346",
+      "title": "DAM Pricing for Agencies",
+      "path": "/pricing/dam-pricing-for-agencies",
+      "group": "Pricing",
+      "type": "pricing",
+      "section": "Pricing",
+      "summary": "Agencies can evaluate GetSibu based on the number of clients, users, storage requirements and multi-tenant needs.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Agencies and consultancies",
+        "Plans and pricing"
+      ]
+    },
+    {
+      "id": "page-347",
+      "title": "Enterprise Asset Management Cost",
+      "path": "/pricing/enterprise-asset-management-cost",
+      "group": "Pricing",
+      "type": "pricing",
+      "section": "Pricing",
+      "summary": "The cost of digital asset management should be considered alongside storage, productivity, collaboration and administrative savings.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Plans and pricing",
+        "Return on investment"
+      ]
+    },
+    {
+      "id": "page-348",
+      "title": "Creative Workflow ROI",
+      "path": "/business-value/creative-workflow-roi",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "A centralised creative library can reduce time spent searching for assets, recreating files and resolving version confusion.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Return on investment"
+      ]
+    },
+    {
+      "id": "page-349",
+      "title": "Asset Discovery ROI",
+      "path": "/business-value/asset-discovery-roi",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Faster asset discovery can help creative professionals spend more time creating and less time searching through folders.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Search speed",
+        "Return on investment"
+      ]
+    },
+    {
+      "id": "page-350",
+      "title": "Duplicate Reduction",
+      "path": "/business-value/duplicate-reduction",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Duplicate detection can help reduce unnecessary storage consumption and eliminate confusion caused by multiple copies.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Duplicate detection",
+        "Return on investment"
+      ]
+    },
+    {
+      "id": "page-351",
+      "title": "Creative Productivity",
+      "path": "/business-value/creative-productivity",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "By reducing manual organisation and asset-search work, GetSibu can help teams focus on higher-value creative activities.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Productivity and efficiency"
+      ]
+    },
+    {
+      "id": "page-352",
+      "title": "Marketing Productivity",
+      "path": "/business-value/marketing-productivity",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Marketing teams can reduce the time required to locate approved campaign content and supporting creative materials.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Productivity and efficiency"
+      ]
+    },
+    {
+      "id": "page-353",
+      "title": "Production Productivity",
+      "path": "/business-value/production-productivity",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Production teams can reduce the time spent reviewing large amounts of footage and searching through disconnected storage.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Productivity and efficiency"
+      ]
+    },
+    {
+      "id": "page-354",
+      "title": "Agency Efficiency",
+      "path": "/business-value/agency-efficiency",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Agencies can manage multiple client libraries from a structured platform instead of maintaining separate disconnected systems.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Agencies and consultancies",
+        "Productivity and efficiency"
+      ]
+    },
+    {
+      "id": "page-355",
+      "title": "Creative Operations Efficiency",
+      "path": "/business-value/creative-operations-efficiency",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Centralised search, metadata, approvals and analytics can make creative operations more predictable.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Productivity and efficiency"
+      ]
+    },
+    {
+      "id": "page-356",
+      "title": "Asset Management Efficiency",
+      "path": "/business-value/asset-management-efficiency",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Automation helps reduce repetitive work associated with tagging, organising and locating assets.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Productivity and efficiency"
+      ]
+    },
+    {
+      "id": "page-357",
+      "title": "Storage Efficiency",
+      "path": "/business-value/storage-efficiency",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Duplicate detection and storage analytics can help teams better understand how their storage is being consumed.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Storage analytics",
+        "Productivity and efficiency"
+      ]
+    },
+    {
+      "id": "page-358",
+      "title": "Collaboration Efficiency",
+      "path": "/business-value/collaboration-efficiency",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "Contextual comments and approvals reduce the need to communicate asset-specific feedback across multiple disconnected tools.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Productivity and efficiency"
+      ]
+    },
+    {
+      "id": "page-359",
+      "title": "DAM Business Case",
+      "path": "/business-value/dam-business-case",
+      "group": "Resources",
+      "type": "business-value",
+      "section": "Business Value",
+      "summary": "The business case for GetSibu can be built around faster discovery, improved organisation, stronger governance and more efficient collaboration.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Return on investment"
+      ]
+    },
+    {
+      "id": "page-360",
+      "title": "Why Invest in GetSibu",
+      "path": "/business-value/why-invest-in-getsibu",
+      "group": "Resources",
+      "type": "platform",
+      "section": "Business Value",
+      "summary": "GetSibu combines AI-powered discovery, centralised asset management, collaboration, analytics and security into one platform.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "What GetSibu is",
+        "Return on investment"
+      ]
+    },
+    {
+      "id": "page-361",
+      "title": "What Is Digital Asset Management?",
+      "path": "/resources/what-is-digital-asset-management",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Digital asset management is the structured process of storing, organising, finding, managing and distributing digital content.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "DAM fundamentals"
+      ]
+    },
+    {
+      "id": "page-362",
+      "title": "What Is AI Asset Management?",
+      "path": "/resources/what-is-ai-asset-management",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "AI asset management uses machine intelligence to analyse and classify digital content, making large libraries easier to search and organise.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Practical, human-controlled AI",
+        "AI explained"
+      ]
+    },
+    {
+      "id": "page-363",
+      "title": "What Is Semantic Search?",
+      "path": "/resources/what-is-semantic-search",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Semantic search allows users to search by meaning and context rather than relying only on exact keyword matches.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Semantic and natural language search",
+        "AI explained"
+      ]
+    },
+    {
+      "id": "page-364",
+      "title": "What Is AI Tagging?",
+      "path": "/resources/what-is-ai-tagging",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "AI tagging automatically suggests labels based on what the system detects in an asset.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-assisted tagging",
+        "AI explained"
+      ]
+    },
+    {
+      "id": "page-366",
+      "title": "What Is OCR in DAM?",
+      "path": "/resources/what-is-ocr-in-dam",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "OCR converts text visible inside images and documents into searchable information.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "OCR and text inside assets",
+        "AI explained"
+      ]
+    },
+    {
+      "id": "page-368",
+      "title": "What Is Duplicate Detection?",
+      "path": "/resources/what-is-duplicate-detection",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Duplicate detection identifies files that are identical or visually equivalent, including some renamed or re-encoded copies.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Duplicate detection",
+        "AI explained"
+      ]
+    },
+    {
+      "id": "page-369",
+      "title": "What Is Asset Versioning?",
+      "path": "/resources/what-is-asset-versioning",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Asset versioning maintains previous versions of a file so teams can understand its history and restore earlier versions when necessary.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Versioning",
+        "Workflow and governance explained"
+      ]
+    },
+    {
+      "id": "page-370",
+      "title": "What Is Creative Approval?",
+      "path": "/resources/what-is-creative-approval",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Creative approval is a workflow where authorised users review assets and confirm that content is ready for use.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Approvals",
+        "Workflow and governance explained"
+      ]
+    },
+    {
+      "id": "page-371",
+      "title": "What Is Creative Governance?",
+      "path": "/resources/what-is-creative-governance",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Creative governance establishes rules around asset ownership, permissions, approvals, retention and usage.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Governance",
+        "Workflow and governance explained"
+      ]
+    },
+    {
+      "id": "page-372",
+      "title": "What Is Multi-Tenant DAM?",
+      "path": "/resources/what-is-multi-tenant-dam",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Multi-tenant DAM allows one platform to support multiple isolated organisations or clients.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy",
+        "Workflow and governance explained"
+      ]
+    },
+    {
+      "id": "page-373",
+      "title": "What Is a Creative Library?",
+      "path": "/resources/what-is-a-creative-library",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "A creative library is a central repository for images, videos, documents, audio and other digital content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "One central library",
+        "DAM fundamentals"
+      ]
+    },
+    {
+      "id": "page-374",
+      "title": "What Is Asset Metadata?",
+      "path": "/resources/what-is-asset-metadata",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Asset metadata is information describing a file, including creator, format, dimensions, keywords and other contextual details.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Indexing and metadata",
+        "DAM fundamentals"
+      ]
+    },
+    {
+      "id": "page-375",
+      "title": "What Is Asset Taxonomy?",
+      "path": "/resources/what-is-asset-taxonomy",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "An asset taxonomy is a structured classification system that defines how digital content is grouped and labelled.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Organising the library",
+        "DAM fundamentals"
+      ]
+    },
+    {
+      "id": "page-376",
+      "title": "What Is a DAM Migration?",
+      "path": "/resources/what-is-a-dam-migration",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "DAM migration is the process of moving an existing digital asset collection into another asset management environment.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Moving to GetSibu",
+        "DAM fundamentals"
+      ]
+    },
+    {
+      "id": "page-377",
+      "title": "How AI Changes DAM",
+      "path": "/resources/how-ai-changes-dam",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "AI changes digital asset management by making visual and textual content more discoverable without requiring every piece of metadata to be entered manually.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Practical, human-controlled AI",
+        "Where DAM is heading"
+      ]
+    },
+    {
+      "id": "page-378",
+      "title": "Future of Digital Asset Management",
+      "path": "/resources/future-of-digital-asset-management",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "The future of DAM is moving toward intelligent systems that understand content, automate organisation and provide more contextual search.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Where DAM is heading"
+      ]
+    },
+    {
+      "id": "page-379",
+      "title": "Future of Creative Collaboration",
+      "path": "/resources/future-of-creative-collaboration",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "Creative collaboration is increasingly moving into platforms where feedback, approvals, versions and assets exist together.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Collaboration by team",
+        "Where DAM is heading"
+      ]
+    },
+    {
+      "id": "page-380",
+      "title": "Future of AI-Powered Creative Libraries",
+      "path": "/resources/future-of-ai-powered-creative-libraries",
+      "group": "Resources",
+      "type": "resource",
+      "section": "Resources",
+      "summary": "AI-powered creative libraries can become more than storage systems by acting as intelligent knowledge environments for an organisation's creative content.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI media understanding",
+        "Where DAM is heading"
+      ]
+    },
+    {
+      "id": "page-381",
+      "title": "What Is GetSibu?",
+      "path": "/faq/what-is-getsibu",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "GetSibu is an AI-aware digital asset management platform for storing, organising, searching and collaborating around videos, images, documents and audio.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "What GetSibu is"
+      ]
+    },
+    {
+      "id": "page-382",
+      "title": "Who Is GetSibu For?",
+      "path": "/faq/who-is-getsibu-for",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "GetSibu is designed for production teams, marketing teams, agencies, brand teams, creative studios and other organisations managing large creative libraries.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "What GetSibu is"
+      ]
+    },
+    {
+      "id": "page-383",
+      "title": "Does GetSibu Support AI Tagging?",
+      "path": "/faq/does-getsibu-support-ai-tagging",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "Yes. GetSibu provides AI-assisted tagging that can suggest tags based on the content of supported media.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI-assisted tagging"
+      ]
+    },
+    {
+      "id": "page-384",
+      "title": "Can GetSibu Search Inside Documents?",
+      "path": "/faq/can-getsibu-search-inside-documents",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "Yes. OCR allows supported documents and images to become searchable based on extracted text.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "OCR and text inside assets"
+      ]
+    },
+    {
+      "id": "page-385",
+      "title": "Does GetSibu Support Video Comments?",
+      "path": "/faq/does-getsibu-support-video-comments",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "Yes. GetSibu supports comments attached to specific points in a video timeline.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Video and creative review"
+      ]
+    },
+    {
+      "id": "page-386",
+      "title": "Does GetSibu Support Versioning?",
+      "path": "/faq/does-getsibu-support-versioning",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "Yes. Files can be replaced while previous versions remain available within the asset history.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Versioning"
+      ]
+    },
+    {
+      "id": "page-387",
+      "title": "Does GetSibu Support Multiple Clients?",
+      "path": "/faq/does-getsibu-support-multiple-clients",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "Yes. Its multi-tenant design is intended to support agencies and organisations that need isolated client environments.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Multi-tenancy"
+      ]
+    },
+    {
+      "id": "page-388",
+      "title": "Does GetSibu Have an API?",
+      "path": "/faq/does-getsibu-have-an-api",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "Yes. GetSibu is positioned as an API-first DAM and provides REST API capabilities, webhooks and developer tooling.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "The GetSibu API"
+      ]
+    },
+    {
+      "id": "page-390",
+      "title": "Can GetSibu Integrate With Existing Tools?",
+      "path": "/faq/can-getsibu-integrate-with-existing-tools",
+      "group": "FAQs",
+      "type": "faq",
+      "section": "FAQs",
+      "summary": "Can GetSibu Integrate With Existing Tools? GetSibu connects with the tools teams already use.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Integrations"
+      ]
+    },
+    {
+      "id": "page-391",
+      "title": "Start Your Creative Library",
+      "path": "/get-started",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "GetSibu gives teams a simple way to begin bringing their creative assets into one searchable environment.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": [
+        "Ingestion and import",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-392",
+      "title": "Bring Your Creative Assets Together",
+      "path": "/get-started/bring-your-creative-assets-together",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "Instead of keeping videos in one drive, images in another folder and documents somewhere else, GetSibu creates a central environment.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "One central library",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-393",
+      "title": "Stop Searching Through Folders",
+      "path": "/get-started/stop-searching-through-folders",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "Creative professionals should not have to remember complicated folder structures to find important files.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Creative asset search",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-394",
+      "title": "Make Every Asset Discoverable",
+      "path": "/get-started/make-every-asset-discoverable",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "Every image, video, document and audio file contains information that can become useful for future work.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "The discovery workflow",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-395",
+      "title": "Give Your Creative Team One Source of Truth",
+      "path": "/get-started/give-your-creative-team-one-source-of-truth",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "A shared creative library creates consistency across production, marketing, brand and agency teams.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "One central library",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-396",
+      "title": "Build a Smarter Creative Workflow",
+      "path": "/get-started/build-a-smarter-creative-workflow",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "GetSibu connects ingestion, AI processing, organisation, search, collaboration, approvals, analytics and governance into one workflow.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "End-to-end creative workflow",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-397",
+      "title": "Scale Your Creative Library",
+      "path": "/get-started/scale-your-creative-library",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "As organisations produce more campaigns, videos, images and documents, their asset libraries become increasingly difficult to manage.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Organising the library",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-398",
+      "title": "Turn Your Asset Library Into Intelligence",
+      "path": "/get-started/turn-your-asset-library-into-intelligence",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "Turn Your Asset Library Into Intelligence: AI media understanding allows GetSibu to interpret the content of visual assets and make that information available.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "AI media understanding",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-399",
+      "title": "Bring Order to Creative Chaos",
+      "path": "/get-started/bring-order-to-creative-chaos",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "Creative chaos often begins with scattered storage, inconsistent filenames, duplicate files and unclear versions.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Organising the library",
+        "Get started"
+      ]
+    },
+    {
+      "id": "page-400",
+      "title": "The Future of Creative Asset Management",
+      "path": "/get-started/future-of-creative-asset-management",
+      "group": "Platform",
+      "type": "conversion",
+      "section": "Get Started",
+      "summary": "GetSibu represents a modern approach to digital asset management where storage is only the beginning.",
+      "publishable": true,
+      "pillar": false,
+      "keywords": [
+        "Where DAM is heading",
+        "Get started"
+      ]
+    },
+    {
+      "id": "index-features",
+      "title": "Features",
+      "path": "/features",
+      "group": "Platform",
+      "type": "section-index",
+      "section": "Features",
+      "summary": "Search and discovery, AI, collaboration, versioning and asset management features in GetSibu, the creative asset management platform.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-search-discovery",
+      "title": "Search & Discovery",
+      "path": "/features/search-and-discovery",
+      "group": "Features",
+      "type": "section-index",
+      "section": "Features",
+      "summary": "GetSibu search and discovery: creative asset search, semantic search, OCR-powered search, advanced media filters, saved searches and metadata indexing.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-ai",
+      "title": "AI Features",
+      "path": "/features/ai",
+      "group": "AI",
+      "type": "section-index",
+      "section": "Features",
+      "summary": "GetSibu AI features: AI-assisted tagging, vision analysis, object, mood and colour detection, OCR, duplicate detection and AI-assisted discovery.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-collaboration",
+      "title": "Collaboration",
+      "path": "/features/collaboration",
+      "group": "Features",
+      "type": "section-index",
+      "section": "Features",
+      "summary": "Collaboration in GetSibu: asset comments, threaded discussions, video timeline comments, frame-accurate review, mentions, approval workflows and shared views.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-asset-management",
+      "title": "Versioning & Asset Management",
+      "path": "/features/asset-management",
+      "group": "Features",
+      "type": "section-index",
+      "section": "Features",
+      "summary": "Versioning and asset management in GetSibu: version history, asset lifecycle and status, approved asset libraries, archiving, governance and audit trail.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-storage",
+      "title": "Storage & Ingestion",
+      "path": "/storage",
+      "group": "Features",
+      "type": "section-index",
+      "section": "Storage & Ingestion",
+      "summary": "Storage and ingestion in GetSibu: connected storage sources, drag and drop and bulk uploads, asset processing, streaming previews and storage analytics.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-permissions",
+      "title": "Permissions & Multi-Tenancy",
+      "path": "/permissions",
+      "group": "Security",
+      "type": "section-index",
+      "section": "Permissions & Multi-Tenancy",
+      "summary": "Permissions and multi-tenancy in GetSibu: role-based access control, folder-level permissions, default-deny access and client tenant isolation.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-analytics",
+      "title": "Analytics",
+      "path": "/analytics",
+      "group": "Features",
+      "type": "section-index",
+      "section": "Analytics",
+      "summary": "GetSibu analytics: creative asset, usage, storage, upload, contributor and tag analytics, with daily, weekly and monthly views of library activity.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-use-cases",
+      "title": "Use Cases",
+      "path": "/use-cases",
+      "group": "Use Cases",
+      "type": "section-index",
+      "section": "Use Cases",
+      "summary": "How production studios, video, marketing and brand teams, agencies, creators and communications teams can use GetSibu to manage creative libraries.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-business-value",
+      "title": "Business Value",
+      "path": "/business-value",
+      "group": "Resources",
+      "type": "section-index",
+      "section": "Business Value",
+      "summary": "The business value of GetSibu: asset discovery ROI, creative workflow ROI, duplicate reduction and productivity for creative, marketing and production teams.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-resources",
+      "title": "Resources",
+      "path": "/resources",
+      "group": "Resources",
+      "type": "section-index",
+      "section": "Resources",
+      "summary": "Guides to digital asset management: what DAM, AI tagging, semantic search, OCR, versioning, metadata and taxonomy are, and where creative libraries are heading.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    },
+    {
+      "id": "index-faq",
+      "title": "FAQs",
+      "path": "/faq",
+      "group": "FAQs",
+      "type": "section-index",
+      "section": "FAQs",
+      "summary": "Answers to common questions about GetSibu: who it is for, AI tagging, document search, video comments, versioning, multiple clients, the API and integrations.",
+      "publishable": true,
+      "pillar": true,
+      "keywords": []
+    }
+  ]
+}
