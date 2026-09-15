@@ -5448,6 +5448,21 @@
    "note": "Search results page; noindex and disallowed in robots.txt."
   },
   {
+   "path": "/sitemap",
+   "class": "LIVE",
+   "kind": "utility",
+   "pdfPage": null,
+   "title": "Sitemap",
+   "status": 200,
+   "destination": null,
+   "indexable": true,
+   "sitemap": true,
+   "search": false,
+   "navigation": true,
+   "claims": [],
+   "note": "Directory of every live route (titles and links only), built from the inventory."
+  },
+  {
    "path": "/storage",
    "class": "LIVE",
    "kind": "hub",

@@ -4,20 +4,12 @@
  * No service and no library: 408 documents are scored in the browser in well under a millisecond.
  * Scoring favours title matches, then topic-cluster keywords, then section and summary. Every query
  * term must match somewhere (one may miss for queries of three or more terms). Results are grouped
- * by content type, and groups are ordered by their best match so the most relevant group leads.
+ * by the PDF hierarchy (a page's category), and groups are ordered by their best match so the most
+ * relevant group leads.
  */
 
-export type SearchGroup =
-  | "Platform"
-  | "Features"
-  | "AI"
-  | "Use Cases"
-  | "Integrations"
-  | "Developers"
-  | "Security"
-  | "Pricing"
-  | "Resources"
-  | "FAQs";
+import type { SearchGroup } from "@/types/content";
+export type { SearchGroup };
 
 export interface SearchDocument {
   id: string;

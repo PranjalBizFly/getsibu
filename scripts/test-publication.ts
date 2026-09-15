@@ -15,6 +15,10 @@ import { mkdtempSync, readFileSync, readdirSync, rmSync, writeFileSync } from "n
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { Inventory, RouteMatrixRow } from "../types/content.ts";
+import { AUTHORED_PAGES } from "../content/pages/registry.ts";
+
+/** Pages with authored content: they are rendered from content/pages, never composed. */
+const authored = new Map(AUTHORED_PAGES.map((content) => [content.page, content]));
 
 const failures: string[] = [];
 let checks = 0;
@@ -73,8 +77,9 @@ function expectPublished(name: string, r: ReturnType<typeof run>, n: number) {
   expect(r.search.documents.some((d) => d.id === `page-${n}`), `[${name}] published page ${n} must be searchable`);
   expect(!r.inventory.redirects.some((x) => x.source === p.path), `[${name}] published page ${n} must not redirect`);
   expect(row(r.matrix, p.path)?.class === "LIVE" && row(r.matrix, p.path)?.status === 200, `[${name}] route matrix should classify ${p.path} as LIVE 200`);
-  expect(p.contextPage === null && p.seo.description.startsWith(p.keyStatement.slice(0, 30)), `[${name}] published page ${n} should describe itself from its own PDF statement`);
-  if (r.composed) expect(String(n) in r.composed, `[${name}] published page ${n} must be composed`);
+  const refined = authored.get(n)?.metaDescription;
+  expect(p.contextPage === null && (refined ? p.seo.description === refined : p.seo.description.startsWith(p.keyStatement.slice(0, 30))), `[${name}] published page ${n} should describe itself (its authored description or its own PDF statement)`);
+  if (r.composed) expect(String(n) in r.composed || authored.has(n), `[${name}] published page ${n} must be composed or authored`);
 }
 
 // 1. Today's register: the held pages stay held.

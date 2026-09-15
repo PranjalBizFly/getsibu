@@ -20,9 +20,12 @@ export interface FigureProps {
   label?: string;
 }
 
+/** A figure's accessible name, like an image's alt text, names the site: "GetSibu illustration: …". */
+export const figureLabel = (label: string) => (/GetSibu/.test(label) ? label : `GetSibu illustration: ${label.charAt(0).toLowerCase()}${label.slice(1)}`);
+
 export function Svg({ label, viewBox, children }: { label: string; viewBox: string; children: ReactNode }) {
   return (
-    <svg viewBox={viewBox} role="img" aria-label={label} className="block h-auto w-full" xmlns="http://www.w3.org/2000/svg">
+    <svg viewBox={viewBox} role="img" aria-label={figureLabel(label)} className="block h-auto w-full" xmlns="http://www.w3.org/2000/svg">
       {children}
     </svg>
   );

@@ -354,6 +354,7 @@ path,class,kind,pdfPage,title,status,destination,indexable,sitemap,search,naviga
 /security/sso,HELD,held-page,334,SSO,307,/security,false,false,false,false,sso-scim,Title states an unconfirmed claim; republished when the claim is confirmed in claims.ts.
 /security/tenant-isolation,LIVE,page,324,Tenant Isolation,200,,true,true,true,true,,
 /site-search,SAFE-LIVE,utility,,Search results,200,,false,false,false,false,,Search results page; noindex and disallowed in robots.txt.
+/sitemap,LIVE,utility,,Sitemap,200,,true,true,false,true,,"Directory of every live route (titles and links only), built from the inventory."
 /storage,LIVE,hub,,Storage & Ingestion,200,,true,true,true,true,,
 /storage/10-gb-file-uploads,HELD,held-page,140,10 GB File Uploads,307,/storage/media-upload-management,false,false,false,false,upload-10gb,Title states an unconfirmed claim; republished when the claim is confirmed in claims.ts.
 /storage/ai-processing-queue,LIVE,page,144,AI Processing Queue,200,,true,true,true,false,,

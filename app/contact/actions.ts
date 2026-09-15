@@ -1,6 +1,7 @@
 "use server";
 
 import { contactFormConfig } from "@/lib/forms/contact-config";
+import { deliverContact } from "@/lib/forms/contact-delivery";
 import { readContact, validateContact, type ContactErrors, type ContactValues } from "@/lib/forms/contact";
 
 export interface ContactState {
@@ -15,8 +16,8 @@ const DELIVERY_TIMEOUT_MS = 10_000;
 
 /**
  * Validates on the server with the same rules as the browser, then delivers to the configured
- * endpoint. "sent" is returned only when the endpoint accepted the message (2xx). Without a
- * configured endpoint the action refuses the submission.
+ * endpoint. "sent" is returned only when the endpoint itself accepted the message (2xx; a redirect is
+ * not followed and counts as a failure). Without a configured endpoint the action refuses the submission.
  */
 export async function submitContact(_previous: ContactState, form: FormData): Promise<ContactState> {
   const config = contactFormConfig();
@@ -36,25 +37,13 @@ export async function submitContact(_previous: ContactState, form: FormData): Pr
   if (previous === "pending") return { status: "failed" };
   deliveries.set(submissionId, "pending");
 
-  try {
-    const response = await fetch(config.endpoint, {
-      method: "POST",
-      headers: { "content-type": "application/json", accept: "application/json" },
-      body: JSON.stringify({ ...values, submissionId, source: "contact-page", submittedAt: new Date().toISOString() }),
-      signal: AbortSignal.timeout(DELIVERY_TIMEOUT_MS),
-      cache: "no-store",
-    });
-    if (!response.ok) {
-      deliveries.delete(submissionId);
-      // Status only: never log the visitor's details.
-      console.error(`Contact form delivery failed with HTTP ${response.status}`);
-      return { status: "failed", values };
-    }
-    deliveries.set(submissionId, "sent");
-    return { status: "sent" };
-  } catch (error) {
+  const delivery = await deliverContact(config.endpoint, { ...values, submissionId, source: "contact-page", submittedAt: new Date().toISOString() }, DELIVERY_TIMEOUT_MS);
+  if (!delivery.delivered) {
     deliveries.delete(submissionId);
-    console.error(`Contact form delivery failed: ${error instanceof Error ? error.name : "unknown error"}`);
+    // Status or error name only: never log the visitor's details.
+    console.error(`Contact form delivery failed: ${delivery.failure}`);
     return { status: "failed", values };
   }
+  deliveries.set(submissionId, "sent");
+  return { status: "sent" };
 }

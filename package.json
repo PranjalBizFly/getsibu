@@ -18,11 +18,16 @@
     "inventory": "npm run inventory:build && npm run pages:compose && npm run inventory:validate && npm run inventory:export",
     "prebuild": "npm run inventory:build && npm run pages:compose && npm run inventory:validate",
     "pages:compose": "node scripts/compose-pages.ts",
+    "images:build": "node scripts/build-image-inventory.ts",
+    "images:generate": "node scripts/generate-human-images.ts",
+    "images:validate": "node scripts/validate-images.ts",
     "verify:build": "node scripts/verify-build.ts",
     "postbuild": "npm run verify:build",
-    "test:publication": "node scripts/test-publication.ts"
+    "test:publication": "node scripts/test-publication.ts",
+    "test:http": "node scripts/test-http-status.ts"
   },
   "dependencies": {
+    "lucide-react": "1.46.0",
     "next": "16.3.5",
     "react": "19.3.0",
     "react-dom": "19.3.0"

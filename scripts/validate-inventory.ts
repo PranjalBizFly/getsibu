@@ -7,7 +7,7 @@
  * each warning category is a known open item documented in docs/architecture.
  */
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 import { generated } from "./pipeline-env.ts";
 import type { Inventory, SourcePage } from "../types/content.ts";
 import { CLUSTERS } from "../content/architecture/clusters.ts";
@@ -15,9 +15,10 @@ import { CLAIMS, DO_NOT_USE, isPublishable } from "../content/architecture/claim
 import { FOOTER_NAV, FOOTER_STATEMENT, PRIMARY_NAV } from "../content/architecture/navigation.ts";
 import { AUTHORED_PAGES } from "../content/pages/registry.ts";
 import { VERIFIED_CONTEXT } from "../content/architecture/verified-context.ts";
-import { SUPPORTING_PAGES } from "../content/architecture/sections.ts";
+import { CATEGORIES, SUPPORTING_PAGES } from "../content/architecture/sections.ts";
 import { ABOUT_PAGE, CONTACT_PAGE } from "../content/architecture/company-pages.ts";
 import { STORYLINES } from "../content/architecture/storylines.ts";
+import { checkAuthoredContent } from "./content-quality.ts";
 import { RESERVED_APP_ROUTES } from "../content/architecture/url-rules.ts";
 import { APP_TOPOLOGY } from "../content/architecture/route-decisions.ts";
 
@@ -29,11 +30,21 @@ const warnings = new Map<string, string[]>();
 const error = (message: string) => errors.push(message);
 const warn = (category: string, message: string) => warnings.set(category, [...(warnings.get(category) ?? []), message]);
 
+// Search labels follow the PDF hierarchy: a page's search group is its category's label (home belongs to Platform).
+for (const category of CATEGORIES) {
+  const expected = category.id === "home" ? "Platform" : category.label;
+  if (category.searchGroup !== expected) error(`Category ${category.id}: search group "${category.searchGroup}" should be its PDF-hierarchy label "${expected}"`);
+}
+for (const page of inventory.pages) {
+  const category = CATEGORIES.find((c) => c.id === page.category);
+  if (category && page.searchGroup !== category.searchGroup) error(`Page ${page.number}: search group "${page.searchGroup}" differs from its category's "${category.searchGroup}"`);
+}
+
 const escapeRegExp = (value: string) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 /** Returns the first problem found in a piece of copy: a placeholder, or a claim that is not publishable. */
-function copyProblem(text: string): string | null {
+function copyProblem(text: string, allowedClaims: ReadonlySet<string> = new Set()): string | null {
   for (const item of DO_NOT_USE) if (text.includes(item.text)) return `placeholder "${item.text}" — ${item.reason}`;
-  for (const claim of CLAIMS.filter((c) => !isPublishable(c))) {
+  for (const claim of CLAIMS.filter((c) => !isPublishable(c) && !allowedClaims.has(c.id))) {
     const hit = claim.detect.find((term) => new RegExp(`(?<![A-Za-z0-9-])${escapeRegExp(term)}(?![A-Za-z0-9-])`, "i").test(text));
     if (hit) return `unpublishable claim "${claim.id}" (matched "${hit}", status ${claim.status})`;
   }
@@ -281,8 +292,13 @@ warn(
 // Authored content (Prompt 2+): no placeholders, no unpublishable claims.
 const walk = (dir: string): string[] =>
   existsSync(dir) ? readdirSync(dir).flatMap((f) => (statSync(join(dir, f)).isDirectory() ? walk(join(dir, f)) : [join(dir, f)])) : [];
+// A held page renders nowhere until its claims are confirmed, so its draft may state those claims (and no others).
+// Topic files are named <pdf-number>-<slug>.ts.
 for (const file of walk("content/pages")) {
-  const problem = copyProblem(readFileSync(file, "utf8"));
+  const number = Number(basename(file).split("-")[0]);
+  const page = Number.isInteger(number) ? byNumber.get(number) : undefined;
+  const allowed = page?.publication === "held" ? new Set(page.claims) : new Set<string>();
+  const problem = copyProblem(readFileSync(file, "utf8"), allowed);
   if (problem) error(`${file}: contains ${problem}`);
 }
 
@@ -311,6 +327,14 @@ for (const content of AUTHORED_PAGES) {
       else if (byNumber.get(n)!.needsVerification) warn("Authored sections linking to framed pages", `${where} → ${n} ${byNumber.get(n)!.title}`);
     }
   });
+}
+{
+  // Depth, honesty, language and repetition of authored topic pages (scripts/content-quality.ts).
+  const quality = checkAuthoredContent(AUTHORED_PAGES, inventory, source);
+  quality.errors.forEach(error);
+  for (const [category, items] of quality.warnings) items.forEach((item) => warn(category, item));
+  const words = [...quality.stats.values()].map((s) => s.words);
+  if (words.length) console.log(`Authored pages checked: ${words.length}, median ${words.sort((a, b) => a - b)[Math.floor(words.length / 2)]} words`);
 }
 const authoredFiles = walk("content/pages").filter((file) => !file.endsWith("registry.ts"));
 if (authoredFiles.length !== AUTHORED_PAGES.length) {
@@ -419,7 +443,7 @@ if (!existsSync(composedFile)) {
   }
   for (const group of bySignature.values()) if (group.length > 1) warn("Pages whose story sections are identical (give one a different angle in storylines.ts)", group.map((n) => `${n} ${byNumber.get(n)!.title}`).join(" = "));
   const composedCount = live.filter((p) => !authoredPages.has(p.number)).length;
-  console.log(`Composed pages checked: ${composedCount}, average ${(storyTotal / composedCount).toFixed(1)} story sections per page`);
+  console.log(`Composed pages checked: ${composedCount}, average ${composedCount ? (storyTotal / composedCount).toFixed(1) : "—"} story sections per page`);
 }
 
 // Figure labels and storyline text are copy too.

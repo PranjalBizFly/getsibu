@@ -21,7 +21,7 @@ const organization = (): JsonLd => ({
   "@id": ORGANIZATION_ID,
   name: SITE_NAME,
   url: SITE_URL,
-  logo: { "@type": "ImageObject", url: absoluteUrl("/brand/getsibu-logo.png"), width: 1257, height: 459 },
+  logo: { "@type": "ImageObject", url: absoluteUrl("/brand/getsibu-logo.webp"), width: 1257, height: 459, caption: "GetSibu creative asset management platform logo" },
 });
 
 const website = (): JsonLd => ({
@@ -95,7 +95,7 @@ export function pageJsonLd(page: InventoryPage): JsonLd {
 }
 
 /** Company pages outside the inventory (/about). Names the organisation; states nothing about it. */
-export function companyPageJsonLd(page: { type: "AboutPage" | "WebPage"; path: string; title: string; h1: string; description: string }): JsonLd {
+export function companyPageJsonLd(page: { type: "AboutPage" | "WebPage" | "CollectionPage"; path: string; title: string; h1: string; description: string; breadcrumbLabel?: string }): JsonLd {
   const url = absoluteUrl(page.path);
   return {
     "@context": "https://schema.org",
@@ -112,7 +112,7 @@ export function companyPageJsonLd(page: { type: "AboutPage" | "WebPage"; path: s
         about: { "@id": ORGANIZATION_ID },
         breadcrumb: breadcrumbList([
           { label: "Home", path: "/" },
-          { label: page.h1, path: page.path },
+          { label: page.breadcrumbLabel ?? page.h1, path: page.path },
         ]),
       },
     ],

@@ -1,9 +1,11 @@
 "use client";
 
+import { LayoutList } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { Icon } from "@/components/primitives/Icon";
+import type { NavModel } from "@/lib/navigation";
 import { groupHits, loadSearchIndex, search, type SearchDocument, type SearchIndex } from "@/lib/search/engine";
 
 const PER_GROUP = 4;
@@ -15,7 +17,7 @@ interface Option {
   group: string;
 }
 
-export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => void }) {
+export function SearchDialog({ open, onClose, directory }: { open: boolean; onClose: () => void; directory: NavModel["directory"] }) {
   const router = useRouter();
   const dialogRef = useRef<HTMLDialogElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -135,7 +137,18 @@ export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => 
           {status === "ready" && trimmed && !options.length ? (
             <div className="px-3 py-8">
               <p className="type-h4 text-fg">No pages match “{trimmed}”.</p>
-              <p className="type-body-sm mt-1 text-fg-muted">Try a broader term, such as “search”, “permissions” or “migration”.</p>
+              <p className="type-body-sm mt-1 text-fg-muted">
+                Try a broader term, such as “search”, “permissions” or “migration”
+                {directory ? (
+                  <>
+                    , or browse{" "}
+                    <Link href={directory.href} onClick={onClose} className="font-semibold text-accent underline underline-offset-4">
+                      every page in the sitemap
+                    </Link>
+                  </>
+                ) : null}
+                .
+              </p>
             </div>
           ) : null}
 
@@ -181,23 +194,36 @@ export function SearchDialog({ open, onClose }: { open: boolean; onClose: () => 
           </ul>
         </div>
 
-        <div className="flex items-center justify-between gap-4 border-t border-line px-5 py-3">
-          <p className="type-caption hidden items-center gap-3 text-fg-muted sm:flex">
-            <span>
-              <kbd className="font-mono">↑</kbd> <kbd className="font-mono">↓</kbd> to move
-            </span>
-            <span>
-              <kbd className="font-mono">Enter</kbd> to open
-            </span>
-          </p>
-          {trimmed ? (
-            <Link href={exploreHref} onClick={onClose} className="arrow-link type-body-sm ml-auto inline-flex items-center gap-1.5 font-semibold text-accent">
-              Explore all results
-              <Icon name="arrowRight" size={16} />
+        <div className="border-t border-line">
+          <div className={`${trimmed ? "flex" : "hidden sm:flex"} items-center justify-between gap-4 px-5 py-3`}>
+            <p className="type-caption hidden items-center gap-3 text-fg-muted sm:flex">
+              <span>
+                <kbd className="font-mono">↑</kbd> <kbd className="font-mono">↓</kbd> to move
+              </span>
+              <span>
+                <kbd className="font-mono">Enter</kbd> to open
+              </span>
+            </p>
+            {trimmed ? (
+              <Link href={exploreHref} onClick={onClose} className="arrow-link type-body-sm ml-auto inline-flex items-center gap-1.5 font-semibold text-accent">
+                Explore all results
+                <Icon name="arrowRight" size={16} />
+              </Link>
+            ) : null}
+          </div>
+          {/* Every page, browsable without a query (Mengo's "Explore all pages" row). */}
+          {directory ? (
+            <Link href={directory.href} onClick={onClose} className="group flex items-center justify-between gap-4 border-t border-line px-5 py-3.5 transition-colors hover:bg-sunken">
+              <span className="flex min-w-0 items-center gap-2.5">
+                <LayoutList aria-hidden="true" className="size-[1.125rem] shrink-0 text-fg-muted transition-colors group-hover:text-accent" strokeWidth={2} />
+                <span className="type-body-sm font-semibold text-fg transition-colors group-hover:text-accent">{directory.label}</span>
+              </span>
+              <span className="type-caption flex shrink-0 items-center gap-2 text-fg-muted">
+                {directory.count} pages
+                <Icon name="arrowRight" size={16} className="transition-transform duration-200 group-hover:translate-x-0.5" />
+              </span>
             </Link>
-          ) : (
-            <span className="type-caption ml-auto text-fg-muted">{index ? `${index.documents.length} pages indexed` : ""}</span>
-          )}
+          ) : null}
         </div>
       </div>
     </dialog>

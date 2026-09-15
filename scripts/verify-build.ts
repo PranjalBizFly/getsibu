@@ -21,6 +21,7 @@ import { join } from "node:path";
 import type { Inventory, RouteMatrixRow } from "../types/content.ts";
 import { CLAIMS, DO_NOT_USE, isPublishable } from "../content/architecture/claims.ts";
 import { ABOUT_PAGE, CONTACT_PAGE } from "../content/architecture/company-pages.ts";
+import { SUPPORTING_PAGES } from "../content/architecture/sections.ts";
 
 const APP = ".next/server/app";
 const IS_PRODUCTION = process.env.SITE_ENV === "production";
@@ -38,12 +39,14 @@ const canonical = inventory.pages.filter((p) => p.status === "canonical");
 const live = canonical.filter((p) => p.publication !== "held");
 const held = canonical.filter((p) => p.publication === "held");
 const company = [ABOUT_PAGE, CONTACT_PAGE];
+/** Generated utility pages: /site-search and the /sitemap directory. */
+const utility = SUPPORTING_PAGES.filter((s) => s.contentStatus === "generated");
 
 /* Routes ------------------------------------------------------------------------------------------ */
 
 const manifest = JSON.parse(readFileSync(".next/prerender-manifest.json", "utf8")) as { routes: Record<string, unknown> };
 const generated = new Set(Object.keys(manifest.routes).filter((route) => !route.startsWith("/_") && !/\.(xml|txt|json|png)$/.test(route)));
-const expected = new Set(["/", ...live.map((p) => p.path), ...inventory.indexes.map((i) => i.path), ...company.map((c) => c.path), "/site-search"]);
+const expected = new Set(["/", ...live.map((p) => p.path), ...inventory.indexes.map((i) => i.path), ...company.map((c) => c.path), ...utility.map((u) => u.path)]);
 for (const path of expected) if (!generated.has(path)) error(`Route ${path} is in the inventory but was not generated`);
 for (const path of generated) if (!expected.has(path)) error(`Route ${path} was generated but is not a live inventory page, hub or company page`);
 for (const p of held) if (generated.has(p.path)) error(`Held page ${p.number} (${p.path}) was generated`);
@@ -57,6 +60,7 @@ const expectedSitemap = new Set(
     ...live.filter((p) => p.seo.sitemap).map((p) => p.path),
     ...inventory.indexes.filter((i) => i.seo.sitemap).map((i) => i.path),
     ...company.filter((c) => c.indexable).map((c) => c.path),
+    ...utility.filter((u) => u.indexable).map((u) => u.path),
   ].map(absolute),
 );
 if (new Set(sitemapUrls).size !== sitemapUrls.length) error("sitemap.xml contains duplicate URLs");
@@ -216,6 +220,40 @@ for (const row of matrix) {
   // Mega-menu columns render one at a time; the others travel in the page payload as the navigation model.
   if (row.navigation && !chromeHtml.includes(`href="${row.path}"`) && !homeHtml.includes(`\\"href\\":\\"${row.path}\\"`)) error(`${where}: marked as navigation but not in the header, footer or navigation model`);
   if (row.class === "HELD" && row.claims.length === 0) error(`${where}: held without an unconfirmed claim`);
+}
+
+// The /sitemap directory lists exactly the live routes (the search results page aside) and nothing else.
+if (utility.some((u) => u.path === "/sitemap") && existsSync(fileFor("/sitemap", ".html"))) {
+  const html = readFileSync(fileFor("/sitemap", ".html"), "utf8");
+  const list = html.slice(html.indexOf('id="page-directory"'), html.indexOf("</main>"));
+  const listed = new Set([...list.matchAll(/<a[^>]*href="([^"]+)"/g)].map((m) => m[1]));
+  const want = new Set(matrix.filter((r) => (r.class === "LIVE" || r.class === "SAFE-LIVE") && r.path !== "/site-search").map((r) => r.path));
+  if (!listed.size) error("/sitemap: the page directory is missing");
+  for (const path of want) if (!listed.has(path)) error(`/sitemap does not list the live route ${path}`);
+  for (const path of listed) if (!want.has(path)) error(`/sitemap lists ${path}, which is not a live route`);
+}
+
+// No photograph twice on one page: topic images are crops of source photos (image-inventory.json `source`),
+// so two different image files on a page must not come from the same photo (lib/content/images.ts).
+{
+  const imageSources: Array<{ path: string; source?: string }> = JSON.parse(readFileSync("content/generated/image-inventory.json", "utf8"));
+  const photoOf = new Map(imageSources.map((entry) => [entry.path, entry.source ?? entry.path]));
+  const imagePattern = /(?:\/|%2F)images(?:\/|%2F)topics(?:\/|%2F)[A-Za-z0-9%._-]+?\.webp/g;
+  let repeats = 0;
+  for (const path of generated) {
+    const file = fileFor(path, ".html");
+    if (!existsSync(file)) continue;
+    const main = readFileSync(file, "utf8").match(/<main[\s\S]*<\/main>/)?.[0] ?? "";
+    const images = new Set([...main.matchAll(imagePattern)].map((m) => decodeURIComponent(m[0])));
+    const byPhoto = new Map<string, string[]>();
+    for (const image of images) byPhoto.set(photoOf.get(image) ?? image, [...(byPhoto.get(photoOf.get(image) ?? image) ?? []), image]);
+    for (const [photo, files] of byPhoto) {
+      if (files.length < 2) continue;
+      repeats += 1;
+      if (repeats <= 10) error(`${path}: ${files.length} images show the same photo (${photo}): ${files.join(", ")}`);
+    }
+  }
+  if (repeats > 10) error(`… and ${repeats - 10} more repeated photos`);
 }
 
 /* Security headers -------------------------------------------------------------------------------- */

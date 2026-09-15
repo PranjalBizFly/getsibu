@@ -59,8 +59,10 @@ const nextConfig: NextConfig = {
   productionBrowserSourceMaps: false,
   // Clean URLs without trailing slashes; see docs/architecture/05-url-system.md.
   trailingSlash: false,
+  // Every optimised image is served as WebP (the source files in public/ are WebP too); icon files and
+  // the social card stay PNG because app icons and link-preview crawlers need it.
   images: {
-    formats: ["image/avif", "image/webp"],
+    formats: ["image/webp"],
   },
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];

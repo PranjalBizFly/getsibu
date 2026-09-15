@@ -5,7 +5,7 @@
  *
  * Output
  *   content/generated/inventory.json     every page, index hub, route, SEO field and link
- *   content/generated/search-index.json  documents for global search, grouped by content type
+ *   content/generated/search-index.json  documents for global search, grouped by PDF hierarchy (category)
  *
  * The build is deterministic: same inputs, byte-identical output (except `generatedAt`).
  */
@@ -24,7 +24,7 @@ import type {
   SearchIntent,
   SourcePage,
 } from "../types/content.ts";
-import { CATEGORIES, INDEX_PAGES, ROOT_LISTINGS, SUPPORTING_REDIRECTS, categoryById, sectionById } from "../content/architecture/sections.ts";
+import { CATEGORIES, INDEX_PAGES, ROOT_LISTINGS, SUPPORTING_PAGES, SUPPORTING_REDIRECTS, categoryById, sectionById } from "../content/architecture/sections.ts";
 import { MERGES, RESERVED_FEATURE_SLUGS, SECTION_EXCEPTIONS, SECTION_STRIP_PATTERNS, SLUG_OVERRIDES, slugify } from "../content/architecture/url-rules.ts";
 import { PAGE_TYPE_OVERRIDES, RECIPE_PINS, pageTypeById } from "../content/architecture/page-types.ts";
 import { CATEGORY_CONVERSION, CLUSTERS, clusterById } from "../content/architecture/clusters.ts";
@@ -34,6 +34,7 @@ import { FOOTER_NAV, GLOBAL_CTAS, PRIMARY_NAV } from "../content/architecture/na
 import { ABOUT_PAGE, CONTACT_PAGE } from "../content/architecture/company-pages.ts";
 import { H1_OVERRIDES } from "../content/architecture/identity.ts";
 import { HELD_BY_DECISION, verifiedContextFor } from "../content/architecture/verified-context.ts";
+import { AUTHORED_PAGES } from "../content/pages/registry.ts";
 
 const SOURCE_FILE = "content/source/pdf-pages.json";
 const BRAND = "GetSibu";
@@ -86,18 +87,9 @@ function categoryFor(page: SourcePage): CategoryDef {
   return match;
 }
 
-function searchGroupFor(type: PageTypeId, category: CategoryDef): SearchGroup {
-  const byType: Partial<Record<PageTypeId, SearchGroup>> = {
-    "ai-feature": "AI",
-    integration: "Integrations",
-    developer: "Developers",
-    "access-security": "Security",
-    pricing: "Pricing",
-    "use-case": "Use Cases",
-    resource: "Resources",
-    faq: "FAQs",
-  };
-  return byType[type] ?? category.searchGroup;
+/** Search results are labelled by the PDF hierarchy: the page's category (its PDF group), never its page type. */
+function searchGroupFor(_type: PageTypeId, category: CategoryDef): SearchGroup {
+  return category.searchGroup;
 }
 
 /** Visual direction follows the page's type when the type belongs to a different category. */
@@ -273,6 +265,13 @@ for (const redirect of redirects) {
 }
 for (const d of canonicalDrafts) {
   if (d.publication === "held") redirects.push({ source: d.path, destination: drafts.get(d.contextPage!)!.path, permanent: false });
+}
+// Authored topic pages may refine the drafted meta description (validated like every description:
+// length, uniqueness and claims). Held pages keep their context description until they publish.
+const authoredByPage = new Map(AUTHORED_PAGES.map((content) => [content.page, content]));
+for (const d of canonicalDrafts) {
+  const refined = authoredByPage.get(d.number)?.metaDescription;
+  if (refined && d.publication !== "held") d.seo.description = refined;
 }
 /** Canonical pages that are published or framed: the only pages anything may link to or list. */
 const liveDrafts = canonicalDrafts.filter((d) => d.publication !== "held");
@@ -529,7 +528,12 @@ writeFileSync(generated("inventory.json"), `${JSON.stringify(inventory, null, 2)
 /* Search index                                                                                */
 /* ------------------------------------------------------------------------------------------ */
 
-const SEARCH_GROUP_ORDER: SearchGroup[] = ["Features", "AI", "Integrations", "Developers", "Security", "Platform", "Use Cases", "Pricing", "Resources", "FAQs"];
+/** The key-concept chips of a page's authored overview. */
+const keyConcepts = (n: number): string[] =>
+  authoredByPage.get(n)?.sections.flatMap((section) => (section.kind === "overview" ? section.keyPoints.items : [])) ?? [];
+
+// PDF order: categories are declared in PDF page order.
+const SEARCH_GROUP_ORDER: SearchGroup[] = [...new Set(CATEGORIES.map((c) => c.searchGroup))];
 
 const searchDocuments = [
   ...pages
@@ -547,7 +551,8 @@ const searchDocuments = [
       // Pillar pages (cluster primaries) rank above other members for the same terms.
       pillar: CLUSTERS.some((c) => c.primary === p.number),
       // Cluster labels can name an unconfirmed claim ("Scene detection and video"): those stay out of the index.
-      keywords: [...new Set([...p.clusters.map((c) => clusterById.get(c)!.label), ...p.aliases])].filter((k) => !blockedTerms.some((pattern) => pattern.test(k))),
+      // Authored key concepts make a page findable by the ideas it explains, not only by its title.
+      keywords: [...new Set([...p.clusters.map((c) => clusterById.get(c)!.label), ...p.aliases, ...keyConcepts(p.number)])].filter((k) => !blockedTerms.some((pattern) => pattern.test(k))),
     })),
   ...indexes.map((i) => ({
     id: `index-${i.id}`,
@@ -607,6 +612,12 @@ for (const company of [ABOUT_PAGE, CONTACT_PAGE]) {
   routeMatrix.push({ path: company.path, class: "SAFE-LIVE", kind: "company", pdfPage: null, title: company.title, status: 200, destination: null, indexable: company.indexable, sitemap: company.indexable, search: false, navigation: navPaths.has(company.path), claims: [], note: "Built from verified PDF statements only (company-pages.ts)." });
 }
 routeMatrix.push({ path: "/site-search", class: "SAFE-LIVE", kind: "utility", pdfPage: null, title: "Search results", status: 200, destination: null, indexable: false, sitemap: false, search: false, navigation: false, claims: [], note: "Search results page; noindex and disallowed in robots.txt." });
+{
+  const directory = SUPPORTING_PAGES.find((s) => s.path === "/sitemap" && s.contentStatus === "generated");
+  if (directory) {
+    routeMatrix.push({ path: directory.path, class: directory.indexable ? "LIVE" : "SAFE-LIVE", kind: "utility", pdfPage: null, title: directory.title, status: 200, destination: null, indexable: directory.indexable, sitemap: directory.indexable, search: false, navigation: navPaths.has(directory.path), claims: [], note: "Directory of every live route (titles and links only), built from the inventory." });
+  }
+}
 const heldSources = new Set(routeMatrix.filter((r) => r.class === "HELD").map((r) => r.path));
 for (const r of redirects) {
   if (heldSources.has(r.source)) continue;

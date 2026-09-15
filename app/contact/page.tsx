@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Mail } from "lucide-react";
 import { CONTACT_PAGE } from "@/content/architecture/company-pages";
 import { GLOBAL_CTAS } from "@/content/architecture/navigation";
 import { getPage } from "@/lib/content/inventory";
@@ -41,6 +42,7 @@ export default function ContactPage() {
           { label: CONTACT_PAGE.title, path: CONTACT_PAGE.path },
         ]}
         eyebrow="Contact"
+        icon={Mail}
         title={CONTACT_PAGE.title}
         lede={form.enabled ? CONTACT_PAGE.formLede : CONTACT_PAGE.state}
         actions={actions}

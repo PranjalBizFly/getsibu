@@ -47,7 +47,7 @@ interface DiagramProps {
   className?: string;
 }
 
-export function Diagram({ id, visual, framed = true, animate = true, caption = true, className = "" }: DiagramProps) {
+export function Diagram({ id, visual, framed = false, animate = true, caption = true, className = "" }: DiagramProps) {
   const ref: VisualRef = visual ?? { diagram: id! };
   const { Figure, caption: text } = DIAGRAMS[ref.diagram];
   // The homepage hero figure carries its own card; everything else sits in a frame.

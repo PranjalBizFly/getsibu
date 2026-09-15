@@ -394,6 +394,7 @@ export const FOOTER_NAV: Array<{ heading: string; links: NavLink[] }> = [
       { label: "Business Value", href: "/business-value" },
       { label: "FAQs", href: "/faq" },
       { label: "Get Started", href: "/get-started" },
+      { label: "Sitemap", href: "/sitemap" },
     ],
   },
 ];

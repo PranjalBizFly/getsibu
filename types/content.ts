@@ -125,18 +125,31 @@ export type PageTypeId =
 
 export type SearchIntent = "navigational" | "commercial" | "informational" | "transactional";
 
-/** Groups shown in global search results, in display order. */
+/**
+ * Groups shown in global search results. They follow the PDF hierarchy: each is a category label (the
+ * PDF group a page belongs to, as recorded in content/architecture/sections.ts), ordered by PDF page number,
+ * so a result is labelled with the same group as its breadcrumb and hub.
+ */
 export type SearchGroup =
   | "Platform"
-  | "Features"
+  | "Search & Discovery"
   | "AI"
+  | "Collaboration"
+  | "Versioning & Asset Management"
+  | "Storage & Ingestion"
+  | "Permissions & Multi-Tenancy"
+  | "Analytics"
   | "Use Cases"
   | "Integrations"
-  | "Developers"
-  | "Security"
-  | "Pricing"
+  | "API & Developers"
+  | "Migration"
+  | "Architecture & Performance"
+  | "Security & Compliance"
+  | "Pricing & Plans"
+  | "Business Value"
   | "Resources"
-  | "FAQs";
+  | "FAQs"
+  | "Get Started";
 
 export interface SectionDef {
   id: SectionId;
@@ -472,6 +485,76 @@ interface Linked {
   current?: boolean;
 }
 
+/**
+ * Semantic icon names authored content may use. The presentation layer maps each name to a glyph, so
+ * content never depends on an icon library. Icons decorate; the text beside them carries the meaning.
+ */
+export type TopicIcon =
+  | "search"
+  | "filter"
+  | "tag"
+  | "sparkles"
+  | "scan"
+  | "eye"
+  | "palette"
+  | "text"
+  | "copy"
+  | "folder"
+  | "layers"
+  | "collection"
+  | "database"
+  | "upload"
+  | "download"
+  | "refresh"
+  | "clock"
+  | "history"
+  | "archive"
+  | "trash"
+  | "restore"
+  | "message"
+  | "thread"
+  | "mention"
+  | "video"
+  | "image"
+  | "document"
+  | "audio"
+  | "check"
+  | "approval"
+  | "flag"
+  | "users"
+  | "user"
+  | "building"
+  | "globe"
+  | "lock"
+  | "key"
+  | "shield"
+  | "audit"
+  | "chart"
+  | "trend"
+  | "gauge"
+  | "calendar"
+  | "code"
+  | "api"
+  | "webhook"
+  | "plug"
+  | "workflow"
+  | "server"
+  | "cloud"
+  | "network"
+  | "zap"
+  | "map"
+  | "compass"
+  | "book"
+  | "help"
+  | "briefcase"
+  | "megaphone"
+  | "film"
+  | "camera"
+  | "news"
+  | "graduation"
+  | "heart"
+  | "store";
+
 interface SectionBase {
   /** Stable id used for anchors and analytics. */
   id: string;
@@ -498,8 +581,45 @@ export type ContentSection =
       visual?: VisualRef;
       layout: "split" | "centered" | "statement";
       actions?: ActionRef[];
+      /** Up to three short checked items under the actions (homepage). Visible claims: sourced, never numeric. */
+      points?: string[];
     })
   | (SectionBase & { kind: "definition"; term: string; answer: RichText; detail?: RichText })
+  /**
+   * The topic explained: 2–4 paragraphs, the key concepts as chips, an optional "in practice" callout
+   * and an at-a-glance card. Glance facts and tags are visible claims: sourced, never numeric or priced
+   * unless the claim is confirmed.
+   */
+  | (SectionBase & {
+      kind: "overview";
+      heading: string;
+      body: RichText[];
+      keyPoints: { heading: string; items: string[] };
+      highlight?: { heading: string; body: RichText; tags?: string[] };
+      glance?: { heading: string; facts: Array<{ label: string; value: string; page?: number }>; actions?: ActionRef[] };
+    })
+  /** Two to five views of one topic (by team, by asset type, by stage). Every panel is in the HTML. */
+  | (SectionBase & {
+      kind: "tabs";
+      heading: string;
+      tabs: Array<{ label: string; heading: string; body: RichText[]; points?: string[]; icon?: TopicIcon; visual?: VisualRef; link?: PageLinkRef }>;
+    })
+  /** Expandable deep dives: a one-line summary always visible, the detail on demand. */
+  | (SectionBase & {
+      kind: "accordion";
+      heading: string;
+      items: Array<{ heading: string; summary: string; body: RichText[]; points?: string[]; icon?: TopicIcon; page?: number }>;
+    })
+  /** An illustrative, unnamed team working through the topic. Every GetSibu action in it is sourced. */
+  | (SectionBase & {
+      kind: "scenario";
+      heading: string;
+      team: string;
+      situation: RichText;
+      steps: Array<{ heading: string; body: RichText }>;
+      outcome: RichText;
+      link?: PageLinkRef;
+    })
   | (SectionBase & {
       kind: "editorial";
       heading: string;
@@ -524,9 +644,13 @@ export type ContentSection =
       steps: Array<{ heading: string; body: string; media?: MediaRef; focus?: string } & Linked>;
     })
   | (SectionBase & { kind: "workflow"; heading: string; stages: Array<{ label: string; body: string } & Linked> })
-  | (SectionBase & { kind: "process"; heading: string; steps: Array<{ heading: string; body: string } & Linked> })
+  | (SectionBase & { kind: "process"; heading: string; steps: Array<{ heading: string; body: string; icon?: TopicIcon } & Linked> })
   | (SectionBase & { kind: "timeline"; heading: string; items: Array<{ label: string; body: string } & Linked> })
-  | (SectionBase & { kind: "capabilities"; heading: string; items: Array<{ heading: string; body: string } & Linked> })
+  | (SectionBase & {
+      kind: "capabilities";
+      heading: string;
+      items: Array<{ heading: string; body: string; icon?: TopicIcon; points?: string[] } & Linked>;
+    })
   | (SectionBase & {
       kind: "category-explorer";
       heading: string;
@@ -567,12 +691,15 @@ export type ContentSection =
   | (SectionBase & {
       kind: "checklist";
       heading: string;
+      /** "chips" renders short labels as a compact grid of pills. */
+      variant?: "list" | "chips";
       /** A label, or a page whose inventory title is shown (titles of pages that need verification stay out of copy). */
       items: Array<string | ({ label: string } & Linked) | ({ label?: undefined; page: number } & Linked)>;
     })
   | (SectionBase & { kind: "event-list"; heading: string; events: Array<{ name: string; body: string } & Linked> })
   | (SectionBase & { kind: "faq"; heading: string; items: Array<{ question: string; answer: RichText; page?: number }> })
-  | (SectionBase & { kind: "related"; heading: string; pages: number[]; variant?: "index" | "cards" })
+  /** "compact" is a short strip of small link cards (at most six), not a directory. */
+  | (SectionBase & { kind: "related"; heading: string; pages: number[]; variant?: "index" | "cards" | "compact" })
   | (SectionBase & { kind: "cta"; heading: string; body?: string; conversionPage?: number; actions?: ActionRef[] });
 
 export type SectionKind = ContentSection["kind"];
@@ -587,3 +714,75 @@ export interface PageContent {
   metaDescription?: string;
   lastReviewed: string;
 }
+
+/* ------------------------------------------------------------------------------------------ */
+/* Image Inventory & Matrix layer                                                             */
+/* ------------------------------------------------------------------------------------------ */
+
+export interface ImageInventoryEntry {
+  path: string;
+  filename: string;
+  page: string;
+  topicNumber: number;
+  topic: string;
+  section: string;
+  purpose: string;
+  prompt: string;
+  alt: string;
+  dimensions: { width: number; height: number };
+  format: "webp";
+  uniquenessStatus: "unique";
+  usedCount: 1;
+  hash?: string;
+  /** The source photo the image was cropped from (key in content/architecture/image-sources.ts). */
+  source?: string;
+}
+
+export interface TopicImageMatrixRow {
+  topicNumber: number;
+  topic: string;
+  url: string;
+  publication: "published" | "framed" | "held";
+  category: CategoryId;
+  heroImage: string;
+  heroFilename: string;
+  heroAlt: string;
+  heroPurpose: string;
+  sectionImages: Array<{
+    section: string;
+    path: string;
+    filename: string;
+    alt: string;
+    purpose: string;
+  }>;
+  imageUniqueness: "verified-unique";
+  contentImageRelevance: string;
+  generationStatus: "generated" | "curated" | "pending";
+  webpStatus: "valid-webp";
+  qaStatus: "passed" | "pending";
+}
+
+export interface ImageInventoryAuditReport {
+  totalAuditedPages: number;
+  pagesWithHeroImages: number;
+  uniqueHeroImages: number;
+  totalUniqueImages: number;
+  totalSectionImages: number;
+  webpImages: number;
+  missingAltText: number;
+  duplicateUsages: number;
+  contentImageMismatches: number;
+  watermarkedImages: number;
+  thirdPartyImages: number;
+  imagesRequiringReplacement: number;
+  brokenImages: number;
+  /** Distinct source photos behind the images, and the most images cropped from one of them. */
+  sourcePhotos?: number;
+  maxSourceReuse?: number;
+  /** Images whose source photo is not recorded or not reviewed in content/architecture/image-sources.ts. */
+  unreviewedImages?: number;
+  /** Images whose alt text does not name GetSibu, or (on a live page) the page's topic title. */
+  altWithoutSiteOrTopic?: number;
+  qaStatus: "passed" | "failed";
+}
+

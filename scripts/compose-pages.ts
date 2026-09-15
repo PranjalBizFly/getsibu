@@ -943,6 +943,6 @@ for (const p of canonical) {
 
 writeFileSync(OUTPUT, `${JSON.stringify({ pages: output }, null, 1)}\n`);
 const total = Object.values(output).reduce((sum, entry) => sum + entry.sections.length, 0);
-console.log(`Composed ${Object.keys(output).length} pages, ${total} sections (avg ${(total / Object.keys(output).length).toFixed(1)}); story sections per page ${JSON.stringify(storyCounts)}; ${thin} below ${MIN_STORY_SECTIONS}`);
+console.log(`Composed ${Object.keys(output).length} pages, ${total} sections (avg ${Object.keys(output).length ? (total / Object.keys(output).length).toFixed(1) : "—"}); story sections per page ${JSON.stringify(storyCounts)}; ${thin} below ${MIN_STORY_SECTIONS}`);
 if (dropped.size) console.log(`Dropped ${dropped.size} section(s): ${[...dropped].join(", ")}`);
 console.log(Object.entries(kindCounts).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${v}`).join(" · "));

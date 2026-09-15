@@ -28,7 +28,7 @@ Forms, security, environment, the route matrix, the republish workflow, the `/an
 | Search dialog | Header | Combobox with a label, arrow keys, Escape and focus return (tested in §9 of doc 16) |
 | **Contact form** (new) | `/contact`, **only when configured** | Below |
 
-**Contact form** (`components/forms/ContactForm.tsx`, `app/contact/actions.ts`, `lib/forms/contact.ts`, `lib/forms/contact-config.ts`):
+**Contact form** (`components/forms/ContactForm.tsx`, `app/contact/actions.ts`, `lib/forms/contact.ts`, `lib/forms/contact-config.ts`, `lib/forms/contact-delivery.ts`):
 
 - **Nothing invented.**
   - The fields mirror the official site's form: first name, last name, work email, company, phone, subject and message (5–5,000 characters).
@@ -44,7 +44,7 @@ Forms, security, environment, the route matrix, the republish workflow, the `/an
   - Each message carries a submission id, so a repeated submit is never delivered twice (tested: one delivery).
   - A hidden honeypot field makes automated submissions fail, never appear sent.
   - Deliveries time out after 10 seconds; logs record the HTTP status only, never the visitor's details.
-- **States:** "Your message has been sent." appears only after a 2xx response. "Your message could not be sent. Nothing was sent." appears on any failure. "The contact form is not available at the moment." appears when unconfigured.
+- **States:** "Your message has been sent." appears only after a 2xx response from the endpoint itself. Redirects are not followed (2026-09-15): following a 301, 302 or 303 turns the POST into a GET without the message, so the target's 200 proved nothing, and following a 307 or 308 re-sent the visitor's details to another URL. A 3xx now fails like any other non-2xx; `npm run test:http` covers 2xx, 3xx, 4xx, 5xx, timeouts and refused connections. "Your message could not be sent. Nothing was sent." appears on any failure. "The contact form is not available at the moment." appears when unconfigured.
 - **Mobile and accessibility:**
   - `autocomplete` and `type`/`inputmode` for email and phone, fields at least 48px tall, visible "(required)"/"(optional)" labels;
   - new `danger` colour tokens (text 7.6:1) and a `line-input` token for field borders (3.6:1, WCAG 1.4.11).
@@ -112,7 +112,23 @@ The row fields are: path, class, kind, PDF page, title, status, destination, ind
 
 **Verified two ways:**
 - **After every build** (`verify:build`), every row is checked against the generated routes, sitemap, search index, served redirects (status and destination), robots meta and navigation model. HELD and REDIRECT paths must not be linked from any built page, and every generated route and served redirect must appear in the matrix.
-- **Against the running server** (`.tmp/matrix-http.mjs`): all 417 rows are served as specified, and every destination returns 200.
+- **Against the running server** (`npm run test:http`, after a build): `next start` serves `.next` on a free local port, and every row must answer with its status and `Location`.
+
+**Statuses outside the matrix** (also `npm run test:http`):
+
+| Request | Status |
+|---|---|
+| Trailing slash (`/features/`) | 308 to the slashless URL |
+| Unknown URL, including `/api/*` | 404 with the noindex not-found page; never redirected home |
+| `/search-index.json` with POST, PUT, PATCH or DELETE | 405 with `Allow: GET, HEAD` |
+| Malformed percent-encoding (`/%E0%A4%A`, `/%ZZ`) | 400 `Bad Request`, from `proxy.ts`, with the security headers |
+| Any request in the test | Never 5xx |
+
+**Why `proxy.ts` exists (2026-09-15).** Next.js 16.3.5 fails to decode a malformed path while matching `[...path]`. It then looks for a 400 page, which the App Router does not have, and serves 500. The proxy's matcher runs only for paths containing `%`, which no published URL does, so pages stay static. It answers 400 when the path cannot be decoded and passes every other request through. Remove it once Next.js serves a 400 itself (the test will show this).
+
+**Framework behaviour left as is:**
+- **PUT, PATCH, DELETE or a plain POST to a page** are served the page with 200. Pages must accept POST for server actions. Refusing the other methods in the app would mean running the proxy on every request. If this matters, allow only GET, HEAD and POST at the CDN or reverse proxy.
+- **OPTIONS to a page** answers 400.
 
 ## 6. Republish workflow (§27)
 

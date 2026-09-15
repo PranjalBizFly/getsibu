@@ -95,7 +95,7 @@ Breadcrumbs mirror this hierarchy: `Home › Features › AI › AI Scene Detect
 
 ```ts
 {
-  groups: ["Features", "AI", "Platform", "Use Cases", "Integrations", "Developers", "Security", "Pricing", "Resources", "FAQs"],
+  groups: ["Platform", "Search & Discovery", "AI", … "FAQs", "Get Started"], // 19 category labels, PDF order
   documents: Array<{
     id: string;          // "page-33" | "index-ai"
     title: string;       // PDF title
@@ -109,7 +109,7 @@ Breadcrumbs mirror this hierarchy: `Home › Features › AI › AI Scene Detect
 }
 ```
 
-408 documents: 396 pages + 12 hubs. Group assignment comes from page type (AI features → AI, `integration` → Integrations, `developer` and `architecture` → Developers, `access-security` → Security, `resource` → Resources, `faq` → FAQs), otherwise from category.
+367 documents: the 355 live pages + 12 hubs (held and merged pages are never indexed). **Groups follow the PDF hierarchy** (decision 2026-09-15): a result's group is its category label, the same as its breadcrumb and hub (Permissions & Multi-Tenancy, not Security; Analytics, not Features). There are 19 groups in PDF order. `inventory:validate` fails if a category's `searchGroup` differs from its label. *Changed from the earlier 10 page-type groups* (Features, AI, Integrations, Developers, Security, Platform, Use Cases, Pricing, Resources, FAQs), which labelled pages outside their PDF group.
 
 ### Experience
 
@@ -138,7 +138,7 @@ Breadcrumbs mirror this hierarchy: `Home › Features › AI › AI Scene Detect
 - **Scoring:**
   - Per term: title word 60, title prefix 36, cluster keyword 18, keyword prefix 10, section 8, summary 6. Every term must match (one may miss for 3+ terms).
   - Bonuses: exact title +1000, title starts with the query +300, title contains the query +120, pillar page (cluster primary or hub) +25.
-- **Group order:** groups are ordered by their best hit's match quality — title equals or starts with the query, then all terms in the title, then partial, then summary only. Ties follow the fixed order Features, AI, Integrations, Developers, Security, Platform, Use Cases, Pricing, Resources, FAQs.
+- **Group order:** groups are ordered by their best hit's match quality — title equals or starts with the query, then all terms in the title, then partial, then summary only. Ties follow PDF order (`index.groups`).
   - *Changed from Prompt 1's fixed-only order,* which put weak matches first; for example, "AI tagging" now leads with AI → AI-Assisted Tagging.
 - **Index delivery:** served as a static file at `/search-index.json` (≈ 145 KB, ≈ 26 KB gzipped), fetched on first open and cached for the page view. Documents carry `publishable` (summaries with unconfirmed claims are hidden) and `pillar`.
 - **Accessibility:** native `<dialog>` (focus trap, Escape, inert background), combobox with `aria-activedescendant`, grouped listbox, live result count.

@@ -16,6 +16,8 @@ Category visual directions are data (`CategoryDef.visual` in `content/architectu
 
 ## 2. Sky9 — what we take and what we don't {#sky9}
 
+> **Superseded 2026-09-15.** GetSibu now mirrors Sky9's templates, section flow, layouts, interactions and motion (user decision), keeping GetSibu's content, brand, colours, typography and assets; motion honours reduced motion and a pause control. See [18-sky9-experience.md](18-sky9-experience.md). The table below records the original, principles-only position.
+
 Audited 2026-09-14 (headless Chrome at 1440/390 px, CSS/JS bundles). Sky9 is a React SPA with Tailwind v4 and Framer Motion; 392 URLs from 20 templates — structurally similar to GetSibu's scale.
 
 ### Adopt as principles
@@ -98,6 +100,7 @@ Pages whose type differs from their category borrow the matching category's dire
 ### Uniqueness and relevance rules (enforced by a media registry in Prompt 3)
 
 - Every image has an `assetId` registered once with subject, source, licence and the pages it is approved for. One asset → one page, unless marked `shared` with a reason (e.g. the logo).
-- Alt text describes what the image shows *for this page's point*, not keywords.
+- Alt text describes what the image shows *for this page's point*, not keywords. For search and context it also names GetSibu and, on live pages, the page's topic: `GetSibu illustration for “<topic>”: <what the image shows>` (decision 2026-09-15; `scripts/image-captions.ts`, checked by `scripts/validate-images.ts`).
+- Raster images are WebP (`public/`, and `images.formats` in `next.config.ts`); only the app icons and the social card stay PNG.
 - No image is chosen because it is attractive; each maps to a `visual.concept` and `visual.subject` in the inventory.
 - Diagrams are generated per page from the page's own data (stage names, roles, layers), so 30 AI pages yield 30 different figures rather than one reused illustration.

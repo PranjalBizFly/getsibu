@@ -78,7 +78,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[11, 30]],
     hubPath: "/features/search-and-discovery",
     pageType: "feature",
-    searchGroup: "Features",
+    searchGroup: "Search & Discovery",
     visual: {
       medium: ["product-ui", "diagram"],
       concept: "A query resolving against a large creative library: filters narrowing results, previews, the matched signal (filename, metadata, OCR text, tag) made visible.",
@@ -108,7 +108,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[61, 90]],
     hubPath: "/features/collaboration",
     pageType: "feature",
-    searchGroup: "Features",
+    searchGroup: "Collaboration",
     visual: {
       medium: ["product-ui", "diagram"],
       concept: "Feedback attached to the work itself: a comment pinned to a timeline frame, a thread beside an image, an approval state changing.",
@@ -123,7 +123,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[91, 120]],
     hubPath: "/features/asset-management",
     pageType: "workflow",
-    searchGroup: "Features",
+    searchGroup: "Versioning & Asset Management",
     visual: {
       medium: ["diagram", "product-ui"],
       concept: "An asset record over time: stacked versions, status changes, lifecycle stages from upload to archive, and the audit trail beside it.",
@@ -138,7 +138,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[121, 150]],
     hubPath: "/storage",
     pageType: "storage",
-    searchGroup: "Features",
+    searchGroup: "Storage & Ingestion",
     visual: {
       medium: ["diagram", "product-ui"],
       concept: "Content entering the library: sources (drives, S3, NAS, uploads) flowing through upload, processing and indexing into a searchable state.",
@@ -153,7 +153,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[151, 180]],
     hubPath: "/permissions",
     pageType: "access-security",
-    searchGroup: "Security",
+    searchGroup: "Permissions & Multi-Tenancy",
     visual: {
       medium: ["diagram"],
       concept: "Who can see what: a folder tree with role scopes applied, private-by-default folders, and client tenants as separated boundaries.",
@@ -168,7 +168,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[181, 210]],
     hubPath: analyticsPath(),
     pageType: "analytics",
-    searchGroup: "Features",
+    searchGroup: "Analytics",
     visual: {
       medium: ["data-visual", "product-ui"],
       concept: "Library activity as evidence: uploads, storage by category, top tags and contributors over daily/weekly/monthly windows — with illustrative, clearly unlabelled scales.",
@@ -213,7 +213,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[261, 280]],
     hubPath: "/developers",
     pageType: "developer",
-    searchGroup: "Developers",
+    searchGroup: "API & Developers",
     visual: {
       medium: ["code-concept", "diagram"],
       concept: "Request and event flow between an external application and the GetSibu API. Code is shown only where it matches published API documentation.",
@@ -228,7 +228,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[281, 300]],
     hubPath: "/migration",
     pageType: "migration",
-    searchGroup: "Platform",
+    searchGroup: "Migration",
     visual: {
       medium: ["diagram"],
       concept: "A structured transfer: an existing folder tree and its metadata mapped into the new library, with verification checkpoints.",
@@ -243,7 +243,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[301, 320]],
     hubPath: "/architecture",
     pageType: "architecture",
-    searchGroup: "Developers",
+    searchGroup: "Architecture & Performance",
     visual: {
       medium: ["diagram"],
       concept: "The layered architecture named in the PDF — clients, edge services, APIs, search infrastructure, storage — as a precise technical drawing.",
@@ -258,7 +258,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[321, 340]],
     hubPath: "/security",
     pageType: "access-security",
-    searchGroup: "Security",
+    searchGroup: "Security & Compliance",
     visual: {
       medium: ["diagram", "typographic"],
       concept: "Controls shown as structure: tenant boundaries, encryption at rest, identity (SSO/SCIM/MFA), audit history — clear labels over decoration.",
@@ -273,7 +273,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[341, 347]],
     hubPath: "/pricing",
     pageType: "pricing",
-    searchGroup: "Pricing",
+    searchGroup: "Pricing & Plans",
     visual: {
       medium: ["typographic"],
       concept: "Plans compared plainly: what each plan includes, in the words and figures confirmed on the official site.",
@@ -288,7 +288,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[348, 360]],
     hubPath: "/business-value",
     pageType: "business-value",
-    searchGroup: "Resources",
+    searchGroup: "Business Value",
     visual: {
       medium: ["diagram", "photography"],
       concept: "Where time and storage go without a central library (searching, recreating, version confusion) versus with one — described qualitatively.",
@@ -333,7 +333,7 @@ export const CATEGORIES: CategoryDef[] = [
     pdfRanges: [[391, 400]],
     hubPath: "/get-started",
     pageType: "conversion",
-    searchGroup: "Platform",
+    searchGroup: "Get Started",
     visual: {
       medium: ["product-ui", "photography", "typographic"],
       concept: "A single strong statement with one visual of the promised outcome (scattered sources becoming one library, a search that finds the asset).",
@@ -568,6 +568,6 @@ export const SUPPORTING_PAGES: Array<{
   { path: "/legal/privacy", title: "Privacy Policy", purpose: "Required legal page; official footer link is dead.", contentStatus: "needs-client-content", indexable: true },
   { path: "/legal/terms", title: "Terms of Service", purpose: "Required legal page; official footer link is dead.", contentStatus: "needs-client-content", indexable: true },
   { path: "/legal/dpa", title: "Data Processing Addendum", purpose: "Legal DPA document (distinct from the PDF's marketing page /security/data-processing-agreement).", contentStatus: "needs-client-content", indexable: false },
-  { path: "/sitemap", title: "Sitemap", purpose: "Human-readable list of every page, grouped by section. Not built: hubs, the footer and sitemap.xml cover discovery.", contentStatus: "not-built", indexable: true },
+  { path: "/sitemap", title: "Sitemap", purpose: "Human-readable directory of every live route, grouped by category, with a filter (Mengo sitemap structure; lib/content/directory.ts). The search dialog's \"Explore all pages\" destination. Titles and links only.", contentStatus: "generated", indexable: true },
   { path: "/site-search", title: "Search results", purpose: "\"Explore all results\" target for global search. Not /search, which the app uses.", contentStatus: "generated", indexable: false },
 ];
