@@ -17,3 +17,5 @@ npm-debug.log*
 
 # local QA output
 .tmp/
+
+.vercel
